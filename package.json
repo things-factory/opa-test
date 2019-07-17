@@ -1,6 +1,6 @@
 {
   "name": "@things-factory/opa-test",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "main": "dist-server/index.js",
   "browser": "client/index.js",
   "things-factory": true,
@@ -25,5 +25,12 @@
   "dependencies": {
     "@things-factory/shell": "*"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "@things-factory/biz-base": "*",
+    "@things-factory/menu-base": "*",
+    "@things-factory/product-base": "*",
+    "@things-factory/sales-base": "*",
+    "@things-factory/transport-base": "*",
+    "@things-factory/warehouse-base": "*"
+  }
 }
