@@ -31,6 +31,7 @@
     "@things-factory/product-base": "*",
     "@things-factory/sales-base": "*",
     "@things-factory/transport-base": "*",
-    "@things-factory/warehouse-base": "*"
+    "@things-factory/warehouse-base": "*",
+    "csvtojson": "^2.0.10"
   }
 }
