@@ -15,13 +15,19 @@ export class SeedMenu1563440874637 implements MigrationInterface {
     const repository = getRepository(Menu)
 
     try {
-      await repository.save(menuGroups)
+      for (let i = 0; i < menuGroups.length; i++) {
+        const menuGroup = menuGroups[i]
+        await repository.save({
+          domain,
+          ...menuGroup
+        })
+      }
 
       for (let i = 0; i < menus.length; i++) {
         const menu = menus[i]
         await repository.save({
-          ...menu,
           domain,
+          ...menu,
           parent: await repository.findOne({ name: menu.groupName })
         })
       }
