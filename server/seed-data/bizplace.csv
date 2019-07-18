@@ -1,3 +1,3 @@
-name,address,postal_code,latlng
-"name for bizplace 1","address for bizplace 1","postal code for bizplace 1",123
-"name for bizplace 2","address for bizplace 2","postal code for bizplace 2",124
+name,address,postal_code,latlng,parent_name
+HatioLab,경기도 성남시 수정구 창업로 42,13449,"123,123",Hatio
+HatioSEA,Malaysia,13450,"124,124",Hatio
