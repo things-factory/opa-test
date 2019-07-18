@@ -1,6 +1,6 @@
 {
   "name": "@things-factory/opa-test",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "main": "dist-server/index.js",
   "browser": "client/index.js",
   "things-factory": true,
@@ -28,6 +28,7 @@
     "lodash": "^4.17.14"
   },
   "devDependencies": {
+    "@things-factory/auth-base": "*",
     "@things-factory/biz-base": "*",
     "@things-factory/menu-base": "*",
     "@things-factory/product-base": "*",

@@ -1,0 +1,3 @@
+name,email,password,user_type
+Admin,admin@hatio.com,admin,admin
+Client,client@hatio.com,client,client
