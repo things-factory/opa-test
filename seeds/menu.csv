@@ -16,8 +16,8 @@ Create Transport Order,SCREEN,100,false,STATIC,create-transport-order,,,,,,Clien
 Confirm Transport Order,SCREEN,200,false,STATIC,confirm-transport-order,,,,,,Client Transportation
 User,SCREEN,100,false,RESOURCE,,users,MENU,users,id,name,System
 Role,SCREEN,200,false,RESOURCE,,roles,MENU,roles,id,name,System
-Onhand Stock,SCREEN,100,false,STATIC,onhand-stock,,,,,,Onhand
-Intransit Stock,SCREEN,100,false,STATIC,intransit-stock,,,,,,Intransit
+Onhand Stock,SCREEN,100,false,RESOURCE,,OnhandStock,MENU,onhand_stoks,id,name,Onhand
+Intransit Stock,SCREEN,100,false,RESOURCE,,IntransitStock,MENU,intransit_stocks,id,name,Intransit
 Quotation Estimate,SCREEN,100,false,RESOURCE,,quotations,MENU,quotations,id,name,Sales
 Quotation History,SCREEN,200,false,RESOURCE,,quotations,MENU,quotation_histories,id,name,Sales
 Receive Arrival Notice,SCREEN,300,false,STATIC,receive-arrival-notice,,,,,,Sales
