@@ -8,8 +8,8 @@ Warehouse,SCREEN,600,false,RESOURCE,,Warehouse,MENU,warehouses,id,name,Master Da
 Location,SCREEN,700,false,RESOURCE,,Location,MENU,locations,id,name,Master Data
 Transport Vehicle,SCREEN,800,false,RESOURCE,,TransportVehicle,MENU,transport_vehicles,id,name,Master Data
 Worker,SCREEN,900,false,RESOURCE,,Worker,MENU,workers,id,name,Master Data
-Create Arrive Notice,SCREEN,100,false,STATIC,create-arrive-notice,,,,,,Inbound
-Confirm Arrive Notice,SCREEN,200,false,STATIC,confirm-arrive-notice,,,,,,Inbound
+Create Arrival Notice,SCREEN,100,false,STATIC,create-arrival-notice,,,,,,Inbound
+Confirm Arrival Notice,SCREEN,200,false,STATIC,confirm-arrival-notice,,,,,,Inbound
 Create Shipping Notice,SCREEN,100,false,STATIC,create-shipping-notice,,,,,,Outbound
 Confirm Shipping Notice,SCREEN,200,false,STATIC,confirm-shipping-notice,,,,,,Outbound
 Create Transport Order,SCREEN,100,false,STATIC,create-transport-order,,,,,,Client Transportation
@@ -20,7 +20,7 @@ Onhand Stock,SCREEN,100,false,STATIC,onhand-stock,,,,,,Onhand
 Intransit Stock,SCREEN,100,false,STATIC,intransit-stock,,,,,,Intransit
 Quotation Estimate,SCREEN,100,false,RESOURCE,,quotations,MENU,quotations,id,name,Sales
 Quotation History,SCREEN,200,false,RESOURCE,,quotations,MENU,quotation_histories,id,name,Sales
-Receive Arrive Notice,SCREEN,300,false,STATIC,receive-arrive-notice,,,,,,Sales
+Receive Arrival Notice,SCREEN,300,false,STATIC,receive-arrival-notice,,,,,,Sales
 Receive Shipping Notice,SCREEN,400,false,STATIC,receive-shipping-notice,,,,,,Sales
 Receive Transport Order,SCREEN,500,false,STATIC,receive-transort-order,,,,,,Sales
 Summary Bill Amount,SCREEN,600,false,STATIC,summary-bill-amount,,,,,,Sales
