@@ -1,13 +1,13 @@
 import { Bizplace, Company } from '@things-factory/biz-base'
 import path from 'path'
 import { getRepository, MigrationInterface, QueryRunner } from 'typeorm'
-import { csvToJson } from '../seed-data/csv-to-json'
+import { csvHeaderCamelizer } from '@things-factory/shell'
 
-const seedFilePath = '../seed-data/bizplace.csv'
+const seedFilePath = '../../seeds/bizplace.csv'
 
 export class SeedBizplace1563352365741 implements MigrationInterface {
   public async up(queryRunner: QueryRunner): Promise<any> {
-    const json = await csvToJson(path.resolve(__dirname, seedFilePath))
+    const json = await csvHeaderCamelizer(path.resolve(__dirname, seedFilePath))
     const bizplaces = []
 
     for (let i = 0; i < json.length; i++) {
@@ -30,7 +30,7 @@ export class SeedBizplace1563352365741 implements MigrationInterface {
   }
 
   public async down(queryRunner: QueryRunner): Promise<any> {
-    const json = await csvToJson(path.resolve(__dirname, seedFilePath))
+    const json = await csvHeaderCamelizer(path.resolve(__dirname, seedFilePath))
 
     try {
       await getRepository(Bizplace)

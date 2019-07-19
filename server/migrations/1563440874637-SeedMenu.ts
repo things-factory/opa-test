@@ -2,15 +2,15 @@ import { Menu } from '@things-factory/menu-base'
 import { Domain } from '@things-factory/shell'
 import path from 'path'
 import { getRepository, In, MigrationInterface, QueryRunner } from 'typeorm'
-import { csvToJson } from '../seed-data/csv-to-json'
+import { csvHeaderCamelizer } from '@things-factory/shell'
 
-const menuGroupCsvFilePath = '../seed-data/menu-group.csv'
-const menuCsvFilePath = '../seed-data/menu.csv'
+const menuGroupCsvFilePath = '../../seeds/menu-group.csv'
+const menuCsvFilePath = '../../seeds/menu.csv'
 
 export class SeedMenu1563440874637 implements MigrationInterface {
   public async up(queryRunner: QueryRunner): Promise<any> {
-    const menuGroups = await csvToJson(path.resolve(__dirname, menuGroupCsvFilePath))
-    const menus = await csvToJson(path.resolve(__dirname, menuCsvFilePath))
+    const menuGroups = await csvHeaderCamelizer(path.resolve(__dirname, menuGroupCsvFilePath))
+    const menus = await csvHeaderCamelizer(path.resolve(__dirname, menuCsvFilePath))
     const domain = await getRepository(Domain).findOne({ name: 'SYSTEM' })
     const repository = getRepository(Menu)
 
@@ -37,8 +37,8 @@ export class SeedMenu1563440874637 implements MigrationInterface {
   }
 
   public async down(queryRunner: QueryRunner): Promise<any> {
-    const menuGroups = await csvToJson(path.resolve(__dirname, menuGroupCsvFilePath))
-    const menus = await csvToJson(path.resolve(__dirname, menuCsvFilePath))
+    const menuGroups = await csvHeaderCamelizer(path.resolve(__dirname, menuGroupCsvFilePath))
+    const menus = await csvHeaderCamelizer(path.resolve(__dirname, menuCsvFilePath))
     const domain = await getRepository(Domain).findOne({ name: 'OPA' })
     const repository = getRepository(Menu)
 

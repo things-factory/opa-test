@@ -1,6 +1,6 @@
 {
   "name": "@things-factory/opa-test",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "main": "dist-server/index.js",
   "browser": "client/index.js",
   "things-factory": true,
@@ -16,17 +16,14 @@
     "clean:client": "rm -rf dist-client",
     "clean": "npm run clean:server && npm run clean:client",
     "prepublish": "npm run build:server",
-    "premigration": "mkdir -p dist-server/seed-data && cp server/seed-data/* dist-server/seed-data/",
-    "migration": "npm run build:server && npm run premigration && things-factory-migration",
+    "migration": "npm run build:server && things-factory-migration",
     "migration:create": "node ./node_modules/typeorm/cli.js migration:create",
     "migration:generate": "node ./node_modules/typeorm/cli.js migration:generate",
     "migration:run": "node ./node_modules/typeorm/cli.js migration:run",
     "migration:revert": "node ./node_modules/typeorm/cli.js migration:revert"
   },
   "dependencies": {
-    "@things-factory/opa-app": "*",
-    "csvtojson": "^2.0.10",
-    "lodash": "^4.17.14"
+    "@things-factory/opa-app": "*"
   },
   "devDependencies": {}
 }

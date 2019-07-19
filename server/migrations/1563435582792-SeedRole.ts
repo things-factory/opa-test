@@ -2,13 +2,13 @@ import { Role } from '@things-factory/auth-base'
 import { Domain } from '@things-factory/shell'
 import path from 'path'
 import { getRepository, MigrationInterface, QueryRunner } from 'typeorm'
-import { csvToJson } from '../seed-data/csv-to-json'
+import { csvHeaderCamelizer } from '@things-factory/shell'
 
-const csvFilePath = '../seed-data/role.csv'
+const csvFilePath = '../../seeds/role.csv'
 
 export class SeedRole1563435582792 implements MigrationInterface {
   public async up(queryRunner: QueryRunner): Promise<any> {
-    const roles = await csvToJson(path.resolve(__dirname, csvFilePath))
+    const roles = await csvHeaderCamelizer(path.resolve(__dirname, csvFilePath))
     const repository = getRepository(Role)
     const domain = await getRepository(Domain).findOne({ name: 'SYSTEM' })
 
@@ -26,5 +26,18 @@ export class SeedRole1563435582792 implements MigrationInterface {
     }
   }
 
-  public async down(queryRunner: QueryRunner): Promise<any> {}
+  public async down(queryRunner: QueryRunner): Promise<any> {
+    const roles = await csvHeaderCamelizer(path.resolve(__dirname, csvFilePath))
+
+    try {
+      await getRepository(Role)
+        .createQueryBuilder()
+        .delete()
+        .from(Role)
+        .where('name in (:...names)', roles.map(role => role.name))
+        .execute()
+    } catch (e) {
+      console.error(e)
+    }
+  }
 }
