@@ -1,34 +1,34 @@
 ﻿name,menu_type,rank,hidden_flag,routing_type,template,resource_name,resource_type,resource_url,id_field,title_field,group_name
-Company Profile,SCREEN,100,FALSE,STATIC,company-profile,,,,id,name,Master Data
-Company,SCREEN,200,FALSE,RESOURCE,,Company,MENU,companies,id,name,Master Data
-Customer Product,SCREEN,300,FALSE,RESOURCE,,Product,MENU,customer_products,id,name,Master Data
-Owner Product,SCREEN,400,FALSE,RESOURCE,,Product,MENU,owner_products,id,name,Master Data
-Bizplace,SCREEN,500,FALSE,RESOURCE,,Bizplace,MENU,bizplaces,id,name,Master Data
-Warehouse,SCREEN,600,FALSE,RESOURCE,,Warehouse,MENU,warehouses,id,name,Master Data
-Location,SCREEN,700,FALSE,RESOURCE,,Location,MENU,locations,id,name,Master Data
-Transport Vehicle,SCREEN,800,FALSE,RESOURCE,,TransportVehicle,MENU,transport_vehicles,id,name,Master Data
-Worker,SCREEN,900,FALSE,RESOURCE,,Worker,MENU,workers,id,name,Master Data
-Create Arrive Notice,SCREEN,100,FALSE,STATIC,create-arrive-notice,,,,,,Inbound
-Confirm Arrive Notice,SCREEN,200,FALSE,STATIC,confirm-arrive-notice,,,,,,Inbound
-Create Shipping Notice,SCREEN,100,FALSE,STATIC,create-shipping-notice,,,,,,Outbound
-Confirm Shipping Notice,SCREEN,200,FALSE,STATIC,confirm-shipping-notice,,,,,,Outbound
-Create Transport Order,SCREEN,100,FALSE,STATIC,create-transport-order,,,,,,Client Transportation
-Confirm Transport Order,SCREEN,200,FALSE,STATIC,confirm-transport-order,,,,,,Client Transportation
-User,SCREEN,100,FALSE,RESOURCE,,users,MENU,users,id,name,System
-Role,SCREEN,200,FALSE,RESOURCE,,roles,MENU,roles,id,name,System
-Onhand Stock,SCREEN,100,FALSE,STATIC,onhand-stock,,,,,,Onhand
-Intransit Stock,SCREEN,100,FALSE,STATIC,intransit-stock,,,,,,Intransit
-Quotation Estimate,SCREEN,100,FALSE,RESOURCE,,quotations,MENU,quotations,id,name,Sales
-Quotation History,SCREEN,200,FALSE,RESOURCE,,quotations,MENU,quotation_histories,id,name,Sales
-Receive Arrive Notice,SCREEN,300,FALSE,STATIC,receive-arrive-notice,,,,,,Sales
-Receive Shipping Notice,SCREEN,400,FALSE,STATIC,receive-shipping-notice,,,,,,Sales
-Receive Transport Order,SCREEN,500,FALSE,STATIC,receive-transort-order,,,,,,Sales
-Summary Bill Amount,SCREEN,600,FALSE,STATIC,summary-bill-amount,,,,,,Sales
-Inbound Work Order,SCREEN,100,FALSE,STATIC,inbound-work-order,,,,,,Warehouse Inbound
-Receive Goods,SCREEN,200,FALSE,STATIC,receive-goods,,,,,,Warehouse Inbound
-Putaway Goods,SCREEN,300,FALSE,STATIC,putaway-goods,,,,,,Warehouse Inbound
-VAS Work Order,SCREEN,400,FALSE,STATIC,vas-work-order,,,,,,Warehouse Inbound
-Outbound Work Order,SCREEN,100,FALSE,STATIC,outbound-work-order,,,,,,Warehouse Outbound
-Picking by Product,SCREEN,200,FALSE,STATIC,picking-by-product,,,,,,Warehouse Outbound
-Picking by UNIT,SCREEN,300,FALSE,STATIC,picking-by-unit,,,,,,Warehouse Outbound
-Update Claim chit,SCREEN,100,FALSE,STATIC,update-claim-chit,,,,,,Owner Transportation
+Company Profile,SCREEN,100,false,STATIC,company-profile,,,,id,name,Master Data
+Company,SCREEN,200,false,RESOURCE,,Company,MENU,companies,id,name,Master Data
+Customer Product,SCREEN,300,false,RESOURCE,,Product,MENU,customer_products,id,name,Master Data
+Owner Product,SCREEN,400,false,RESOURCE,,Product,MENU,owner_products,id,name,Master Data
+Bizplace,SCREEN,500,false,RESOURCE,,Bizplace,MENU,bizplaces,id,name,Master Data
+Warehouse,SCREEN,600,false,RESOURCE,,Warehouse,MENU,warehouses,id,name,Master Data
+Location,SCREEN,700,false,RESOURCE,,Location,MENU,locations,id,name,Master Data
+Transport Vehicle,SCREEN,800,false,RESOURCE,,TransportVehicle,MENU,transport_vehicles,id,name,Master Data
+Worker,SCREEN,900,false,RESOURCE,,Worker,MENU,workers,id,name,Master Data
+Create Arrive Notice,SCREEN,100,false,STATIC,create-arrive-notice,,,,,,Inbound
+Confirm Arrive Notice,SCREEN,200,false,STATIC,confirm-arrive-notice,,,,,,Inbound
+Create Shipping Notice,SCREEN,100,false,STATIC,create-shipping-notice,,,,,,Outbound
+Confirm Shipping Notice,SCREEN,200,false,STATIC,confirm-shipping-notice,,,,,,Outbound
+Create Transport Order,SCREEN,100,false,STATIC,create-transport-order,,,,,,Client Transportation
+Confirm Transport Order,SCREEN,200,false,STATIC,confirm-transport-order,,,,,,Client Transportation
+User,SCREEN,100,false,RESOURCE,,users,MENU,users,id,name,System
+Role,SCREEN,200,false,RESOURCE,,roles,MENU,roles,id,name,System
+Onhand Stock,SCREEN,100,false,STATIC,onhand-stock,,,,,,Onhand
+Intransit Stock,SCREEN,100,false,STATIC,intransit-stock,,,,,,Intransit
+Quotation Estimate,SCREEN,100,false,RESOURCE,,quotations,MENU,quotations,id,name,Sales
+Quotation History,SCREEN,200,false,RESOURCE,,quotations,MENU,quotation_histories,id,name,Sales
+Receive Arrive Notice,SCREEN,300,false,STATIC,receive-arrive-notice,,,,,,Sales
+Receive Shipping Notice,SCREEN,400,false,STATIC,receive-shipping-notice,,,,,,Sales
+Receive Transport Order,SCREEN,500,false,STATIC,receive-transort-order,,,,,,Sales
+Summary Bill Amount,SCREEN,600,false,STATIC,summary-bill-amount,,,,,,Sales
+Inbound Work Order,SCREEN,100,false,STATIC,inbound-work-order,,,,,,Warehouse Inbound
+Receive Goods,SCREEN,200,false,STATIC,receive-goods,,,,,,Warehouse Inbound
+Putaway Goods,SCREEN,300,false,STATIC,putaway-goods,,,,,,Warehouse Inbound
+VAS Work Order,SCREEN,400,false,STATIC,vas-work-order,,,,,,Warehouse Inbound
+Outbound Work Order,SCREEN,100,false,STATIC,outbound-work-order,,,,,,Warehouse Outbound
+Picking by Product,SCREEN,200,false,STATIC,picking-by-product,,,,,,Warehouse Outbound
+Picking by UNIT,SCREEN,300,false,STATIC,picking-by-unit,,,,,,Warehouse Outbound
+Update Claim chit,SCREEN,100,false,STATIC,update-claim-chit,,,,,,Owner Transportation

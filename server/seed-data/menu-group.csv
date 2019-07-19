@@ -1,4 +1,4 @@
-name,menu_type,category,rank,hidden_flag
+name,menu_type,rank,hidden_flag
 Master Data,MENU,10,false
 Inbound,MENU,20,false
 Outbound,MENU,30,false
