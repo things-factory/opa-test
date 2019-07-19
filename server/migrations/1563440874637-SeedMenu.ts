@@ -11,7 +11,7 @@ export class SeedMenu1563440874637 implements MigrationInterface {
   public async up(queryRunner: QueryRunner): Promise<any> {
     const menuGroups = await csvToJson(path.resolve(__dirname, menuGroupCsvFilePath))
     const menus = await csvToJson(path.resolve(__dirname, menuCsvFilePath))
-    const domain = await getRepository(Domain).findOne({ name: 'OPA' })
+    const domain = await getRepository(Domain).findOne({ name: 'SYSTEM' })
     const repository = getRepository(Menu)
 
     try {

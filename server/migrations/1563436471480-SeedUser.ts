@@ -23,7 +23,6 @@ export class SeedUser1563436471480 implements MigrationInterface {
     }
 
     try {
-      await userRepository.delete({ name: Not(IsNull()) })
       await userRepository.save(json)
     } catch (e) {
       console.error(e)
