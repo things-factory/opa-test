@@ -24,17 +24,9 @@
     "migration:revert": "node ./node_modules/typeorm/cli.js migration:revert"
   },
   "dependencies": {
-    "@things-factory/shell": "*",
+    "@things-factory/opa-app": "*",
+    "csvtojson": "^2.0.10",
     "lodash": "^4.17.14"
   },
-  "devDependencies": {
-    "@things-factory/auth-base": "*",
-    "@things-factory/biz-base": "*",
-    "@things-factory/menu-base": "*",
-    "@things-factory/product-base": "*",
-    "@things-factory/sales-base": "*",
-    "@things-factory/transport-base": "*",
-    "@things-factory/warehouse-base": "*",
-    "csvtojson": "^2.0.10"
-  }
+  "devDependencies": {}
 }
