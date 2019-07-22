@@ -1,0 +1,103 @@
+name,rank,col_type,sort_rank,grid_rank,col_size,reverse_sort,uniq_rank,search_rank,search_oper,ignore_on_save,menu_name,ext_field,term,grid_width,ref_type,ref_name,nullable
+id,0,string,0,0,64,FALSE,0,0,,FALSE,Company,FALSE,field.id,0,,,TRUE
+name,10,string,10,10,64,FALSE,0,10,like,FALSE,Company,FALSE,field.name,100,,,FALSE
+description,20,string,0,20,255,FALSE,0,0,,FALSE,Company,FALSE,field.description,150,,,TRUE
+countryCode,30,string,20,30,64,FALSE,0,20,like,FALSE,Company,FALSE,field.countryCode,80,,,FALSE
+brn,40,string,30,40,64,FALSE,0,30,eq,FALSE,Company,FALSE,field.brn,100,,,FALSE
+address,50,string,0,50,255,FALSE,0,40,like,FALSE,Company,FALSE,field.address,150,,,FALSE
+bizplaces,60,string,0,60,255,FALSE,0,50,eq,FALSE,Company,FALSE,field.bizplaces,100,Entity,Bizplace,FALSE
+state,70,string,0,70,64,FALSE,0,60,eq,FALSE,Company,FALSE,field.state,80,,,TRUE
+updated_at,80,datetime,0,80,80,FALSE,0,0,,FALSE,Company,FALSE,field.updated_at,80,,,TRUE
+updater_id,90,string,0,90,80,FALSE,0,0,,FALSE,Company,FALSE,field.updater,80,Entity,User,FALSE
+id,0,string,0,0,64,FALSE,0,0,,FALSE,Bizplace,FALSE,field.id,0,,,TRUE
+name,10,string,10,10,64,FALSE,0,10,like,FALSE,Bizplace,FALSE,field.name,100,,,FALSE
+description,20,string,0,20,255,FALSE,0,0,,FALSE,Bizplace,FALSE,field.description,150,,,TRUE
+address,30,string,0,30,255,FALSE,0,20,like,FALSE,Bizplace,FALSE,field.address,150,,,FALSE
+postal_code,40,string,0,40,32,FALSE,0,30,like,FALSE,Bizplace,FALSE,field.postal_code,80,,,FALSE
+latlng,50,string,0,0,32,FALSE,0,0,like,FALSE,Bizplace,FALSE,field.latlng,40,,,FALSE
+state,70,string,0,50,64,FALSE,0,40,eq,FALSE,Bizplace,FALSE,field.state,80,,,TRUE
+updated_at,80,datetime,0,60,80,FALSE,0,0,,FALSE,Bizplace,FALSE,field.updated_at,80,,,TRUE
+updater_id,90,string,0,70,80,FALSE,0,0,,FALSE,Bizplace,FALSE,field.updater,80,Entity,User,TRUE
+id,0,string,0,0,64,FALSE,0,0,,FALSE,Warehouse,FALSE,field.id,0,,,TRUE
+name,10,string,10,10,64,FALSE,0,10,like,FALSE,Warehouse,FALSE,field.name,100,,,FALSE
+description,20,string,0,20,255,FALSE,0,20,like,FALSE,Warehouse,FALSE,field.description,150,,,TRUE
+updated_at,80,datetime,0,30,80,FALSE,0,0,,FALSE,Warehouse,FALSE,field.updated_at,80,,,TRUE
+updater_id,90,string,0,40,80,FALSE,0,0,,FALSE,Warehouse,FALSE,field.updater,80,Entity,User,TRUE
+id,0,string,0,0,64,FALSE,0,0,,FALSE,Location,FALSE,field.id,0,,,TRUE
+name,10,string,10,10,64,FALSE,0,10,like,FALSE,Location,FALSE,field.name,100,,,FALSE
+description,20,string,0,20,255,FALSE,0,0,,FALSE,Location,FALSE,field.description,150,,,TRUE
+warehouse_id,30,string,0,30,64,FALSE,0,20,eq,FALSE,Location,FALSE,field.warehouse,120,Entity,Warehouse,FALSE
+zone,40,string,20,40,80,FALSE,0,30,like,FALSE,Location,FALSE,field.zone,80,,,TRUE
+section,50,string,30,50,80,FALSE,0,40,like,FALSE,Location,FALSE,field.section,80,,,FALSE
+unit,60,string,40,60,80,FALSE,0,50,like,FALSE,Location,FALSE,field.unit,80,,,FALSE
+shelf,70,string,50,70,80,FALSE,0,60,like,FALSE,Location,FALSE,field.shelf,80,,,FALSE
+state,80,string,60,80,80,FALSE,0,70,eq,FALSE,Location,FALSE,field.state,80,,,FALSE
+updated_at,90,datetime,0,90,80,FALSE,0,0,,FALSE,Location,FALSE,field.updated_at,80,,,TRUE
+updater_id,100,string,0,100,80,FALSE,0,0,,FALSE,Location,FALSE,field.updater,80,Entity,User,TRUE
+id,0,string,0,0,64,FALSE,0,0,,FALSE,Transport Vehicle,FALSE,field.id,0,,,TRUE
+reg_number,10,string,10,10,64,FALSE,10,10,like,FALSE,Transport Vehicle,FALSE,field.name,100,,,FALSE
+description,20,string,0,20,255,FALSE,0,0,,FALSE,Transport Vehicle,FALSE,field.description,150,,,TRUE
+brand,30,string,20,30,120,FALSE,0,20,like,FALSE,Transport Vehicle,FALSE,field.brand,100,,,FALSE
+model,40,string,30,40,120,FALSE,0,30,like,FALSE,Transport Vehicle,FALSE,field.model,100,,,FALSE
+color,50,string,40,50,80,FALSE,0,40,like,FALSE,Transport Vehicle,FALSE,field.color,80,,,FALSE
+size,60,string,50,60,64,FALSE,0,50,like,FALSE,Transport Vehicle,FALSE,field.size,80,,,FALSE
+status,70,string,60,70,64,FALSE,0,60,eq,FALSE,Transport Vehicle,FALSE,field.state,80,,,TRUE
+updated_at,80,datetime,0,80,80,FALSE,0,0,,FALSE,Transport Vehicle,FALSE,field.updated_at,80,,,TRUE
+updater_id,90,string,0,90,80,FALSE,0,0,,FALSE,Transport Vehicle,FALSE,field.updater,80,Entity,User,TRUE
+id,0,string,0,0,64,FALSE,0,0,,FALSE,Worker,FALSE,field.id,0,,,TRUE
+name,10,string,10,10,64,FALSE,0,10,like,FALSE,Worker,FALSE,field.name,100,,,FALSE
+description,20,string,0,20,255,FALSE,0,0,,FALSE,Worker,FALSE,field.description,150,,,TRUE
+type,30,string,20,30,64,FALSE,0,20,eq,FALSE,Worker,FALSE,field.type,80,,,FALSE
+updated_at,40,datetime,0,80,80,FALSE,0,0,,FALSE,Worker,FALSE,field.updated_at,80,,,TRUE
+updater_id,50,string,0,90,80,FALSE,0,0,,FALSE,Worker,FALSE,field.updater,80,Entity,User,TRUE
+id,0,string,0,0,64,FALSE,0,0,,FALSE,User,FALSE,field.id,0,,,TRUE
+name,10,string,10,10,64,FALSE,10,10,like,FALSE,User,FALSE,field.name,120,,,FALSE
+email,20,string,20,20,120,FALSE,20,20,like,FALSE,User,FALSE,field.email,120,,,FALSE
+updated_at,30,datetime,0,80,80,FALSE,0,0,,FALSE,User,FALSE,field.updated_at,80,,,TRUE
+updater_id,40,string,0,90,80,FALSE,0,0,,FALSE,User,FALSE,field.updater,80,Entity,User,TRUE
+id,0,string,0,0,64,FALSE,0,0,,FALSE,Role,FALSE,field.id,0,,,TRUE
+name,10,string,10,10,64,FALSE,10,10,like,FALSE,Role,FALSE,field.name,120,,,FALSE
+updated_at,20,datetime,0,80,80,FALSE,0,0,,FALSE,Role,FALSE,field.updated_at,80,,,TRUE
+updater_id,30,string,0,90,80,FALSE,0,0,,FALSE,Role,FALSE,field.updater,80,Entity,User,TRUE
+id,0,string,0,0,64,FALSE,0,0,,FALSE,Quotation Estimate,FALSE,field.id,0,,,TRUE
+name,10,string,10,10,64,FALSE,10,10,like,FALSE,Quotation Estimate,FALSE,field.name,120,,,FALSE
+description,20,string,0,20,255,FALSE,0,0,,FALSE,Quotation Estimate,FALSE,field.description,150,,,TRUE
+issued_on,30,datetime,20,30,32,FALSE,0,20,eq,FALSE,Quotation Estimate,FALSE,field.issued_on,80,,,FALSE
+exires_on,40,datetime,30,40,32,FALSE,0,30,eq,FALSE,Quotation Estimate,FALSE,field.expires_on,80,,,FALSE
+version,50,integer,40,50,12,FALSE,20,40,like,FALSE,Quotation Estimate,FALSE,field.version,60,,,FALSE
+currency,60,string,50,60,12,FALSE,0,50,like,FALSE,Quotation Estimate,FALSE,field.currency,60,,,FALSE
+vat,70,float,60,70,0,FALSE,0,0,,FALSE,Quotation Estimate,FALSE,field.vat,60,,,FALSE
+total_price,80,float,70,80,0,FALSE,0,0,,FALSE,Quotation Estimate,FALSE,field.total_price,60,,,FALSE
+state,90,string,80,90,32,FALSE,0,60,eq,FALSE,Quotation Estimate,FALSE,field.state,80,,,FALSE
+updated_at,20,datetime,0,100,80,FALSE,0,0,,FALSE,Quotation Estimate,FALSE,field.updated_at,80,,,TRUE
+updater_id,30,string,0,110,80,FALSE,0,0,,FALSE,Quotation Estimate,FALSE,field.updater,80,Entity,User,TRUE
+id,0,string,0,0,64,FALSE,0,0,,FALSE,Quotation History,FALSE,field.id,0,,,TRUE
+name,10,string,10,10,64,FALSE,10,10,like,FALSE,Quotation History,FALSE,field.name,120,,,FALSE
+description,20,string,0,20,255,FALSE,0,0,,FALSE,Quotation History,FALSE,field.description,150,,,TRUE
+issued_on,30,datetime,20,30,32,FALSE,0,20,eq,FALSE,Quotation History,FALSE,field.issued_on,80,,,FALSE
+exires_on,40,datetime,30,40,32,FALSE,0,30,eq,FALSE,Quotation History,FALSE,field.expires_on,80,,,FALSE
+version,50,integer,40,50,12,FALSE,20,40,like,FALSE,Quotation History,FALSE,field.version,60,,,FALSE
+currency,60,string,50,60,12,FALSE,0,50,like,FALSE,Quotation History,FALSE,field.currency,60,,,FALSE
+vat,70,float,60,70,0,FALSE,0,0,,FALSE,Quotation History,FALSE,field.vat,60,,,FALSE
+total_price,80,float,70,80,0,FALSE,0,0,,FALSE,Quotation History,FALSE,field.total_price,60,,,FALSE
+state,90,string,80,90,32,FALSE,0,60,eq,FALSE,Quotation History,FALSE,field.state,80,,,FALSE
+updated_at,20,datetime,0,100,80,FALSE,0,0,,FALSE,Quotation History,FALSE,field.updated_at,80,,,TRUE
+updater_id,30,string,0,110,80,FALSE,0,0,,FALSE,Quotation History,FALSE,field.updater,80,Entity,User,TRUE
+id,0,string,0,0,64,FALSE,0,0,,FALSE,Customer Product,FALSE,field.id,0,,,TRUE
+company_id,10,string,10,10,64,FALSE,0,10,eq,FALSE,Customer Product,FALSE,field.company,120,Entity,Company,FALSE
+name,20,string,20,20,64,FALSE,10,20,like,FALSE,Customer Product,FALSE,field.name,120,,,FALSE
+description,30,string,0,30,255,FALSE,0,30,like,FALSE,Customer Product,FALSE,field.description,150,,,TRUE
+type,40,string,30,40,32,FALSE,0,40,eq,FALSE,Customer Product,FALSE,field.type,80,,,FALSE
+unit,50,string,40,50,32,FALSE,0,0,eq,FALSE,Customer Product,FALSE,field.unit,80,,,FALSE
+price,60,float,50,60,0,FALSE,0,0,,FALSE,Customer Product,FALSE,field.price,80,,,FALSE
+updated_at,70,datetime,0,70,80,FALSE,0,0,,FALSE,Customer Product,FALSE,field.updated_at,80,,,TRUE
+updater_id,80,string,0,80,80,FALSE,0,0,,FALSE,Customer Product,FALSE,field.updater,80,Entity,User,TRUE
+id,0,string,0,0,64,FALSE,0,0,,FALSE,Owner Product,FALSE,field.id,0,,,TRUE
+company_id,10,string,10,10,64,FALSE,0,10,eq,FALSE,Owner Product,FALSE,field.company,120,Entity,Company,FALSE
+name,20,string,20,20,64,FALSE,10,20,like,FALSE,Owner Product,FALSE,field.name,120,,,FALSE
+description,30,string,0,30,255,FALSE,0,30,like,FALSE,Owner Product,FALSE,field.description,150,,,TRUE
+type,40,string,30,40,32,FALSE,0,40,eq,FALSE,Owner Product,FALSE,field.type,80,,,FALSE
+unit,50,string,40,50,32,FALSE,0,0,eq,FALSE,Owner Product,FALSE,field.unit,80,,,FALSE
+price,60,float,50,60,0,FALSE,0,0,,FALSE,Owner Product,FALSE,field.price,80,,,FALSE
+updated_at,70,datetime,0,70,80,FALSE,0,0,,FALSE,Owner Product,FALSE,field.updated_at,80,,,TRUE
+updater_id,80,string,0,80,80,FALSE,0,0,,FALSE,Owner Product,FALSE,field.updater,80,Entity,User,TRUE

@@ -8,10 +8,10 @@ const csvFilePath = '../../seeds/user.csv'
 export class SeedUser1563436471480 implements MigrationInterface {
   public async up(queryRunner: QueryRunner): Promise<any> {
     const userRepository = getRepository(User)
+    const roleRepository = getRepository(Role)
     const json = await csvHeaderCamelizer(path.resolve(__dirname, csvFilePath))
 
     for (let i = 0; i < json.length; i++) {
-      const roleRepository = getRepository(Role)
       const record = json[i]
       if (record.userType === 'admin') {
         record.roles = [await roleRepository.findOne({ where: { name: 'Owner' } })]
@@ -37,7 +37,7 @@ export class SeedUser1563436471480 implements MigrationInterface {
         .createQueryBuilder()
         .delete()
         .from(User)
-        .where('name in (:...names)', json.map(record => record.name))
+        .where('name in (:...names)', json.map((record: User) => record.name))
         .execute()
     } catch (e) {
       console.error(e)
