@@ -1,5 +1,7 @@
 {
   "field.batch_no": "batch number",
+  "field.buffer_location": "buffer location",
+  "field.check_box": "check box",
   "field.company": "company",
   "field.confirm_date": "confirm date",
   "field.contact_number": "contact number",
@@ -11,6 +13,7 @@
   "field.delivery_order_no": "delivery order number",
   "field.description": "description",
   "field.driver": "driver",
+  "field.do_no": "DO number",
   "field.eta": "eta",
   "field.export": "export",
   "field.fleet_no": "fleet number",

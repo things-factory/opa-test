@@ -1,5 +1,7 @@
 {
   "field.batch_no": "nombor kumpulan",
+  "field.buffer_location": "lokasi penampan",
+  "field.check_box": "kotak semakan",
   "field.company": "syarikat",
   "field.confirm_date": "pengesahan tarikh ",
   "field.contact_number": "nombor telefon",
@@ -11,6 +13,7 @@
   "field.delivery_order_no": "nombor penghantaran ",
   "field.description": "deskripsi",
   "field.driver": "pemandu",
+  "field.do_no": "nombor DO",
   "field.eta": "eta",
   "field.export": "ekspot",
   "field.fleet_no": "nombor kumpulan",
