@@ -13,7 +13,7 @@ export class SeedUser1563436471480 implements MigrationInterface {
 
     for (let i = 0; i < json.length; i++) {
       const record = json[i]
-      if (record.userType.toLowerCase() === 'admin') {
+      if (record.userType.toLowerCase() === 'owner') {
         record.roles = [await roleRepository.findOne({ where: { name: 'Owner' } })]
       } else if (record.userType.toLowerCase() === 'client') {
         record.roles = [await roleRepository.findOne({ where: { name: 'Client' } })]
