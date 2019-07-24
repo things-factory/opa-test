@@ -1,7 +1,7 @@
 category,name,menu_type,rank,hidden_flag
-"Owner,Client",Master Data,MENU,10,FALSE
-"Owner,Client",Order,MENU,20,FALSE
-"Owner,Client,Operator",Stock,MENU,30,FALSE
-Owner,System,MENU,40,TRUE
-Operator,Inbound,MENU,60,FALSE
-Operator,Outbound,MENU,70,FALSE
+"Owner,Client",Master Data,MENU,10,false
+"Owner,Client",Order,MENU,20,false
+"Owner,Client,Operator",Stock,MENU,30,false
+Owner,System,MENU,40,true
+Operator,Inbound,MENU,60,false
+Operator,Outbound,MENU,70,false

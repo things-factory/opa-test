@@ -19,7 +19,8 @@ export class SeedMenu1563440874637 implements MigrationInterface {
         const menuGroup = menuGroups[i]
         await repository.save({
           domain,
-          ...menuGroup
+          ...menuGroup,
+          hiddenFlag: JSON.parse(menuGroup.hiddenFlag)
         })
       }
 
@@ -28,7 +29,8 @@ export class SeedMenu1563440874637 implements MigrationInterface {
         await repository.save({
           domain,
           ...menu,
-          parent: await repository.findOne({ name: menu.groupName })
+          parent: await repository.findOne({ name: menu.groupName }),
+          hiddenFlag: JSON.parse(menu.hiddenFlag)
         })
       }
     } catch (e) {
