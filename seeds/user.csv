@@ -1,3 +1,4 @@
 name,email,password,user_type
-Admin,ceo@kimeda.com,admin,admin
-Client,client@sample.com,client,client
+Admin,admin@warehouse.com,admin,admin
+Client,client@client.com,client,client
+Operator,operator@warehouse.com,operator,operator
