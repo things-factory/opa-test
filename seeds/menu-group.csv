@@ -1,13 +1,7 @@
-name,menu_type,rank,hidden_flag
-Master Data,MENU,10,false
-Inbound,MENU,20,false
-Outbound,MENU,30,false
-Client Transportation,MENU,40,false
-Intransit,MENU,50,false
-Onhand,MENU,60,false
-System,MENU,70,false
-Sales,MENU,80,false
-Warehouse Inbound,MENU,90,false
-Warehouse Outbound,MENU,100,false
-Owner Transportation,MENU,110,false
-
+category,name,menu_type,rank,hidden_flag
+"Owner,Client",Master Data,MENU,10,FALSE
+"Owner,Client",Order,MENU,20,FALSE
+"Owner,Client,Operator",Stock,MENU,30,FALSE
+Owner,System,MENU,40,TRUE
+Operator,Inbound,MENU,60,FALSE
+Operator,Outbound,MENU,70,FALSE

@@ -1,35 +1,35 @@
-﻿name,menu_type,rank,hidden_flag,routing_type,template,resource_name,resource_type,resource_url,id_field,title_field,group_name
-Company Profile,SCREEN,100,FALSE,STATIC,company-profile,,,,id,name,Master Data
-Company,SCREEN,200,FALSE,RESOURCE,,Company,MENU,companies,id,name,Master Data
-Customer Product,SCREEN,300,FALSE,RESOURCE,,Product,MENU,customer_products,id,name,Master Data
-Owner Product,SCREEN,400,FALSE,RESOURCE,,Product,MENU,owner_products,id,name,Master Data
-Bizplace,SCREEN,500,FALSE,RESOURCE,,Bizplace,MENU,bizplaces,id,name,Master Data
-Warehouse,SCREEN,600,FALSE,RESOURCE,,Warehouse,MENU,warehouses,id,name,Master Data
-Location,SCREEN,700,FALSE,RESOURCE,,Location,MENU,locations,id,name,Master Data
-Transport Vehicle,SCREEN,800,FALSE,RESOURCE,,TransportVehicle,MENU,transport_vehicles,id,name,Master Data
-Worker,SCREEN,900,FALSE,RESOURCE,,Worker,MENU,workers,id,name,Master Data
-Create Arrival Notice,SCREEN,100,FALSE,STATIC,create-arrival-notice,,,,,,Inbound
-Confirm Arrival Notice,SCREEN,200,FALSE,STATIC,confirm-arrival-notice,,,,,,Inbound
-Create Shipping Notice,SCREEN,100,FALSE,STATIC,create-shipping-notice,,,,,,Outbound
-Confirm Shipping Notice,SCREEN,200,FALSE,STATIC,confirm-shipping-notice,,,,,,Outbound
-Create Transport Order,SCREEN,100,FALSE,STATIC,create-transport-order,,,,,,Client Transportation
-Confirm Transport Order,SCREEN,200,FALSE,STATIC,confirm-transport-order,,,,,,Client Transportation
-User,SCREEN,100,FALSE,RESOURCE,,users,MENU,users,id,name,System
-Role,SCREEN,200,FALSE,RESOURCE,,roles,MENU,roles,id,name,System
-Menu,SCREEN,300,FALSE,STATIC,system-menu,,,,,,System
-Onhand Stock,SCREEN,100,FALSE,RESOURCE,,OnhandStock,MENU,onhand_stoks,id,name,Onhand
-Intransit Stock,SCREEN,100,FALSE,RESOURCE,,IntransitStock,MENU,intransit_stocks,id,name,Intransit
-Quotation Estimate,SCREEN,100,FALSE,RESOURCE,,quotations,MENU,quotations,id,name,Sales
-Quotation History,SCREEN,200,FALSE,RESOURCE,,quotations,MENU,quotation_histories,id,name,Sales
-Receive Arrival Notice,SCREEN,300,FALSE,STATIC,receive-arrival-notice,,,,,,Sales
-Receive Shipping Notice,SCREEN,400,FALSE,STATIC,receive-shipping-notice,,,,,,Sales
-Receive Transport Order,SCREEN,500,FALSE,STATIC,receive-transort-order,,,,,,Sales
-Summary Bill Amount,SCREEN,600,FALSE,STATIC,summary-bill-amount,,,,,,Sales
-Inbound Work Order,SCREEN,100,FALSE,STATIC,inbound-work-order,,,,,,Warehouse Inbound
-Receive Goods,SCREEN,200,FALSE,STATIC,receive-goods,,,,,,Warehouse Inbound
-Putaway Goods,SCREEN,300,FALSE,STATIC,putaway-goods,,,,,,Warehouse Inbound
-VAS Work Order,SCREEN,400,FALSE,STATIC,vas-work-order,,,,,,Warehouse Inbound
-Outbound Work Order,SCREEN,100,FALSE,STATIC,outbound-work-order,,,,,,Warehouse Outbound
-Picking by Product,SCREEN,200,FALSE,STATIC,picking-by-product,,,,,,Warehouse Outbound
-Picking by UNIT,SCREEN,300,FALSE,STATIC,picking-by-unit,,,,,,Warehouse Outbound
-Update Claim chit,SCREEN,100,FALSE,STATIC,update-claim-chit,,,,,,Owner Transportation
+﻿category,name,menu_type,rank,hidden_flag,routing_type,template,resource_name,resource_type,resource_url,id_field,title_field,group_name
+Operator,Inbound Work Order,SCREEN,100,FALSE,STATIC,inbound-work-order,,,,,,Inbound
+Operator,Receive Goods,SCREEN,200,FALSE,STATIC,receive-goods,,,,,,Inbound
+Operator,Putaway Goods,SCREEN,300,FALSE,STATIC,putaway-goods,,,,,,Inbound
+Operator,VAS Work Order,SCREEN,400,FALSE,STATIC,vas-work-order,,,,,,Inbound
+Owner,Company,SCREEN,100,FALSE,RESOURCE,,Company,MENU,companies,id,name,Master Data
+Client,Company Profile,SCREEN,200,FALSE,STATIC,company-profile,,,,id,name,Master Data
+"Owner,Client",Customer Product,SCREEN,300,FALSE,RESOURCE,,Product,MENU,customer_products,id,name,Master Data
+Owner,Owner Product,SCREEN,400,FALSE,RESOURCE,,Product,MENU,owner_products,id,name,Master Data
+Owner,Bizplace,SCREEN,500,FALSE,RESOURCE,,Bizplace,MENU,bizplaces,id,name,Master Data
+Owner,Warehouse,SCREEN,600,FALSE,RESOURCE,,Warehouse,MENU,warehouses,id,name,Master Data
+Owner,Location,SCREEN,700,FALSE,RESOURCE,,Location,MENU,locations,id,name,Master Data
+Owner,Transport Vehicle,SCREEN,800,FALSE,RESOURCE,,TransportVehicle,MENU,transport_vehicles,id,name,Master Data
+Owner,Worker,SCREEN,900,FALSE,RESOURCE,,Worker,MENU,workers,id,name,Master Data
+Owner,Quotation Estimate,SCREEN,100,TRUE,RESOURCE,,quotations,MENU,quotations,id,name,Order
+Owner,Quotation History,SCREEN,200,TRUE,RESOURCE,,quotations,MENU,quotation_histories,id,name,Order
+Client,Create Arrival Notice,SCREEN,300,FALSE,STATIC,create-arrival-notice,,,,,,Order
+Client,Confirm Arrival Notice,SCREEN,400,FALSE,STATIC,confirm-arrival-notice,,,,,,Order
+Owner,Receive Arrival Notice,SCREEN,500,FALSE,STATIC,receive-arrival-notice,,,,,,Order
+Client,Create Shipping Notice,SCREEN,600,FALSE,STATIC,create-shipping-notice,,,,,,Order
+Client,Confirm Shipping Notice,SCREEN,700,FALSE,STATIC,confirm-shipping-notice,,,,,,Order
+Owner,Receive Shipping Notice,SCREEN,800,FALSE,STATIC,receive-shipping-notice,,,,,,Order
+Client,Create Transport Order,SCREEN,900,FALSE,STATIC,create-transport-order,,,,,,Order
+Client,Confirm Transport Order,SCREEN,1000,FALSE,STATIC,confirm-transport-order,,,,,,Order
+Owner,Receive Transport Order,SCREEN,1100,FALSE,STATIC,receive-transort-order,,,,,,Order
+Owner,Update Claim chit,SCREEN,1200,FALSE,STATIC,update-claim-chit,,,,,,Order
+"Owner,Client",Summary Bill Amount,SCREEN,1300,TRUE,STATIC,summary-bill-amount,,,,,,Order
+Operator,Outbound Work Order,SCREEN,100,FALSE,STATIC,outbound-work-order,,,,,,Outbound
+Operator,Picking by Product,SCREEN,200,FALSE,STATIC,picking-by-product,,,,,,Outbound
+Operator,Picking by UNIT,SCREEN,300,FALSE,STATIC,picking-by-unit,,,,,,Outbound
+"Owner,Client,Operator",Onhand Stock,SCREEN,100,FALSE,RESOURCE,,OnhandStock,MENU,onhand_stoks,id,name,Stock
+"Owner,Client,Operator",Intransit Stock,SCREEN,200,FALSE,RESOURCE,,IntransitStock,MENU,intransit_stocks,id,name,Stock
+Owner,User,SCREEN,100,FALSE,RESOURCE,,users,MENU,users,id,name,System
+Owner,Role,SCREEN,200,FALSE,RESOURCE,,roles,MENU,roles,id,name,System
+Owner,Menu,SCREEN,300,FALSE,STATIC,system-menu,,,,,,System
