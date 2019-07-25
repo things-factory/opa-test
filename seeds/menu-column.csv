@@ -2,7 +2,7 @@ name,rank,col_type,sort_rank,grid_rank,col_size,reverse_sort,uniq_rank,search_ra
 id,0,string,0,0,64,false,0,0,,false,Company,false,field.id,0,,,true
 name,10,string,10,10,64,false,0,10,like,false,Company,false,field.name,100,,,false
 description,20,string,0,20,255,false,0,0,,false,Company,false,field.description,150,,,true
-countryCode,30,string,20,30,64,false,0,20,like,false,Company,false,field.countryCode,80,,,false
+countryCode,30,string,20,30,64,false,0,20,like,false,Company,false,field.country_code,80,,,false
 brn,40,string,30,40,64,false,0,30,eq,false,Company,false,field.brn,100,,,false
 address,50,string,0,50,255,false,0,40,like,false,Company,false,field.address,150,,,false
 bizplaces,60,string,0,60,255,false,0,50,eq,false,Company,false,field.bizplaces,100,Entity,Bizplace,false
