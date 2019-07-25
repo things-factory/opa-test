@@ -7,7 +7,7 @@ brn,40,string,30,40,64,false,0,30,eq,false,Company,false,field.brn,100,,,false
 address,50,string,0,50,255,false,0,40,like,false,Company,false,field.address,150,,,false
 bizplaces,60,string,0,60,255,false,0,50,eq,false,Company,false,field.bizplaces,100,Entity,Bizplace,false
 state,70,string,0,70,64,false,0,60,eq,false,Company,false,field.state,80,,,true
-updated_at,80,datetime,0,80,80,false,0,0,,false,Company,false,field.updated_at,80,,,true
+updatedAt,80,datetime,0,80,80,false,0,0,,false,Company,false,field.updated_at,80,,,true
 updater_id,90,string,0,90,80,false,0,0,,false,Company,false,field.updater,80,Entity,User,false
 id,0,string,0,0,64,false,0,0,,false,Bizplace,false,field.id,0,,,true
 name,10,string,10,10,64,false,0,10,like,false,Bizplace,false,field.name,100,,,false
@@ -16,12 +16,12 @@ address,30,string,0,30,255,false,0,20,like,false,Bizplace,false,field.address,15
 postal_code,40,string,0,40,32,false,0,30,like,false,Bizplace,false,field.postal_code,80,,,false
 latlng,50,string,0,0,32,false,0,0,like,false,Bizplace,false,field.latlng,40,,,false
 state,70,string,0,50,64,false,0,40,eq,false,Bizplace,false,field.state,80,,,true
-updated_at,80,datetime,0,60,80,false,0,0,,false,Bizplace,false,field.updated_at,80,,,true
+updatedAt,80,datetime,0,60,80,false,0,0,,false,Bizplace,false,field.updated_at,80,,,true
 updater_id,90,string,0,70,80,false,0,0,,false,Bizplace,false,field.updater,80,Entity,User,true
 id,0,string,0,0,64,false,0,0,,false,Warehouse,false,field.id,0,,,true
 name,10,string,10,10,64,false,0,10,like,false,Warehouse,false,field.name,100,,,false
 description,20,string,0,20,255,false,0,20,like,false,Warehouse,false,field.description,150,,,true
-updated_at,80,datetime,0,30,80,false,0,0,,false,Warehouse,false,field.updated_at,80,,,true
+updatedAt,80,datetime,0,30,80,false,0,0,,false,Warehouse,false,field.updated_at,80,,,true
 updater_id,90,string,0,40,80,false,0,0,,false,Warehouse,false,field.updater,80,Entity,User,true
 id,0,string,0,0,64,false,0,0,,false,Location,false,field.id,0,,,true
 name,10,string,10,10,64,false,0,10,like,false,Location,false,field.name,100,,,false
@@ -32,7 +32,7 @@ section,50,string,30,50,80,false,0,40,like,false,Location,false,field.section,80
 unit,60,string,40,60,80,false,0,50,like,false,Location,false,field.unit,80,,,false
 shelf,70,string,50,70,80,false,0,60,like,false,Location,false,field.shelf,80,,,false
 state,80,string,60,80,80,false,0,70,eq,false,Location,false,field.state,80,,,false
-updated_at,90,datetime,0,90,80,false,0,0,,false,Location,false,field.updated_at,80,,,true
+updatedAt,90,datetime,0,90,80,false,0,0,,false,Location,false,field.updated_at,80,,,true
 updater_id,100,string,0,100,80,false,0,0,,false,Location,false,field.updater,80,Entity,User,true
 id,0,string,0,0,64,false,0,0,,false,Transport Vehicle,false,field.id,0,,,true
 reg_number,10,string,10,10,64,false,10,10,like,false,Transport Vehicle,false,field.name,100,,,false
@@ -42,22 +42,22 @@ model,40,string,30,40,120,false,0,30,like,false,Transport Vehicle,false,field.mo
 color,50,string,40,50,80,false,0,40,like,false,Transport Vehicle,false,field.color,80,,,false
 size,60,string,50,60,64,false,0,50,like,false,Transport Vehicle,false,field.size,80,,,false
 status,70,string,60,70,64,false,0,60,eq,false,Transport Vehicle,false,field.state,80,,,true
-updated_at,80,datetime,0,80,80,false,0,0,,false,Transport Vehicle,false,field.updated_at,80,,,true
+updatedAt,80,datetime,0,80,80,false,0,0,,false,Transport Vehicle,false,field.updated_at,80,,,true
 updater_id,90,string,0,90,80,false,0,0,,false,Transport Vehicle,false,field.updater,80,Entity,User,true
 id,0,string,0,0,64,false,0,0,,false,Worker,false,field.id,0,,,true
 name,10,string,10,10,64,false,0,10,like,false,Worker,false,field.name,100,,,false
 description,20,string,0,20,255,false,0,0,,false,Worker,false,field.description,150,,,true
 type,30,string,20,30,64,false,0,20,eq,false,Worker,false,field.type,80,,,false
-updated_at,40,datetime,0,80,80,false,0,0,,false,Worker,false,field.updated_at,80,,,true
+updatedAt,40,datetime,0,80,80,false,0,0,,false,Worker,false,field.updated_at,80,,,true
 updater_id,50,string,0,90,80,false,0,0,,false,Worker,false,field.updater,80,Entity,User,true
 id,0,string,0,0,64,false,0,0,,false,User,false,field.id,0,,,true
 name,10,string,10,10,64,false,10,10,like,false,User,false,field.name,120,,,false
 email,20,string,20,20,120,false,20,20,like,false,User,false,field.email,120,,,false
-updated_at,30,datetime,0,80,80,false,0,0,,false,User,false,field.updated_at,80,,,true
+updatedAt,30,datetime,0,80,80,false,0,0,,false,User,false,field.updated_at,80,,,true
 updater_id,40,string,0,90,80,false,0,0,,false,User,false,field.updater,80,Entity,User,true
 id,0,string,0,0,64,false,0,0,,false,Role,false,field.id,0,,,true
 name,10,string,10,10,64,false,10,10,like,false,Role,false,field.name,120,,,false
-updated_at,20,datetime,0,80,80,false,0,0,,false,Role,false,field.updated_at,80,,,true
+updatedAt,20,datetime,0,80,80,false,0,0,,false,Role,false,field.updated_at,80,,,true
 updater_id,30,string,0,90,80,false,0,0,,false,Role,false,field.updater,80,Entity,User,true
 id,0,string,0,0,64,false,0,0,,false,Quotation Estimate,false,field.id,0,,,true
 name,10,string,10,10,64,false,10,10,like,false,Quotation Estimate,false,field.name,120,,,false
@@ -69,7 +69,7 @@ currency,60,string,50,60,12,false,0,50,like,false,Quotation Estimate,false,field
 vat,70,float,60,70,0,false,0,0,,false,Quotation Estimate,false,field.vat,60,,,false
 total_price,80,float,70,80,0,false,0,0,,false,Quotation Estimate,false,field.total_price,60,,,false
 state,90,string,80,90,32,false,0,60,eq,false,Quotation Estimate,false,field.state,80,,,false
-updated_at,20,datetime,0,100,80,false,0,0,,false,Quotation Estimate,false,field.updated_at,80,,,true
+updatedAt,20,datetime,0,100,80,false,0,0,,false,Quotation Estimate,false,field.updated_at,80,,,true
 updater_id,30,string,0,110,80,false,0,0,,false,Quotation Estimate,false,field.updater,80,Entity,User,true
 id,0,string,0,0,64,false,0,0,,false,Quotation History,false,field.id,0,,,true
 name,10,string,10,10,64,false,10,10,like,false,Quotation History,false,field.name,120,,,false
@@ -81,7 +81,7 @@ currency,60,string,50,60,12,false,0,50,like,false,Quotation History,false,field.
 vat,70,float,60,70,0,false,0,0,,false,Quotation History,false,field.vat,60,,,false
 total_price,80,float,70,80,0,false,0,0,,false,Quotation History,false,field.total_price,60,,,false
 state,90,string,80,90,32,false,0,60,eq,false,Quotation History,false,field.state,80,,,false
-updated_at,20,datetime,0,100,80,false,0,0,,false,Quotation History,false,field.updated_at,80,,,true
+updatedAt,20,datetime,0,100,80,false,0,0,,false,Quotation History,false,field.updated_at,80,,,true
 updater_id,30,string,0,110,80,false,0,0,,false,Quotation History,false,field.updater,80,Entity,User,true
 id,0,string,0,0,64,false,0,0,,false,Customer Product,false,field.id,0,,,true
 company_id,10,string,0,10,64,false,0,10,eq,false,Customer Product,false,field.company,120,Entity,Company,false
@@ -89,7 +89,7 @@ name,20,string,20,20,64,false,10,20,like,false,Customer Product,false,field.name
 description,30,string,0,30,255,false,0,30,like,false,Customer Product,false,field.description,150,,,true
 type,40,string,30,40,32,false,0,40,eq,false,Customer Product,false,field.type,80,,,false
 unit,50,string,40,50,32,false,0,0,eq,false,Customer Product,false,field.unit,80,,,false
-updated_at,70,datetime,0,70,80,false,0,0,,false,Customer Product,false,field.updated_at,80,,,true
+updatedAt,70,datetime,0,70,80,false,0,0,,false,Customer Product,false,field.updated_at,80,,,true
 updater_id,80,string,0,80,80,false,0,0,,false,Customer Product,false,field.updater,80,Entity,User,true
 id,0,string,0,0,64,false,0,0,,false,Owner Product,false,field.id,0,,,true
 company_id,10,string,0,10,64,false,0,10,eq,false,Owner Product,false,field.company,120,Entity,Company,false
@@ -97,5 +97,5 @@ name,20,string,20,20,64,false,10,20,like,false,Owner Product,false,field.name,12
 description,30,string,0,30,255,false,0,30,like,false,Owner Product,false,field.description,150,,,true
 type,40,string,30,40,32,false,0,40,eq,false,Owner Product,false,field.type,80,,,false
 unit,50,string,40,50,32,false,0,0,eq,false,Owner Product,false,field.unit,80,,,false
-updated_at,70,datetime,0,70,80,false,0,0,,false,Owner Product,false,field.updated_at,80,,,true
+updatedAt,70,datetime,0,70,80,false,0,0,,false,Owner Product,false,field.updated_at,80,,,true
 updater_id,80,string,0,80,80,false,0,0,,false,Owner Product,false,field.updater,80,Entity,User,true

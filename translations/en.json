@@ -118,5 +118,6 @@
   "field.pack_in_qty": "pack_in_qty",
   "field.quantity": "quantity",
   "field.work_order": "work_order",
-  "field.customer_company'": "customer company"
+  "field.customer_company'": "customer company",
+  "field.unit_price": "unit price"
 }

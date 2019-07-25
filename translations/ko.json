@@ -117,5 +117,6 @@
   "field.product_name": "상품명",
   "field.pack_in_qty": "팩 수량",
   "field.quantity": "수량",
-  "field.work_order": "작업 순서"
+  "field.work_order": "작업 순서",
+  "field.unit_price": "개별 가격"
 }
