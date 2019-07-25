@@ -56,6 +56,8 @@
   "label.contact_no": "contact no",
   "label.fax": "fax",
   "label.eta": "ETA",
+  "label.eta_date": "ETA date",
+  "label.eta_time": "ETA time",
   "label.customer_company": "customer company",
   "label.contact_point": "contact point",
   "label.delivery_date": "delivery date",
