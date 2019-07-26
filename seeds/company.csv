@@ -1,26 +1,50 @@
-name,description,countryCode,address,brn
-THE ALTERNATIVE PARCELS COMPANY LIMITED,"transportation and sorting service for parcels andfreight, which are collected and delivered nation ally by our members",MY,National Sortation Centre,02855735
-STERIS PLC,leading provider of infection prevention and procedural products and services,MY,30 Waterside Road,09257343
-ASSA ABLOY LIMITED,"manufacture, distribution and sale of door and window locking products, architectural hardware, key management solutions and other door opening solutions",MY,"Portobello, School Street",02096505
-CROWN CREST GROUP LIMITED,investment holding company,MY,101 Cobden Street,05700180
-CASTINGS PUBLIC LIMITED COMPANY,finance,MY,Lichfield Road,00091580
-HYDRIADES IV LIMITED,"holding company, whose subsidiary are engaged in clean water, provision of related specialist services services to water and sewerage companies (wascs), local authorites, government agencies, other infrastructure owners and commercial customers",MY,Green Lane,06422337
-AMADA UNITED KINGDOM LIMITED,"machines, tools and engineering services in the united kingdom and the republic of ireland, spain and portugal",MY,Spennells Valley Road,01063206
-THWAITES LIMITED,"design, manufacture and sale of a range of four wheel drive articulated dumpers and their associatedparts support",MY,Welsh Road Works,00387579
-YAMAZAKI MAZAK U.K. LIMITED,"importers, manufacture and sale of cnc machine tools it also provided parts and service support",MY,Badgeworth Drive,01508951
-GREENYARD FRESH UK LTD,"importing, packing and distributing produce",MY,Stephenson Avenue,02411719
-SERVELEC GROUP PLC,"design, manufacture, installation and commissioning of patlent record systems, social care case management software, childrens services software systems,process automation systems, wide area telemetry systems including pipeline control systems, mana",MY,Rotherside Road,03098411
-TROUW (UK) LIMITED,"manufacture and marketing of agricultural animal and fish food, and speciality feeds",MY,Minsal Works,00291738
-METSA WOOD UK LIMITED,"importers, processor and distributor of timber andallied products",MY,Old Golf Course,03071064
-SIMS GROUP UK LIMITED,recycling and processing of scrap metals and wasteelectrical and electronic equipment,MY,Long Marston,03242331
-I.M. GROUP LIMITED,"the importation and franchised distribution of motor vehicles and parts in the united kingdom, ireland, sweden, denmark, finland and the baltic republics; the provision of and servicing of finance, and the selling of related financial products; and p",MY,IM House,03456018
-STAFFLINE GROUP PLC,"logistics, e-retail, manufacturing, driving       agriculture",MY,19-20 The Triangle,05268636
-STRATEGIC WORKFORCE SOLUTIONS GROUP LIMITED,"offers flexible workplace solutions to the industrial, driving and warehouseand distribution markets throughout its national network of branches",MY,Unit 1 Topaz Business Park,08795399
-KELTRUCK LIMITED,"sale of new and used scania vehicles, the provision of maintenance facilities and the sale of parts and services associated with the operation of commercial vehicles and trailers, buses and coaches",MY,Kenrick Way,02880543
-FREIBERGER (UK) LIMITED,marketing and distribution of frozen pizza,MY,Broadgate House,02400918
-MAYFLEX UK LIMITED,"distributors of structured cabling systems, networking hardware and physicalsecurity systems",MY,Excel House Junction Six Industrial Estate,06745491
-PROLOGIS UK LIMITED,uk based real estate development services to othermembers of the group,MY,1 Monkspath Hall Road,02872273
-MAPP HOLDINGS LIMITED,growing and marketing of fruit and vegetables,MY,"Birmingham Road, Blackminster,",06015572
-PATERSON ENTERPRISES LIMITED,manufacture and distribution of lubricants and associated products together with the provision of leisure facilities through its caravan and holiday homeparks,MY,38-41 Castle Foregate,04930959
-EAST MIDLANDS INTERNATIONAL AIRPORT LIMITED,management of east midlands international airport,MY,Building 34,02078271
-WATER PLUS GROUP LIMITED,"core retail services including billing, meter reading, call centre support and water-efficiancy advice",MY,Two Smithfield,10012579
+﻿name,description,countryCode,address,brn
+ADVANCE LOGISTICS SDN BHD,Forwarding,MY,"LOT 37, LEBUH SULTAN MOHAMED 1 KAWASAN. PERINDUSTRIAN, BANDAR SULTAN SULEIMAN, PORT KLANG, 42000 Selangor, Malaysia",8527005-M
+ADVANCE INTERNATIONAL FREIGHT SDN BHD,Forwarding,MY,"LOT 37, LEBUH SULTAN MOHAMED 1 KAWASAN. PERINDUSTRIAN, BANDAR SULTAN SULEIMAN, PORT KLANG, 42000 Selangor, Malaysia",8123435-T
+ACC FORWARDING & CLEARING AGENCY,Forwarding,MY,"NO. 60, JALAN YAHYA ALDATAR, JOHOR BAHRU, 80300 Johor, Malaysia",9278028-M
+ABLE INTERNATIONAL FREIGHT SDN BHD,Forwarding,MY,"BLOCK A-6-3A, JALAN INTAN 1/KS1, INTANIA KLANG TELOK GADONG BESAR, KLANG, 41200 Selangor, Malaysia",5833129-T
+ABLE FREIGHT FORWARDING SDN BHD,Forwarding,MY,"63B-65B, JALAN BAYU TINGGI 6/KS6, BATU UNJUR, TAMAN BAYU TINGGI, KLANG, 41200 Selangor, Malaysia",3523543-M
+ABLE CONSOLIDATION SERVICES SDN BHD,Fleet,MY,"NO.63A, JALAN BAYU TINGGI 6/KS6, BATU UNJUR, KLANG, 41200 Selangor, Malaysia",8530617-T
+AB ENTERPRISE,Logistic,MY,"SU3414, JALAN KOLAM, P.O. BOX 81079, 87020 Labuan, Malaysia",8412742-M
+ABDA AVIATION SDN BHD,Forwarding,MY,"45 JALAN 51/205,THE HIGHWAY CENTRE, PETALING JAYA, 46050 Selangor, Malaysia",4062607-T
+20CUBE LOGISTICS SDN BHD,Forwarding,MY,"D-3A-01, BLOCK D, LEVEL 3A SKYPARK @ ONE CITY, JALAN USJ 25/1, SUBANG JAYA, 47650 Selangor, Malaysia",3754344-M
+AGENSI PENGHANTARAN DAN PENGANGKUTAN SAMUDRA,Logistic,MY,"NO. 6, JALAN ROSMERAH 2/13, TAMAN JOHOR JAYA, 81100 Johor, Malaysia",211164-T
+AGENDA WIRA SDN BHD,Logistic,MY,"LOT 9, LINGKARAN SULTAN MUHAMAD 2, KAWASAN PERUSAHAAN BANDAR SULTAN SULAIMAN, PORT KLANG, 42000 Selangor, Malaysia",628465-M
+AGA SHIPPING SDN BHD,Freight Forwarding,MY,"Unit AT10 Level 7 Tower A2 Block A Icom Square  Seksyen 64 KTLD Jalan Pending  93450 Kuching Sarawak Malaysia, 93450 Sarawak, Malaysia",8515092-T
+AFICO TERMINAL VENTURE S/B,Cold Storage,MY,"P157 & P160, P153-P156, P161-P164, PRECINCT 1, JALAN FZI-P1,, 42920 Selangor, Malaysia",5954436-M
+AES LOGISTICS SDN BHD,Logistic,MY,"NO. 51, JALAN SELAT SELATAN 7/KS 5 TAMAN PERINDUSTRIAN SOBENA JAYA PANDAMARAN, PORT KLANG, 42000 Selangor, Malaysia",2652705-T
+AERO CIRCLE SDN BHD,Cold Storage,MY,"No. 22A, Jalan Anggerik Eria AT31/AT, Kota Kemuning,, 40460 Selangor, Malaysia",7822626-M
+AEROCEAN LINE AGENCIES,Fleet,MY,"Lot 9715 Section 64 KTLD, 1st Floor , Jalan Pending, 93450 Kuching Sarawak, 93450 Sarawak, Malaysia",6276200-T
+ADVANCE MARITIME SDN BHD,Fleet,MY,"NO. 50-1, LORONG BATU NILAM 21B, BANDAR BUKIT TINGGI 2, KLANG, 41200 Selangor, Malaysia",6247338-M
+AIR-MARINE FREIGHT SERVICES SDN BHD,Forwarding,MY,"Lot 3623, Block 26, Kinda Industrial Estate Jln Tg. Kidurong P.O Box 2750, 97008 Bintulu, Sarawak, 97008 Sarawak, Malaysia",8040795-T
+AIRBORNE EXPRESS (SARAWAK) SDN BHD,Forwarding,MY,"NO 178, LOT 1840 MUARA TABUAN HIGHT PARK, OFF JALAN SETIA RAJA KUCHING,  Sarawak, Malaysia",3409968-M
+AIMTRANS LOGISTICS (M) SDN BHD,Logistic,MY,"10-1, JALAN JASMIN 6/KS6, BANDAR BOTANIC, KLANG, 41200 Selangor, Malaysia",4056679-T
+AIK TEONG SDN BHD,Fleet,MY,"123-1-9, WISMA KGN, PENGKALAN WELD, 10300 Pulau Pinang, Malaysia",3464837-M
+AHRAHPACK FREIGHT & MOVERS,Forwarding,MY,"NO. 25, JALAN PERUSAHAAN 27/KS5 KAWASAN PERINDUSTRIAN KAMPUNG IDAMAN, 42000 Selangor, Malaysia",9919595-T
+A. HARTRODT OCEAN SERVICES (M) S/B,Forwarding,MY,"WISMA A. HARTRODT UNIT 10.2, NO. 2 JALAN SETIA PRIMA S U13/S SETIA ALAM SECTION U13,, 40170 Selangor, Malaysia",3178391-M
+AGX LOGISTICS (M) S/B,Logistic,MY,"UNIT 3A-C (2ND FLOOR), JALAN USJ 10/1A, PUSAT PERNIAGAAN USJ 10, UEP SUBANG JAYA, 47610 Selangor, Malaysia",6326445-T
+AGILITY LOGISTICS SDN BHD,Logistic,MY,"NO. 2, BLOCK B, JALAN BUMBUNG U8/90, PERINDUSTRIAN BUKIT JELUTONG, SHAH ALAM, 40150 Selangor, Malaysia",6835594-M
+AGENSI SRI BINTANG SDN BHD,Logistic,MY,"40-B, JALAN AH SIANG, 80300 Johor, Malaysia",1788032-T
+ALLIANCE INTERNATIONAL SHIPPING SDN BHD,Logistic,MY,"NO. 88B, SECOND FLOOR, LEBUH TURI OFF PERSIARAN, RAJA MUDA MUSA, TAMAN CHI LIUNG, KLANG, 41200 Selangor, Malaysia",1402703-M
+ALIM MARITIME SDN BHD,Fleet,MY,"NO. 7, LORONG PEGAGA, TAMAN CHI LIUNG, KLANG, 41200 Selangor, Malaysia",4080229-T
+ALFRO SYSTEMS SDN BHD,Forwaring,MY,"22, LEBUH BERINGIN, PORT KLANG, 42000 Selangor, Malaysia",9473069-M
+ALFRO CARGO EXPRESS SDN BHD,Logistic,MY,"32-B, SUNWAY PRIMA, LINTANG SUNGAI TIRAM 5, BAYAN LEPAS, 11900 Pulau Pinang, Malaysia",5793771-T
+ALAM FORWARDING SDN BHD,Cold Storage,MY,"5207-B, PERSIARAN RAJA MUDA MUSA, PORT KLANG, 42000 Selangor, Malaysia",8372208-M
+AJENSI PERKAPALAN INSAN,Fleet,MY,"NO.45A, JALAN TENGKU BADAR, P.O.BOX 14, PORT KLANG, 42000 Selangor, Malaysia",710359-T
+AIR TIGER EXPRESS (M) SDN BHD,Fleet,MY,"LEVEL 23-C, MENARA NORTHAM, 55, JALAN SULTAN AHMAD SHAH, 10050 Pulau Pinang, Malaysia",7994829-M
+AIRSEAL FREIGHT FORWARDERS SDN BHD,Forwarding,MY,"LOT 7585, 3RD FLOOR, SIM HUNG ENG BUILDING, JALAN KWONG LEE BANK, 93450 Sarawak, Malaysia",246283-T
+AIRMARINE (MALAYSIA) SDN BHD,Forwarding,MY,"SUITE E-08-08, CAPITAL 5 OASIS SQUARE, NO. 2, JALAN PJU 1A/7A, OASIS DAMANSARA, PETALING JAYA, 47301 Selangor, Malaysia",8529896-M
+AMAN FREIGHT (M) SDN BHD,Forwarding,MY,"LOT 6, LINGKARAN SULTAN MOHAMED, SELAT KLANG UTARA, PORT KLANG, 42000 Selangor, Malaysia",657391-T
+AMALGAMATED FORWARDER SDN BHD,Fleet,MY,"NO.104B-16B, TINGKAT 2, JALAN LEBUH BERINGIN KS4, PELABUHAN KELANG, 42000 Selangor, Malaysia",5176469-M
+AMALAN LOGISTIVCS SDN BHD,Logistic,MY,"UNIT 4, 3RD FLOOR, AXIS COMPLEX, NO 35, CANTONMENT ROAD, 10350 Pulau Pinang, Malaysia",5931455-T
+ALTUS OIL & GAS MALASIA SDN BHD,Forwarding,MY,"UNIT 29-1, OVAL DAMANSARA, MENARA PERMATA DAMANSARA, NO. 685, JALAN DAMANSARA, 60000 Kuala Lumpur, Malaysia",6205471-M
+ALPS NAIGAI LOGISTICS (M) SDN BHD,Logistic,MY,"B3-13-2, 2ND FLOOR, BANGUNAN WONG KOOI, LORONG BATU NILAM 3F, BDR. BKT. TINGGI, KLANG, 41200 Selangor, Malaysia",3641150-T
+ALPHA LOGISTICS SDN BHD,Logistic,MY,"18-9-F, GURNEY TOWER, PERSIARAN GURNEY, 10250 Pulau Pinang, Malaysia",7529175-M
+ALLIED WAREHOUSES (M) SDN BHD,Cold Storage,MY,"GUDANG D1, NORTHPORTH DISTRIPARK, JALAN PARANG, PORT KLANG, 42000 Selangor, Malaysia",2700814-T
+ALLIED PACKING MOVING SYSTEM SDN BHD,Cold Storage,MY,"60, JALAN DESA MESRA, TAMAN DESA, JALAN KLANG LAMA, 58100 Kuala Lumpur, Malaysia",8585133-M
+ALLIED LINK EXPRESS (PORT KLANG) SDN BHD,Forwarding,MY,"12TH FLOOR, CROWN HOUSE, CRYSTAL CROWN HOTEL, NO.217, PERSIARAN RAJA MUDA MUSA, KLANG, 42000 Selangor, Malaysia",1023382-T
+ANTAMEGAH SDN BHD,Forwarding,MY,"LOT 76 (PT 64403), JALAN PERIGI NANAS 8/11, SEKSYEN 12, KAWASAN P'INDUSTRIAN PULAU INDAH, PELABUHAN BARAT, PELABUHAN, KLANG, 42009 Selangor, Malaysia",1387320-M
+ANK LOGISTIK SDN BHD,Logistic,MY,"NO. 59, LORONG SENTOSA 4A, TAMAN BAYU NEXUS, KLANG, 41200 Selangor, Malaysia",5744985-T
+ANJUNG SERI SHIPPING & FORWARDING SDN BHD,Forwarding,MY,"Tingkat 1, Bangunan Arked Mara, Jalan Kukup Laut, Kukup, Pontian, 82300 Johor, Malaysia",3795130-M
+ANGKUTAN PERMAI (M) SDN BHD,Forwarding,MY,"NO.302, 3RD FLOOR, JALAN BATU UNJUR 7, TAMAN BAYU PERDANA, KLANG, 42100 Selangor, Malaysia",5830014-T
+SG Logistics Hub,Logistic,MY,"10 Buroh Street, #08-16, Singapore 627564",7220579-M
