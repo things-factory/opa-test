@@ -52,7 +52,7 @@
   "label.purchase_order": "purchase order",
   "label.supplier_name": "supplier name",
   "label.gan": "GAN",
-  "label.do_no": "do no",
+  "label.do_no": "DO No.",
   "label.contact_no": "contact no",
   "label.fax": "fax",
   "label.eta": "ETA",
@@ -106,7 +106,7 @@
   "field.purchase_order": "purchase order",
   "field.supplier_name": "supplier name",
   "field.gan": "GAN",
-  "field.do_no": "do no",
+  "field.do_no": "DO No.",
   "field.eta": "ETA",
   "field.location": "location",
   "field.delivery_order_no": "delivery order no",
@@ -117,7 +117,5 @@
   "field.product_name": "product name",
   "field.pack_in_qty": "pack in qty",
   "field.quantity": "quantity",
-  "field.work_order": "work_order",
-  "field.customer_company'": "customer company",
-  "field.unit_price": "unit price"
+  "field.work_order": "work order"
 }
