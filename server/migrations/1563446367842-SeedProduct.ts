@@ -1,13 +1,21 @@
+import { Company } from '@things-factory/biz-base'
 import { Product } from '@things-factory/product-base'
 import path from 'path'
 import { getRepository, MigrationInterface, QueryRunner } from 'typeorm'
-import { csvHeaderCamelizer } from '@things-factory/shell'
+import { Domain, csvHeaderCamelizer } from '@things-factory/shell'
 
 const seedFilePath = '../../seeds/product.csv'
 
 export class SeedProduct1563446367842 implements MigrationInterface {
   public async up(queryRunner: QueryRunner): Promise<any> {
     const products = await csvHeaderCamelizer(path.resolve(__dirname, seedFilePath))
+
+    for (let i = 0; i < products.length; i++) {
+      const product = products[i]
+      console.log(product)
+      product.domain = await getRepository(Domain).findOne({ where: { name: 'SYSTEM' } })
+      product.company = await getRepository(Company).findOne({ where: { name: product.companyName } })
+    }
 
     try {
       await getRepository(Product).save(products)
