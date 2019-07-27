@@ -12,7 +12,6 @@ export class SeedProduct1563446367842 implements MigrationInterface {
 
     for (let i = 0; i < products.length; i++) {
       const product = products[i]
-      console.log(product)
       product.domain = await getRepository(Domain).findOne({ where: { name: 'SYSTEM' } })
       product.company = await getRepository(Company).findOne({ where: { name: product.companyName } })
     }
