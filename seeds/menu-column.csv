@@ -93,7 +93,6 @@ unit,50,string,40,50,32,FALSE,0,0,eq,FALSE,Customer Product,FALSE,field.unit,80,
 updatedAt,70,datetime,0,70,80,FALSE,0,0,,FALSE,Customer Product,FALSE,field.updated_at,80,,,TRUE
 updater,80,string,0,80,80,FALSE,0,0,,FALSE,Customer Product,FALSE,field.updater,80,Entity,User,TRUE
 id,0,string,0,0,64,FALSE,0,0,,FALSE,Owner Product,FALSE,field.id,0,,,TRUE
-company,10,string,0,10,64,FALSE,0,10,eq,FALSE,Owner Product,FALSE,field.company,120,Entity,Company,FALSE
 name,20,string,20,20,64,FALSE,10,20,like,FALSE,Owner Product,FALSE,field.name,120,,,FALSE
 description,30,string,0,30,255,FALSE,0,30,like,FALSE,Owner Product,FALSE,field.description,150,,,TRUE
 type,40,string,30,40,32,FALSE,0,40,eq,FALSE,Owner Product,FALSE,field.type,80,,,FALSE

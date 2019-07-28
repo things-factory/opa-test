@@ -1,241 +1,50 @@
 ﻿company_name,name,description,type,unit
-ADVANCE LOGISTICS SDN BHD,Repaint Drum,Repaint Drum,Service,1
-ADVANCE LOGISTICS SDN BHD,Palletized Crate,Palletized Crate,Service,1
-ADVANCE LOGISTICS SDN BHD,Labour to loose product,Labour to loose product,Service,1
-ADVANCE LOGISTICS SDN BHD,Remove marking with thinner,Remove marking with thinner,Service,1
-ADVANCE LOGISTICS SDN BHD,Iinsulate Container,Iinsulate Container,Service,1
-ADVANCE INTERNATIONAL FREIGHT SDN BHD,Full wrap pallet,Full wrap pallet,Service,1
-ADVANCE INTERNATIONAL FREIGHT SDN BHD,Labour for darken wordings,Labour for darken wordings,Service,1
-ADVANCE INTERNATIONAL FREIGHT SDN BHD,Double seal with Crete binding,Double seal with Crete binding,Service,1
-ADVANCE INTERNATIONAL FREIGHT SDN BHD,Insulate pallet with aluminium foill,Insulate pallet with aluminium foill,Service,1
-ADVANCE INTERNATIONAL FREIGHT SDN BHD,Surcharge to unstuff that require safety clothing,Surcharge to unstuff that require safety clothing,Service,1
-ACC FORWARDING & CLEARING AGENCY,Rental of forklift (RM160/day),Rental of forklift (RM160/day),Service,1
-ACC FORWARDING & CLEARING AGENCY,Rental of driver (RM50/day),Rental of driver (RM50/day),Service,1
-ACC FORWARDING & CLEARING AGENCY,Relable,Relable,Service,1
-ACC FORWARDING & CLEARING AGENCY,Wrapping (Rewrap/Normal/Export),Wrapping (Rewrap/Normal/Export),Service,1
-ACC FORWARDING & CLEARING AGENCY,Full Strapping (Pallet/Pail),Full Strapping (Pallet/Pail),Service,1
-ABLE INTERNATIONAL FREIGHT SDN BHD,Strapping - single,Strapping - single,Service,1
-ABLE INTERNATIONAL FREIGHT SDN BHD,Labour for Repacking (Drum/Pail/Bag/Jbag/IBC),Labour for Repacking (Drum/Pail/Bag/Jbag/IBC),Service,1
-ABLE INTERNATIONAL FREIGHT SDN BHD,Handling Charges for Outside Truck - Loading/Unloading,Handling Charges for Outside Truck - Loading/Unloading,Service,1
-ABLE INTERNATIONAL FREIGHT SDN BHD,Printing of Label,Printing of Label,Service,1
-ABLE INTERNATIONAL FREIGHT SDN BHD,Repalletized,Repalletized,Service,1
-ABLE FREIGHT FORWARDING SDN BHD,Paint Marking on Pallet,Paint Marking on Pallet,Service,1
-ABLE FREIGHT FORWARDING SDN BHD,Spray Paint on Marking on drum,Spray Paint on Marking on drum,Service,1
-ABLE FREIGHT FORWARDING SDN BHD,Removing marking from drum,Removing marking from drum,Service,1
-ABLE FREIGHT FORWARDING SDN BHD,Sorting of batch no for 20ft container,Sorting of batch no for 20ft container,Service,1
-ABLE FREIGHT FORWARDING SDN BHD,Labour to repaint drum,Labour to repaint drum,Service,1
-ABLE CONSOLIDATION SERVICES SDN BHD,Labour charge to clean pail with water,Labour charge to clean pail with water,Service,1
-ABLE CONSOLIDATION SERVICES SDN BHD,Labour charge to clean pail with soap solution,Labour charge to clean pail with soap solution,Service,1
-ABLE CONSOLIDATION SERVICES SDN BHD,Labour charge for blending/stirring,Labour charge for blending/stirring,Service,1
-ABLE CONSOLIDATION SERVICES SDN BHD,Labour charge to clean up apilled pail,Labour charge to clean up apilled pail,Service,1
-ABLE CONSOLIDATION SERVICES SDN BHD,Labour charge to bubble wrap,Labour charge to bubble wrap,Service,1
-AB ENTERPRISE,Labour charge to unwrapping/wrapping with brown apaper,Labour charge to unwrapping/wrapping with brown apaper,Service,1
-AB ENTERPRISE,Washing of drum,Washing of drum,Service,1
-AB ENTERPRISE,Washing of exterior of IBC,Washing of exterior of IBC,Service,1
-AB ENTERPRISE,Washing of Container,Washing of Container,Service,1
-AB ENTERPRISE,Spray washing of container,Spray washing of container,Service,1
-ABDA AVIATION SDN BHD,Spray wash of plastic pallet,Spray wash of plastic pallet,Service,1
-ABDA AVIATION SDN BHD,Extract Sample,Extract Sample,Service,1
-ABDA AVIATION SDN BHD,Repair Dented Drum,Repair Dented Drum,Service,1
-ABDA AVIATION SDN BHD,Labour to Reseal Cap,Labour to Reseal Cap,Service,1
-ABDA AVIATION SDN BHD,Repaint Drum,Repaint Drum,Service,1
-20CUBE LOGISTICS SDN BHD,Palletized Crate,Palletized Crate,Service,1
-20CUBE LOGISTICS SDN BHD,Labour to loose product,Labour to loose product,Service,1
-20CUBE LOGISTICS SDN BHD,Remove marking with thinner,Remove marking with thinner,Service,1
-20CUBE LOGISTICS SDN BHD,Iinsulate Container,Iinsulate Container,Service,1
-20CUBE LOGISTICS SDN BHD,Full wrap pallet,Full wrap pallet,Service,1
-AGENSI PENGHANTARAN DAN PENGANGKUTAN SAMUDRA,Labour for darken wordings,Labour for darken wordings,Service,1
-AGENSI PENGHANTARAN DAN PENGANGKUTAN SAMUDRA,Double seal with Crete binding,Double seal with Crete binding,Service,1
-AGENSI PENGHANTARAN DAN PENGANGKUTAN SAMUDRA,Insulate pallet with aluminium foill,Insulate pallet with aluminium foill,Service,1
-AGENSI PENGHANTARAN DAN PENGANGKUTAN SAMUDRA,Surcharge to unstuff that require safety clothing,Surcharge to unstuff that require safety clothing,Service,1
-AGENSI PENGHANTARAN DAN PENGANGKUTAN SAMUDRA,Rental of forklift (RM160/day),Rental of forklift (RM160/day),Service,1
-AGENDA WIRA SDN BHD,Rental of driver (RM50/day),Rental of driver (RM50/day),Service,1
-AGENDA WIRA SDN BHD,Relable,Relable,Service,1
-AGENDA WIRA SDN BHD,Wrapping (Rewrap/Normal/Export),Wrapping (Rewrap/Normal/Export),Service,1
-AGENDA WIRA SDN BHD,Full Strapping (Pallet/Pail),Full Strapping (Pallet/Pail),Service,1
-AGENDA WIRA SDN BHD,Strapping - single,Strapping - single,Service,1
-AGA SHIPPING SDN BHD,Labour for Repacking (Drum/Pail/Bag/Jbag/IBC),Labour for Repacking (Drum/Pail/Bag/Jbag/IBC),Service,1
-AGA SHIPPING SDN BHD,Handling Charges for Outside Truck - Loading/Unloading,Handling Charges for Outside Truck - Loading/Unloading,Service,1
-AGA SHIPPING SDN BHD,Printing of Label,Printing of Label,Service,1
-AGA SHIPPING SDN BHD,Repalletized,Repalletized,Service,1
-AGA SHIPPING SDN BHD,Paint Marking on Pallet,Paint Marking on Pallet,Service,1
-AFICO TERMINAL VENTURE S/B,Spray Paint on Marking on drum,Spray Paint on Marking on drum,Service,1
-AFICO TERMINAL VENTURE S/B,Removing marking from drum,Removing marking from drum,Service,1
-AFICO TERMINAL VENTURE S/B,Sorting of batch no for 20ft container,Sorting of batch no for 20ft container,Service,1
-AFICO TERMINAL VENTURE S/B,Labour to repaint drum,Labour to repaint drum,Service,1
-AFICO TERMINAL VENTURE S/B,Labour charge to clean pail with water,Labour charge to clean pail with water,Service,1
-AES LOGISTICS SDN BHD,Labour charge to clean pail with soap solution,Labour charge to clean pail with soap solution,Service,1
-AES LOGISTICS SDN BHD,Labour charge for blending/stirring,Labour charge for blending/stirring,Service,1
-AES LOGISTICS SDN BHD,Labour charge to clean up apilled pail,Labour charge to clean up apilled pail,Service,1
-AES LOGISTICS SDN BHD,Labour charge to bubble wrap,Labour charge to bubble wrap,Service,1
-AES LOGISTICS SDN BHD,Labour charge to unwrapping/wrapping with brown apaper,Labour charge to unwrapping/wrapping with brown apaper,Service,1
-AERO CIRCLE SDN BHD,Washing of drum,Washing of drum,Service,1
-AERO CIRCLE SDN BHD,Washing of exterior of IBC,Washing of exterior of IBC,Service,1
-AERO CIRCLE SDN BHD,Washing of Container,Washing of Container,Service,1
-AERO CIRCLE SDN BHD,Spray washing of container,Spray washing of container,Service,1
-AERO CIRCLE SDN BHD,Spray wash of plastic pallet,Spray wash of plastic pallet,Service,1
-AEROCEAN LINE AGENCIES,Extract Sample,Extract Sample,Service,1
-AEROCEAN LINE AGENCIES,Repair Dented Drum,Repair Dented Drum,Service,1
-AEROCEAN LINE AGENCIES,Labour to Reseal Cap,Labour to Reseal Cap,Service,1
-AEROCEAN LINE AGENCIES,Repaint Drum,Repaint Drum,Service,1
-AEROCEAN LINE AGENCIES,Palletized Crate,Palletized Crate,Service,1
-ADVANCE MARITIME SDN BHD,Labour to loose product,Labour to loose product,Service,1
-ADVANCE MARITIME SDN BHD,Remove marking with thinner,Remove marking with thinner,Service,1
-ADVANCE MARITIME SDN BHD,Iinsulate Container,Iinsulate Container,Service,1
-ADVANCE MARITIME SDN BHD,Full wrap pallet,Full wrap pallet,Service,1
-ADVANCE MARITIME SDN BHD,Labour for darken wordings,Labour for darken wordings,Service,1
-AIR-MARINE FREIGHT SERVICES SDN BHD,Double seal with Crete binding,Double seal with Crete binding,Service,1
-AIR-MARINE FREIGHT SERVICES SDN BHD,Insulate pallet with aluminium foill,Insulate pallet with aluminium foill,Service,1
-AIR-MARINE FREIGHT SERVICES SDN BHD,Surcharge to unstuff that require safety clothing,Surcharge to unstuff that require safety clothing,Service,1
-AIR-MARINE FREIGHT SERVICES SDN BHD,Rental of forklift (RM160/day),Rental of forklift (RM160/day),Service,1
-AIR-MARINE FREIGHT SERVICES SDN BHD,Rental of driver (RM50/day),Rental of driver (RM50/day),Service,1
-AIRBORNE EXPRESS (SARAWAK) SDN BHD,Relable,Relable,Service,1
-AIRBORNE EXPRESS (SARAWAK) SDN BHD,Wrapping (Rewrap/Normal/Export),Wrapping (Rewrap/Normal/Export),Service,1
-AIRBORNE EXPRESS (SARAWAK) SDN BHD,Full Strapping (Pallet/Pail),Full Strapping (Pallet/Pail),Service,1
-AIRBORNE EXPRESS (SARAWAK) SDN BHD,Strapping - single,Strapping - single,Service,1
-AIRBORNE EXPRESS (SARAWAK) SDN BHD,Labour for Repacking (Drum/Pail/Bag/Jbag/IBC),Labour for Repacking (Drum/Pail/Bag/Jbag/IBC),Service,1
-AIMTRANS LOGISTICS (M) SDN BHD,Handling Charges for Outside Truck - Loading/Unloading,Handling Charges for Outside Truck - Loading/Unloading,Service,1
-AIMTRANS LOGISTICS (M) SDN BHD,Printing of Label,Printing of Label,Service,1
-AIMTRANS LOGISTICS (M) SDN BHD,Repalletized,Repalletized,Service,1
-AIMTRANS LOGISTICS (M) SDN BHD,Paint Marking on Pallet,Paint Marking on Pallet,Service,1
-AIMTRANS LOGISTICS (M) SDN BHD,Spray Paint on Marking on drum,Spray Paint on Marking on drum,Service,1
-AIK TEONG SDN BHD,Removing marking from drum,Removing marking from drum,Service,1
-AIK TEONG SDN BHD,Sorting of batch no for 20ft container,Sorting of batch no for 20ft container,Service,1
-AIK TEONG SDN BHD,Labour to repaint drum,Labour to repaint drum,Service,1
-AIK TEONG SDN BHD,Labour charge to clean pail with water,Labour charge to clean pail with water,Service,1
-AIK TEONG SDN BHD,Labour charge to clean pail with soap solution,Labour charge to clean pail with soap solution,Service,1
-AHRAHPACK FREIGHT & MOVERS,Labour charge for blending/stirring,Labour charge for blending/stirring,Service,1
-AHRAHPACK FREIGHT & MOVERS,Labour charge to clean up apilled pail,Labour charge to clean up apilled pail,Service,1
-AHRAHPACK FREIGHT & MOVERS,Labour charge to bubble wrap,Labour charge to bubble wrap,Service,1
-AHRAHPACK FREIGHT & MOVERS,Labour charge to unwrapping/wrapping with brown apaper,Labour charge to unwrapping/wrapping with brown apaper,Service,1
-AHRAHPACK FREIGHT & MOVERS,Washing of drum,Washing of drum,Service,1
-A. HARTRODT OCEAN SERVICES (M) S/B,Washing of exterior of IBC,Washing of exterior of IBC,Service,1
-A. HARTRODT OCEAN SERVICES (M) S/B,Washing of Container,Washing of Container,Service,1
-A. HARTRODT OCEAN SERVICES (M) S/B,Spray washing of container,Spray washing of container,Service,1
-A. HARTRODT OCEAN SERVICES (M) S/B,Spray wash of plastic pallet,Spray wash of plastic pallet,Service,1
-A. HARTRODT OCEAN SERVICES (M) S/B,Extract Sample,Extract Sample,Service,1
-AGX LOGISTICS (M) S/B,Repair Dented Drum,Repair Dented Drum,Service,1
-AGX LOGISTICS (M) S/B,Labour to Reseal Cap,Labour to Reseal Cap,Service,1
-AGX LOGISTICS (M) S/B,Repaint Drum,Repaint Drum,Service,1
-AGX LOGISTICS (M) S/B,Palletized Crate,Palletized Crate,Service,1
-AGX LOGISTICS (M) S/B,Labour to loose product,Labour to loose product,Service,1
-AGILITY LOGISTICS SDN BHD,Remove marking with thinner,Remove marking with thinner,Service,1
-AGILITY LOGISTICS SDN BHD,Iinsulate Container,Iinsulate Container,Service,1
-AGILITY LOGISTICS SDN BHD,Full wrap pallet,Full wrap pallet,Service,1
-AGILITY LOGISTICS SDN BHD,Labour for darken wordings,Labour for darken wordings,Service,1
-AGILITY LOGISTICS SDN BHD,Double seal with Crete binding,Double seal with Crete binding,Service,1
-AGENSI SRI BINTANG SDN BHD,Insulate pallet with aluminium foill,Insulate pallet with aluminium foill,Service,1
-AGENSI SRI BINTANG SDN BHD,Surcharge to unstuff that require safety clothing,Surcharge to unstuff that require safety clothing,Service,1
-AGENSI SRI BINTANG SDN BHD,Rental of forklift (RM160/day),Rental of forklift (RM160/day),Service,1
-AGENSI SRI BINTANG SDN BHD,Rental of driver (RM50/day),Rental of driver (RM50/day),Service,1
-AGENSI SRI BINTANG SDN BHD,Relable,Relable,Service,1
-ALLIANCE INTERNATIONAL SHIPPING SDN BHD,Wrapping (Rewrap/Normal/Export),Wrapping (Rewrap/Normal/Export),Service,1
-ALLIANCE INTERNATIONAL SHIPPING SDN BHD,Full Strapping (Pallet/Pail),Full Strapping (Pallet/Pail),Service,1
-ALLIANCE INTERNATIONAL SHIPPING SDN BHD,Strapping - single,Strapping - single,Service,1
-ALLIANCE INTERNATIONAL SHIPPING SDN BHD,Labour for Repacking (Drum/Pail/Bag/Jbag/IBC),Labour for Repacking (Drum/Pail/Bag/Jbag/IBC),Service,1
-ALLIANCE INTERNATIONAL SHIPPING SDN BHD,Handling Charges for Outside Truck - Loading/Unloading,Handling Charges for Outside Truck - Loading/Unloading,Service,1
-ALIM MARITIME SDN BHD,Printing of Label,Printing of Label,Service,1
-ALIM MARITIME SDN BHD,Repalletized,Repalletized,Service,1
-ALIM MARITIME SDN BHD,Paint Marking on Pallet,Paint Marking on Pallet,Service,1
-ALIM MARITIME SDN BHD,Spray Paint on Marking on drum,Spray Paint on Marking on drum,Service,1
-ALIM MARITIME SDN BHD,Removing marking from drum,Removing marking from drum,Service,1
-ALFRO SYSTEMS SDN BHD,Sorting of batch no for 20ft container,Sorting of batch no for 20ft container,Service,1
-ALFRO SYSTEMS SDN BHD,Labour to repaint drum,Labour to repaint drum,Service,1
-ALFRO SYSTEMS SDN BHD,Labour charge to clean pail with water,Labour charge to clean pail with water,Service,1
-ALFRO SYSTEMS SDN BHD,Labour charge to clean pail with soap solution,Labour charge to clean pail with soap solution,Service,1
-ALFRO SYSTEMS SDN BHD,Labour charge for blending/stirring,Labour charge for blending/stirring,Service,1
-ALFRO CARGO EXPRESS SDN BHD,Labour charge to clean up apilled pail,Labour charge to clean up apilled pail,Service,1
-ALFRO CARGO EXPRESS SDN BHD,Labour charge to bubble wrap,Labour charge to bubble wrap,Service,1
-ALFRO CARGO EXPRESS SDN BHD,Labour charge to unwrapping/wrapping with brown apaper,Labour charge to unwrapping/wrapping with brown apaper,Service,1
-ALFRO CARGO EXPRESS SDN BHD,Washing of drum,Washing of drum,Service,1
-ALFRO CARGO EXPRESS SDN BHD,Washing of exterior of IBC,Washing of exterior of IBC,Service,1
-ALAM FORWARDING SDN BHD,Washing of Container,Washing of Container,Service,1
-ALAM FORWARDING SDN BHD,Spray washing of container,Spray washing of container,Service,1
-ALAM FORWARDING SDN BHD,Spray wash of plastic pallet,Spray wash of plastic pallet,Service,1
-ALAM FORWARDING SDN BHD,Extract Sample,Extract Sample,Service,1
-ALAM FORWARDING SDN BHD,Repair Dented Drum,Repair Dented Drum,Service,1
-AJENSI PERKAPALAN INSAN,Labour to Reseal Cap,Labour to Reseal Cap,Service,1
-AJENSI PERKAPALAN INSAN,Repaint Drum,Repaint Drum,Service,1
-AJENSI PERKAPALAN INSAN,Palletized Crate,Palletized Crate,Service,1
-AJENSI PERKAPALAN INSAN,Labour to loose product,Labour to loose product,Service,1
-AJENSI PERKAPALAN INSAN,Remove marking with thinner,Remove marking with thinner,Service,1
-AIR TIGER EXPRESS (M) SDN BHD,Iinsulate Container,Iinsulate Container,Service,1
-AIR TIGER EXPRESS (M) SDN BHD,Full wrap pallet,Full wrap pallet,Service,1
-AIR TIGER EXPRESS (M) SDN BHD,Labour for darken wordings,Labour for darken wordings,Service,1
-AIR TIGER EXPRESS (M) SDN BHD,Double seal with Crete binding,Double seal with Crete binding,Service,1
-AIR TIGER EXPRESS (M) SDN BHD,Insulate pallet with aluminium foill,Insulate pallet with aluminium foill,Service,1
-AIRSEAL FREIGHT FORWARDERS SDN BHD,Surcharge to unstuff that require safety clothing,Surcharge to unstuff that require safety clothing,Service,1
-AIRSEAL FREIGHT FORWARDERS SDN BHD,Rental of forklift (RM160/day),Rental of forklift (RM160/day),Service,1
-AIRSEAL FREIGHT FORWARDERS SDN BHD,Rental of driver (RM50/day),Rental of driver (RM50/day),Service,1
-AIRSEAL FREIGHT FORWARDERS SDN BHD,Relable,Relable,Service,1
-AIRSEAL FREIGHT FORWARDERS SDN BHD,Wrapping (Rewrap/Normal/Export),Wrapping (Rewrap/Normal/Export),Service,1
-AIRMARINE (MALAYSIA) SDN BHD,Full Strapping (Pallet/Pail),Full Strapping (Pallet/Pail),Service,1
-AIRMARINE (MALAYSIA) SDN BHD,Strapping - single,Strapping - single,Service,1
-AIRMARINE (MALAYSIA) SDN BHD,Labour for Repacking (Drum/Pail/Bag/Jbag/IBC),Labour for Repacking (Drum/Pail/Bag/Jbag/IBC),Service,1
-AIRMARINE (MALAYSIA) SDN BHD,Handling Charges for Outside Truck - Loading/Unloading,Handling Charges for Outside Truck - Loading/Unloading,Service,1
-AIRMARINE (MALAYSIA) SDN BHD,Printing of Label,Printing of Label,Service,1
-AMAN FREIGHT (M) SDN BHD,Repalletized,Repalletized,Service,1
-AMAN FREIGHT (M) SDN BHD,Paint Marking on Pallet,Paint Marking on Pallet,Service,1
-AMAN FREIGHT (M) SDN BHD,Spray Paint on Marking on drum,Spray Paint on Marking on drum,Service,1
-AMAN FREIGHT (M) SDN BHD,Removing marking from drum,Removing marking from drum,Service,1
-AMAN FREIGHT (M) SDN BHD,Sorting of batch no for 20ft container,Sorting of batch no for 20ft container,Service,1
-AMALGAMATED FORWARDER SDN BHD,Labour to repaint drum,Labour to repaint drum,Service,1
-AMALGAMATED FORWARDER SDN BHD,Labour charge to clean pail with water,Labour charge to clean pail with water,Service,1
-AMALGAMATED FORWARDER SDN BHD,Labour charge to clean pail with soap solution,Labour charge to clean pail with soap solution,Service,1
-AMALGAMATED FORWARDER SDN BHD,Labour charge for blending/stirring,Labour charge for blending/stirring,Service,1
-AMALGAMATED FORWARDER SDN BHD,Labour charge to clean up apilled pail,Labour charge to clean up apilled pail,Service,1
-AMALAN LOGISTIVCS SDN BHD,Labour charge to bubble wrap,Labour charge to bubble wrap,Service,1
-AMALAN LOGISTIVCS SDN BHD,Labour charge to unwrapping/wrapping with brown apaper,Labour charge to unwrapping/wrapping with brown apaper,Service,1
-AMALAN LOGISTIVCS SDN BHD,Washing of drum,Washing of drum,Service,1
-AMALAN LOGISTIVCS SDN BHD,Washing of exterior of IBC,Washing of exterior of IBC,Service,1
-AMALAN LOGISTIVCS SDN BHD,Washing of Container,Washing of Container,Service,1
-ALTUS OIL & GAS MALASIA SDN BHD,Spray washing of container,Spray washing of container,Service,1
-ALTUS OIL & GAS MALASIA SDN BHD,Spray wash of plastic pallet,Spray wash of plastic pallet,Service,1
-ALTUS OIL & GAS MALASIA SDN BHD,Extract Sample,Extract Sample,Service,1
-ALTUS OIL & GAS MALASIA SDN BHD,Repair Dented Drum,Repair Dented Drum,Service,1
-ALTUS OIL & GAS MALASIA SDN BHD,Labour to Reseal Cap,Labour to Reseal Cap,Service,1
-ALPHA LOGISTICS SDN BHD,Repaint Drum,Repaint Drum,Service,1
-ALPHA LOGISTICS SDN BHD,Palletized Crate,Palletized Crate,Service,1
-ALPHA LOGISTICS SDN BHD,Labour to loose product,Labour to loose product,Service,1
-ALPHA LOGISTICS SDN BHD,Remove marking with thinner,Remove marking with thinner,Service,1
-ALPHA LOGISTICS SDN BHD,Iinsulate Container,Iinsulate Container,Service,1
-ALLIED WAREHOUSES (M) SDN BHD,Full wrap pallet,Full wrap pallet,Service,1
-ALLIED WAREHOUSES (M) SDN BHD,Labour for darken wordings,Labour for darken wordings,Service,1
-ALLIED WAREHOUSES (M) SDN BHD,Double seal with Crete binding,Double seal with Crete binding,Service,1
-ALLIED WAREHOUSES (M) SDN BHD,Insulate pallet with aluminium foill,Insulate pallet with aluminium foill,Service,1
-ALLIED WAREHOUSES (M) SDN BHD,Surcharge to unstuff that require safety clothing,Surcharge to unstuff that require safety clothing,Service,1
-ALLIED PACKING MOVING SYSTEM SDN BHD,Rental of forklift (RM160/day),Rental of forklift (RM160/day),Service,1
-ALLIED PACKING MOVING SYSTEM SDN BHD,Rental of driver (RM50/day),Rental of driver (RM50/day),Service,1
-ALLIED PACKING MOVING SYSTEM SDN BHD,Relable,Relable,Service,1
-ALLIED PACKING MOVING SYSTEM SDN BHD,Wrapping (Rewrap/Normal/Export),Wrapping (Rewrap/Normal/Export),Service,1
-ALLIED PACKING MOVING SYSTEM SDN BHD,Full Strapping (Pallet/Pail),Full Strapping (Pallet/Pail),Service,1
-ALLIED LINK EXPRESS (PORT KLANG) SDN BHD,Strapping - single,Strapping - single,Service,1
-ALLIED LINK EXPRESS (PORT KLANG) SDN BHD,Labour for Repacking (Drum/Pail/Bag/Jbag/IBC),Labour for Repacking (Drum/Pail/Bag/Jbag/IBC),Service,1
-ALLIED LINK EXPRESS (PORT KLANG) SDN BHD,Handling Charges for Outside Truck - Loading/Unloading,Handling Charges for Outside Truck - Loading/Unloading,Service,1
-ALLIED LINK EXPRESS (PORT KLANG) SDN BHD,Printing of Label,Printing of Label,Service,1
-ALLIED LINK EXPRESS (PORT KLANG) SDN BHD,Repalletized,Repalletized,Service,1
-ANTAMEGAH SDN BHD,Paint Marking on Pallet,Paint Marking on Pallet,Service,1
-ANTAMEGAH SDN BHD,Spray Paint on Marking on drum,Spray Paint on Marking on drum,Service,1
-ANTAMEGAH SDN BHD,Removing marking from drum,Removing marking from drum,Service,1
-ANTAMEGAH SDN BHD,Sorting of batch no for 20ft container,Sorting of batch no for 20ft container,Service,1
-ANTAMEGAH SDN BHD,Labour to repaint drum,Labour to repaint drum,Service,1
-ANK LOGISTIK SDN BHD,Labour charge to clean pail with water,Labour charge to clean pail with water,Service,1
-ANK LOGISTIK SDN BHD,Labour charge to clean pail with soap solution,Labour charge to clean pail with soap solution,Service,1
-ANK LOGISTIK SDN BHD,Labour charge for blending/stirring,Labour charge for blending/stirring,Service,1
-ANK LOGISTIK SDN BHD,Labour charge to clean up apilled pail,Labour charge to clean up apilled pail,Service,1
-ANK LOGISTIK SDN BHD,Labour charge to bubble wrap,Labour charge to bubble wrap,Service,1
-ANJUNG SERI SHIPPING & FORWARDING SDN BHD,Labour charge to unwrapping/wrapping with brown apaper,Labour charge to unwrapping/wrapping with brown apaper,Service,1
-ANJUNG SERI SHIPPING & FORWARDING SDN BHD,Washing of drum,Washing of drum,Service,1
-ANJUNG SERI SHIPPING & FORWARDING SDN BHD,Washing of exterior of IBC,Washing of exterior of IBC,Service,1
-ANJUNG SERI SHIPPING & FORWARDING SDN BHD,Washing of Container,Washing of Container,Service,1
-ANJUNG SERI SHIPPING & FORWARDING SDN BHD,Spray washing of container,Spray washing of container,Service,1
-ANGKUTAN PERMAI (M) SDN BHD,Spray wash of plastic pallet,Spray wash of plastic pallet,Service,1
-ANGKUTAN PERMAI (M) SDN BHD,Extract Sample,Extract Sample,Service,1
-ANGKUTAN PERMAI (M) SDN BHD,Repair Dented Drum,Repair Dented Drum,Service,1
-ANGKUTAN PERMAI (M) SDN BHD,Labour to Reseal Cap,Labour to Reseal Cap,Service,1
-ANGKUTAN PERMAI (M) SDN BHD,Repaint Drum,Repaint Drum,Service,1
-SG Logistics Hub,Palletized Crate,Palletized Crate,Service,1
-SG Logistics Hub,Labour to loose product,Labour to loose product,Service,1
-SG Logistics Hub,Remove marking with thinner,Remove marking with thinner,Service,1
-SG Logistics Hub,Iinsulate Container,Iinsulate Container,Service,1
-SG Logistics Hub,Full wrap pallet,Full wrap pallet,Service,1
+TTI Logistics Sdn Bhd,Relabel,,Service,EA
+TTI Logistics Sdn Bhd,Wrapping,Rewrap/Normal/Export,Service,EA
+TTI Logistics Sdn Bhd,Full Strapping ,Pallet/Pail,Service,EA
+TTI Logistics Sdn Bhd,Strapping,Single,Service,EA
+TTI Logistics Sdn Bhd,Labour for Repacking ,Drum/Pail/Bag/Jbag/IBC,Service,EA
+TTI Logistics Sdn Bhd,Handling Charges for Outside Truck,Loading/Unloading,Service,EA
+TTI Logistics Sdn Bhd,Printing of Label,,Service,EA
+TTI Logistics Sdn Bhd,Repalletized,,Service,EA
+TTI Logistics Sdn Bhd,Paint Marking on Pallet,,Service,EA
+TTI Logistics Sdn Bhd,Spray Paint,Marking on drum,Service,EA
+TTI Logistics Sdn Bhd,Removing marking from drum,,Service,EA
+TTI Logistics Sdn Bhd,Sorting of batch no,for 20ft container,Service,EA
+TTI Logistics Sdn Bhd,Labour to repaint drum,,Service,EA
+TTI Logistics Sdn Bhd,Labour charge to clean pail with water,,Service,EA
+TTI Logistics Sdn Bhd,Labour charge to clean pail with soap solution,,Service,EA
+TTI Logistics Sdn Bhd,Labour charge for blending/stirring,,Service,EA
+TTI Logistics Sdn Bhd,Labour charge to bubble wrap,,Service,M/D
+TTI Logistics Sdn Bhd,Labour charge to unwrapping/wrapping with brown apaper,,Service,M/D
+TTI Logistics Sdn Bhd,Washing of drum,,Service,M/D
+TTI Logistics Sdn Bhd,Washing of exterior of IBC,,Service,M/D
+TTI Logistics Sdn Bhd,Washing of Container,,Service,M/D
+TTI Logistics Sdn Bhd,Spray washing of container,,Service,M/D
+TTI Logistics Sdn Bhd,Spray wash of plastic pallet,,Service,M/D
+TTI Logistics Sdn Bhd,Extract Sample,,Service,M/D
+TTI Logistics Sdn Bhd,Repair Dented Drum,,Service,M/D
+TTI Logistics Sdn Bhd,Labour to Reseal Cap,,Service,M/D
+TTI Logistics Sdn Bhd,Repaint Drum,,Service,M/D
+TTI Logistics Sdn Bhd,Palletized Crate,,Service,M/D
+TTI Logistics Sdn Bhd,Labour to loose product,,Service,M/D
+TTI Logistics Sdn Bhd,Remove marking with thinner,,Service,M/M
+TTI Logistics Sdn Bhd,Insulate container,,Service,M/M
+TTI Logistics Sdn Bhd,Full wrap pallet with kraft paper,,Service,M/M
+TTI Logistics Sdn Bhd,Labour for darken wordings,,Service,M/M
+TTI Logistics Sdn Bhd,double seal with Crete binding,,Service,M/M
+TTI Logistics Sdn Bhd,Insulate pallet with aluminium foill,,Service,M/M
+TTI Logistics Sdn Bhd,surcharge to unstuff that require safety clothing,,Service,M/M
+TTI Logistics Sdn Bhd,Rental of driver,RM50/day,Service,M/M
+TTI Logistics Sdn Bhd,Rental of forklift,RM160/day,Service,M/M
+TTI Logistics Sdn Bhd,Overtime Charges for warehouse worker,,Service,M/M
+TTI Logistics Sdn Bhd,Overtime charges for engineering foreman,,Service,M/M
+TTI Logistics Sdn Bhd,Sunday charges for warehouse worker,RM100/day,Service,M/M
+TTI Logistics Sdn Bhd,Labour to loose product,Labour to loose product,Service,M/M
+Top Glove,Top Glove Nitrile Examination Medical Glove,"Powder Free, Blue",Product,100 boxes
+Top Glove,Smooth Condom,"Natural, Coloured, Scented",Product,50 boxes
+Top Glove,Three in One Condom,"ribbed, contoured head and studded texture",Product,100 boxes
+Top Glove,Dental Dam,Latex Powder-Free,Product,100 boxes
+Top Glove,Examination gloves,Accelerator Free Nitrile,Product,1000 boxes
+Top Glove,Industrial Gloves,,Product,500 boxes
+Top Glove,Cleanroom Gloves,,Product,600 boxes
