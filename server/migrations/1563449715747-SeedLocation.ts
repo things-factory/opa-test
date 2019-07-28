@@ -1,5 +1,5 @@
 import { Domain } from '@things-factory/shell'
-import { Location } from '@things-factory/warehouse-base'
+import { Location, Warehouse } from '@things-factory/warehouse-base'
 import path from 'path'
 import { getRepository, MigrationInterface, QueryRunner } from 'typeorm'
 import { csvHeaderCamelizer } from '@things-factory/shell'
@@ -10,17 +10,15 @@ export class SeedLocation1563449715747 implements MigrationInterface {
   public async up(queryRunner: QueryRunner): Promise<any> {
     const repository = getRepository(Location)
     const locations = await csvHeaderCamelizer(path.resolve(__dirname, csvFilePath))
-    const domain = await getRepository(Domain).findOne({ name: 'SYSTEM' })
+
+    for (let i = 0; i < locations.length; i++) {
+      const location = locations[i]
+      location.domain = await getRepository(Domain).findOne({ where: { name: 'SYSTEM' } })
+      location.warehouse = await getRepository(Warehouse).findOne({ where: { name: location.warehouseName } })
+    }
 
     try {
-      await repository.save(
-        locations.map(loc => {
-          return {
-            domain,
-            ...loc
-          }
-        })
-      )
+      await getRepository(Location).save(locations)
     } catch (e) {
       console.error(e)
     }
@@ -34,7 +32,7 @@ export class SeedLocation1563449715747 implements MigrationInterface {
         .createQueryBuilder()
         .delete()
         .from(Location)
-        .where('name in (:...names)', locations.map(loc => loc.name))
+        .where('name IN (:...names)', { names: locations.map(location => location.name) })
         .execute()
     } catch (e) {
       console.error(e)
