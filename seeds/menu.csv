@@ -22,7 +22,7 @@ Client,Confirm Shipping Notice,SCREEN,700,false,STATIC,confirm-shipping-notice,,
 Owner,Receive Shipping Notice,SCREEN,800,false,STATIC,receive-shipping-notice,,,,,,Order
 Client,Create Transport Order,SCREEN,900,false,STATIC,create-transport-order,,,,,,Order
 Client,Confirm Transport Order,SCREEN,1000,false,STATIC,confirm-transport-order,,,,,,Order
-Owner,Receive Transport Order,SCREEN,1100,false,STATIC,receive-transort-order,,,,,,Order
+Owner,Receive Transport Order,SCREEN,1100,false,STATIC,receive-transport-order,,,,,,Order
 Owner,Update Claim chit,SCREEN,1200,false,STATIC,update-claim-chit,,,,,,Order
 "Owner,Client",Summary Bill Amount,SCREEN,1300,true,STATIC,summary-bill-amount,,,,,,Order
 Operator,Outbound Work Order,SCREEN,100,false,STATIC,outbound-work-order,,,,,,Outbound
