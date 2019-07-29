@@ -56,7 +56,7 @@ export class SeedBoardMenu1564115337291 implements MigrationInterface {
         // fixedColumns: 0,
         hiddenFlag: false,
         pagination: false,
-        name: 'DashBoard',
+        name: 'DASHBOARD-X',
         rank: 20000,
         menuType: 'MENU',
         category: 'STANDARD'
