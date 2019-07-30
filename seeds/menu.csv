@@ -26,8 +26,8 @@ Owner,Receive Transport Order,SCREEN,1100,false,STATIC,receive-transport-order,,
 Owner,Update Claim chit,SCREEN,1200,false,STATIC,update-claim-chit,,,,,,Order
 "Owner,Client",Summary Bill Amount,SCREEN,1300,true,STATIC,summary-bill-amount,,,,,,Order
 Operator,Outbound Work Order,SCREEN,100,false,STATIC,outbound-work-order,,,,,,Outbound
-Operator,Picking by Product,SCREEN,200,false,STATIC,picking-by-product,,,,,,Outbound
-Operator,Picking by UNIT,SCREEN,300,false,STATIC,picking-by-unit,,,,,,Outbound
+Operator,Picking,SCREEN,200,false,STATIC,picking-by-product,,,,,,Outbound
+Operator,Picking by UNIT,SCREEN,300,true,STATIC,picking-by-unit,,,,,,Outbound
 "Owner,Client,Operator",Onhand Stock,SCREEN,100,false,STATIC,onhand-stock,,,,,,Stock
 "Owner,Client,Operator",Intransit Stock,SCREEN,200,false,STATIC,intransit-stock,,,,,,Stock
 Owner,User,SCREEN,100,false,RESOURCE,,users,MENU,users,id,name,System
