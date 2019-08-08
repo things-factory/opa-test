@@ -30,7 +30,7 @@ Picking,SCREEN,200,false,STATIC,picking-by-product,,,,,,Outbound
 Picking by UNIT,SCREEN,300,true,STATIC,picking-by-unit,,,,,,Outbound
 Onhand Stock,SCREEN,100,false,STATIC,onhand-stock,,,,,,Stock
 Intransit Stock,SCREEN,200,false,STATIC,intransit-stock,,,,,,Stock
-User,SCREEN,100,false,STATIC,system-user,,,,,,
+User,SCREEN,100,false,STATIC,system-user,,,,,,System
 Role,SCREEN,200,false,RESOURCE,,roles,MENU,roles,id,name,System
 Menu,SCREEN,300,false,STATIC,system-menu,,,,,,System
 Domain,SCREEN,400,false,STATIC,system-domain,,,,,,System
