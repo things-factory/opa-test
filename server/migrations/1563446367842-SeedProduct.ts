@@ -1,5 +1,5 @@
 import { Company } from '@things-factory/biz-base'
-import { Product } from '@things-factory/product-base'
+import { Product } from '@things-factory/sales-base'
 import path from 'path'
 import { getRepository, MigrationInterface, QueryRunner } from 'typeorm'
 import { Domain, csvHeaderCamelizer } from '@things-factory/shell'
