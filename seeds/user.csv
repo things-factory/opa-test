@@ -1,4 +1,0 @@
-name,email,password,user_type
-Owner,owner@warehouse.com,owner,owner
-Client,client@client.com,client,client
-Operator,operator@warehouse.com,operator,operator

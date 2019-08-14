@@ -1,4 +1,4 @@
-﻿name,zone,section,unit,shelf,state,warehouse_name
+﻿name,zone,row,column,shelf,status,warehouse_name
 A01-01-01,A,1,1,1,occupied,WarehouseJuice
 A01-01-02,A,1,1,2,occupied,WarehouseJuice
 A01-01-03,A,1,1,3,occupied,WarehouseJuice
