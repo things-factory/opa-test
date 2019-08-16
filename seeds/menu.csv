@@ -10,7 +10,7 @@ Owner Product,SCREEN,400,false,RESOURCE,,Product,MENU,owner_products,id,name,Mas
 Bizplace,SCREEN,500,false,STATIC,bizplace-list,,,bizplaces,,,Master Data
 Warehouse,SCREEN,600,false,RESOURCE,,Warehouse,MENU,warehouses,id,name,Master Data
 Location,SCREEN,700,false,RESOURCE,,Location,MENU,locations,id,name,Master Data
-Transport Vehicle,SCREEN,800,false,RESOURCE,,TransportVehicle,MENU,transport_vehicles,id,name,Master Data
+Transport Vehicle,SCREEN,800,false,STATIC,transport-vehicle,,,transport_vehicle,,,Master Data
 Worker,SCREEN,900,false,RESOURCE,,Worker,MENU,workers,id,name,Master Data
 Quotation Estimate,SCREEN,100,true,RESOURCE,,quotations,MENU,quotations,id,name,Order
 Quotation History,SCREEN,200,true,RESOURCE,,quotations,MENU,quotation_histories,id,name,Order
