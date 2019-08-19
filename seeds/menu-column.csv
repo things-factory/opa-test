@@ -38,9 +38,6 @@ id,0,string,0,0,64,false,0,0,,false,Transport Vehicle,false,field.id,0,,,true
 name,10,string,5,5,64,false,0,5,like,false,Transport Vehicle,false,field.name,120,,,false
 regNumber,20,string,10,10,64,false,10,10,like,false,Transport Vehicle,false,field.reg_number,100,,,false
 description,30,string,0,20,255,false,0,0,,false,Transport Vehicle,false,field.description,150,,,true
-brand,40,string,20,30,120,false,0,20,like,false,Transport Vehicle,false,field.brand,100,,,false
-model,50,string,30,40,120,false,0,30,like,false,Transport Vehicle,false,field.model,100,,,false
-color,60,string,40,50,80,false,0,40,like,false,Transport Vehicle,false,field.color,80,,,false
 size,70,string,50,60,64,false,0,50,like,false,Transport Vehicle,false,field.size,80,,,false
 status,80,string,60,70,64,false,0,60,eq,false,Transport Vehicle,false,field.state,80,,,true
 updatedAt,90,datetime,0,80,80,false,0,0,,false,Transport Vehicle,false,field.updated_at,80,,,true
@@ -53,8 +50,9 @@ updatedAt,40,datetime,0,80,80,false,0,0,,false,Worker,false,field.updated_at,80,
 updater,50,string,0,90,80,false,0,0,,false,Worker,false,field.updater,80,Entity,User,true
 id,0,string,0,0,64,false,0,0,,false,Role,false,field.id,0,,,true
 name,10,string,10,10,64,false,10,10,like,false,Role,false,field.name,120,,,false
-updatedAt,20,datetime,0,80,80,false,0,0,,false,Role,false,field.updated_at,80,,,true
-updater,30,string,0,90,80,false,0,0,,false,Role,false,field.updater,80,Entity,User,true
+description,20,string,0,0,64,false,0,0,,false,Role,false,field.description,120,,,true
+updatedAt,30,datetime,0,80,80,false,0,0,,false,Role,false,field.updated_at,80,,,true
+updater,40,string,0,90,80,false,0,0,,false,Role,false,field.updater,80,Entity,User,true
 id,0,string,0,0,64,false,0,0,,false,Quotation Estimate,false,field.id,0,,,true
 name,10,string,10,10,64,false,10,10,like,false,Quotation Estimate,false,field.name,120,,,false
 description,20,string,0,20,255,false,0,0,,false,Quotation Estimate,false,field.description,150,,,true
