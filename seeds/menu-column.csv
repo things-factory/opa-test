@@ -15,7 +15,7 @@ description,20,string,0,20,255,false,0,0,,false,Bizplace,false,field.description
 address,30,string,0,30,255,false,0,20,like,false,Bizplace,false,field.address,150,,,false
 postalCode,40,string,0,40,32,false,0,30,like,false,Bizplace,false,field.postal_code,80,,,false
 latlng,50,string,0,0,32,false,0,0,like,false,Bizplace,false,field.latlng,40,,,false
-state,70,string,0,50,64,false,0,40,eq,false,Bizplace,false,field.state,80,,,true
+status,70,string,0,50,64,false,0,40,eq,false,Bizplace,false,field.state,80,,,true
 updatedAt,80,datetime,0,60,80,false,0,0,,false,Bizplace,false,field.updated_at,80,,,true
 updater,90,string,0,70,80,false,0,0,,false,Bizplace,false,field.updater,80,Entity,User,true
 id,0,string,0,0,64,false,0,0,,false,Warehouse,false,field.id,0,,,true
