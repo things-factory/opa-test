@@ -1,8 +1,7 @@
-import { Domain } from '@things-factory/shell'
+import { csvHeaderCamelizer, Domain } from '@things-factory/shell'
 import { Location, Warehouse } from '@things-factory/warehouse-base'
 import path from 'path'
 import { getRepository, MigrationInterface, QueryRunner } from 'typeorm'
-import { csvHeaderCamelizer } from '@things-factory/shell'
 
 const csvFilePath = '../../seeds/location.csv'
 
@@ -13,8 +12,14 @@ export class SeedLocation1563449715747 implements MigrationInterface {
 
     for (let i = 0; i < locations.length; i++) {
       const location = locations[i]
-      location.domain = await getRepository(Domain).findOne({ where: { name: 'SYSTEM' } })
-      location.warehouse = await getRepository(Warehouse).findOne({ where: { name: location.warehouseName } })
+      location.name = `${location.zone}-${location.row}-${location.column}-${location.shelf}`
+
+      location.warehouse = await getRepository(Warehouse).findOne({
+        where: { name: location.warehouseName },
+        relations: ['domain']
+      })
+
+      location.domain = await getRepository(Domain).findOne(location.warehouse.domain.id)
     }
 
     try {

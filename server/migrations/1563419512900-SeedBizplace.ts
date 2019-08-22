@@ -9,24 +9,14 @@ const seedFilePath = '../../seeds/bizplace.csv'
 export class SeedBizplace1563419512900 implements MigrationInterface {
   public async up(queryRunner: QueryRunner): Promise<any> {
     const bizplaces = await csvHeaderCamelizer(path.resolve(__dirname, seedFilePath))
-    const companies = await getRepository(Company).find()
 
-    for (let i = 0; i < companies.length; i++) {
-      const company = companies[i]
+    for (let i = 0; i < bizplaces.length; i++) {
       const bizplace = bizplaces[i]
-      const _bizplaces = []
-
-      const newDomain = await getRepository(Domain).save({ name: bizplace.name })
-      for (let j = 0; j < bizplaces.length; j++) {
-        const bizplace = { ...bizplaces[j] }
-        bizplace.company = company
-        bizplace.domain = newDomain
-        bizplace.name = `${bizplace.name}`
-        _bizplaces.push(bizplace)
-      }
+      bizplace.company = await getRepository(Company).findOne({ where: { name: bizplace.companyName } })
+      bizplace.domain = await getRepository(Domain).save({ name: bizplace.name })
 
       try {
-        await getRepository(Bizplace).save(_bizplaces)
+        await getRepository(Bizplace).save(bizplace)
       } catch (e) {
         console.error(e)
       }
