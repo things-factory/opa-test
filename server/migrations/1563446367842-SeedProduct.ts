@@ -1,8 +1,8 @@
-import { Company } from '@things-factory/biz-base'
+import { Bizplace } from '@things-factory/biz-base'
 import { Product } from '@things-factory/sales-base'
+import { csvHeaderCamelizer, Domain } from '@things-factory/shell'
 import path from 'path'
 import { getRepository, MigrationInterface, QueryRunner } from 'typeorm'
-import { Domain, csvHeaderCamelizer } from '@things-factory/shell'
 
 const seedFilePath = '../../seeds/product.csv'
 
@@ -12,8 +12,12 @@ export class SeedProduct1563446367842 implements MigrationInterface {
 
     for (let i = 0; i < products.length; i++) {
       const product = products[i]
-      product.domain = await getRepository(Domain).findOne({ where: { name: 'SYSTEM' } })
-      product.company = await getRepository(Company).findOne({ where: { name: product.companyName } })
+      product.bizplace = await getRepository(Bizplace).findOne({
+        where: { name: product.bizplaceName },
+        relations: ['domain']
+      })
+
+      product.domain = await getRepository(Domain).findOne(product.bizplace.domain.id)
     }
 
     try {
