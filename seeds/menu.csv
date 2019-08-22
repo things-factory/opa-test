@@ -5,8 +5,7 @@ Putaway Goods,SCREEN,300,false,STATIC,putaway-goods,,,putaway,,,Inbound
 VAS Work Order,SCREEN,400,false,STATIC,vas-work-order,,,vas,,,Inbound
 Company,SCREEN,100,false,STATIC,company-list,,,companies,,,Master Data
 Company Profile,SCREEN,200,true,STATIC,company-profile,,,company_profile,id,name,Master Data
-Customer Product,SCREEN,300,false,RESOURCE,,Product,MENU,customer_products,id,name,Master Data
-Owner Product,SCREEN,400,false,RESOURCE,,Product,MENU,owner_products,id,name,Master Data
+Product,SCREEN,300,false,STATIC,product-list,,,products,,,Master Data
 Bizplace,SCREEN,500,false,STATIC,bizplace-list,,,bizplaces,,,Master Data
 Warehouse,SCREEN,600,false,RESOURCE,,Warehouse,MENU,warehouses,id,name,Master Data
 Location,SCREEN,700,false,RESOURCE,,Location,MENU,locations,id,name,Master Data
