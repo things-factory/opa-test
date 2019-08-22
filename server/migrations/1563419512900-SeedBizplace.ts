@@ -2,6 +2,7 @@ import { Bizplace, Company } from '@things-factory/biz-base'
 import { csvHeaderCamelizer } from '@things-factory/shell'
 import path from 'path'
 import { getRepository, MigrationInterface, QueryRunner } from 'typeorm'
+import { Domain } from 'domain'
 
 const seedFilePath = '../../seeds/bizplace.csv'
 
@@ -12,12 +13,18 @@ export class SeedBizplace1563352365741 implements MigrationInterface {
 
     for (let i = 0; i < companies.length; i++) {
       const company = companies[i]
+      const bizplace = bizplaces[i]
       const _bizplaces = []
+
+      const newDomain = await getRepository(Domain as any).save({
+        name: bizplace.name
+      })
 
       for (let j = 0; j < bizplaces.length; j++) {
         const bizplace = { ...bizplaces[j] }
         bizplace.company = company
-        bizplace.name = `${bizplace.name}-${i}`
+        bizplace.domain = newDomain
+        bizplace.name = `${bizplace.name}`
         _bizplaces.push(bizplace)
       }
 
