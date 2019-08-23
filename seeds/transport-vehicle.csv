@@ -1,26 +1,21 @@
-﻿name,reg_number,description,size,status
-Volvo FH16,WHJ1230,6 year old truck,20ft,Under Maintainance
-Volvo FH,WOI9102,6 year old truck,17ft,Working
-Volvo FMX,BJI1230,4 year old truck,25ft,Under Maintainance
-Volvo FM,AKM1219,9 year old truck,25ft,Working
-Volvo FE,AHH1031,0 year old truck,17ft,Working
-Volvo FL,PMU5671,6 year old truck,17ft,Working
-Volvo VM,POM1023,5 year old truck,22ft,Working
-Volvo VNL series,VAQ1092,2 year old truck,23ft,Working
-Volvo FMX,BPQ1481,2 year old truck,16ft,Under Maintainance
-Volvo FM,AFK1203,1 year old truck,20ft,Working
-Volvo FE,BMQ2903,7 year old truck,25ft,Working
-Volvo FL,BUI9340,4 year old truck,17ft,Under Maintainance
-Volvo VM,BMW9019,8 year old truck,16ft,Under Maintainance
-Volvo VNL series,VAS1200,4 year old truck,23ft,Working
-Volvo FH16,VTU9872,4 year old truck,15ft,Working
-Nissan Frontier Crew Cab,WRT1209,5 year old truck,15ft,Working
-Nissan Frontier Crew Cab,WOP8759,6 year old truck,15ft,Working
-Nissan Frontier Crew Cab,WQR8739,7 year old truck,15ft,Working
-Nissan Frontier Crew Cab,WCV4785,8 year old truck,15ft,Working
-Nissan Frontier Crew Cab,BJP1928,9 year old truck,15ft,Under Maintainance
-Mercedes-Benz Actros,VTP1920,10 year old truck,15ft,Under Maintainance
-Mercedes-Benz Actros,VQM9201,11 year old truck,15ft,Working
-Mercedes-Benz Actros,WOX1928,12 year old truck,15ft,Working
-Mercedes-Benz Actros,WQM1920,13 year old truck,15ft,Working
-Mercedes-Benz Actros,BWM0192,14 year old truck,15ft,Working
+regNumber,size,status,description,bizplaceName
+BPF4836,8 ton,available,own truck,Kimeda Sdn Bhd
+BLR1420,8 ton,available,own truck,Kimeda Sdn Bhd
+BHH896,8 ton,available,own truck,Kimeda Sdn Bhd
+BGU4042,8 ton,available,own truck,Kimeda Sdn Bhd
+NAH9397,8 ton,available,own truck,Kimeda Sdn Bhd
+BKM5158,3 ton,available,own truck,Kimeda Sdn Bhd
+BDV8327,3 ton,available,own truck,Kimeda Sdn Bhd
+BNR9071,3 ton,available,own truck,Kimeda Sdn Bhd
+BLY9144,3 ton,available,own truck,Kimeda Sdn Bhd
+BNJ7285,1 ton,available,own truck,Kimeda Sdn Bhd
+BNB4504,3 ton,available,own truck,Kimeda Sdn Bhd
+BMG7542,3 ton,available,own truck,Kimeda Sdn Bhd
+BKK3289,1 ton,available,contractor truck,Kimeda Sdn Bhd
+WCT4514,3 ton,available,contractor truck,Kimeda Sdn Bhd
+WFE2513,3 ton,available,contractor truck,Kimeda Sdn Bhd
+BEQ9068,5 ton,available,contractor truck,Kimeda Sdn Bhd
+BKB9510,3 ton,available,contractor truck,Kimeda Sdn Bhd
+BKX8147,5 ton,available,contractor truck,Kimeda Sdn Bhd
+BFQ7960,1 ton,available,contractor truck,Kimeda Sdn Bhd
+NAG4226,8 ton,available,contractor truck,Kimeda Sdn Bhd
