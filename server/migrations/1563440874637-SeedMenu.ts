@@ -11,27 +11,34 @@ export class SeedMenu1563440874637 implements MigrationInterface {
   public async up(queryRunner: QueryRunner): Promise<any> {
     const menuGroups = await csvHeaderCamelizer(path.resolve(__dirname, menuGroupCsvFilePath))
     const menus = await csvHeaderCamelizer(path.resolve(__dirname, menuCsvFilePath))
-    const domain = await getRepository(Domain).findOne({ name: 'SYSTEM' })
+    const domains = await getRepository(Domain).find()
     const repository = getRepository(Menu)
 
     try {
       for (let i = 0; i < menuGroups.length; i++) {
         const menuGroup = menuGroups[i]
-        await repository.save({
-          domain,
-          ...menuGroup,
-          hiddenFlag: JSON.parse(menuGroup.hiddenFlag)
-        })
-      }
 
+        for (let j = 0; j < domains.length; j++) {
+          const domain = domains[j]
+          await repository.save({
+            domain,
+            ...menuGroup,
+            hiddenFlag: JSON.parse(menuGroup.hiddenFlag)
+          })
+        }
+      }
       for (let i = 0; i < menus.length; i++) {
         const menu = menus[i]
-        await repository.save({
-          domain,
-          ...menu,
-          parent: await repository.findOne({ name: menu.groupName }),
-          hiddenFlag: JSON.parse(menu.hiddenFlag)
-        })
+
+        for (let j = 0; j < domains.length; j++) {
+          const domain = domains[j]
+          await repository.save({
+            domain,
+            ...menu,
+            parent: await repository.findOne({ name: menu.groupName }),
+            hiddenFlag: JSON.parse(menu.hiddenFlag)
+          })
+        }
       }
     } catch (e) {
       console.error(e)
