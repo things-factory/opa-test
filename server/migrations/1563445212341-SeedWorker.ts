@@ -16,7 +16,7 @@ export class SeedWorker1563445212341 implements MigrationInterface {
         relations: ['domain']
       })
 
-      worker.domain = await getRepository(Domain).findOne({ where: { name: worker.bizplace.domain.id } })
+      worker.domain = await getRepository(Domain).findOne(worker.bizplace.domain.id)
     }
 
     try {
