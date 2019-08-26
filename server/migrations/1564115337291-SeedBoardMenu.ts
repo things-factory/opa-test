@@ -1,7 +1,7 @@
 import { MigrationInterface, QueryRunner, getRepository } from 'typeorm'
 import { Domain } from '@things-factory/shell'
 import { Menu } from '@things-factory/menu-base'
-import { Board, PlayGroup } from '@things-factory/board-base'
+import { Board, PlayGroup } from '@things-factory/board-service'
 
 export class SeedBoardMenu1564115337291 implements MigrationInterface {
   public async up(queryRunner: QueryRunner): Promise<any> {
