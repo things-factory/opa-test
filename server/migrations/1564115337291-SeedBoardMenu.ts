@@ -7,7 +7,7 @@ export class SeedBoardMenu1564115337291 implements MigrationInterface {
   public async up(queryRunner: QueryRunner): Promise<any> {
     const repository = getRepository(Menu)
     const domainRepository = getRepository(Domain)
-    const domain = await domainRepository.findOne({ name: 'SYSTEM' })
+    const domain = await domainRepository.findOne({ name: 'KIMEDA' })
 
     const boardRepository = getRepository(Board)
     const boards: Board[] = await boardRepository.find({

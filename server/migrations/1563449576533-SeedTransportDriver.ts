@@ -17,7 +17,7 @@ export class SeedTransportDriver1563449576533 implements MigrationInterface {
         relations: ['domain']
       })
 
-      transportDriver.domain = await getRepository(Domain).findOne(transportDriver.bizplace.domain.id)
+      transportDriver.domain = transportDriver.bizplace.domain
     }
 
     try {

@@ -1,6 +1,7 @@
-name,description
-Business Owner,admin
-Warehouse Supervisor,control all zones
-Office Admin,control admin stuff
-Warehouse Manager,leader in each zones
-Warehouse Staff,staff in warehouse
+name,description,domainName
+Business Owner,admin,KIMEDA
+Warehouse Supervisor,control all zones,KIMEDA
+Office Admin,control admin stuff,KIMEDA
+Warehouse Manager,leader in each zones,KIMEDA
+Warehouse Staff,staff in warehouse,KIMEDA
+Customer,Role for customers,KIMEDA

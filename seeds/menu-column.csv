@@ -77,17 +77,3 @@ totalPrice,80,float,70,80,,0,false,0,0,,false,Quotation History,false,field.tota
 state,90,string,80,90,,32,false,0,60,eq,false,Quotation History,false,field.state,80,,,false
 updatedAt,20,datetime,0,100,readonly,80,false,0,0,,false,Quotation History,false,field.updated_at,80,,,true
 updater,30,string,0,110,readonly,80,false,0,0,,false,Quotation History,false,field.updater,80,Entity,User,true
-id,0,string,0,0,,64,false,0,0,,false,Customer Product,false,field.id,0,,,true
-name,20,string,20,20,,64,false,10,20,like,false,Customer Product,false,field.name,120,,,false
-description,30,string,0,30,,255,false,0,30,like,false,Customer Product,false,field.description,150,,,true
-type,40,string,30,40,,32,false,0,40,eq,false,Customer Product,false,field.type,80,,,false
-unit,50,string,40,50,,32,false,0,0,eq,false,Customer Product,false,field.unit,80,,,false
-updatedAt,70,datetime,0,70,readonly,80,false,0,0,,false,Customer Product,false,field.updated_at,80,,,true
-updater,80,string,0,80,readonly,80,false,0,0,,false,Customer Product,false,field.updater,80,Entity,User,true
-id,0,string,0,0,,64,false,0,0,,false,Owner Product,false,field.id,0,,,true
-name,20,string,20,20,,64,false,10,20,like,false,Owner Product,false,field.name,120,,,false
-description,30,string,0,30,,255,false,0,30,like,false,Owner Product,false,field.description,150,,,true
-type,40,string,30,40,,32,false,0,40,eq,false,Owner Product,false,field.type,80,,,false
-unit,50,string,40,50,,32,false,0,0,eq,false,Owner Product,false,field.unit,80,,,false
-updatedAt,70,datetime,0,70,readonly,80,false,0,0,,false,Owner Product,false,field.updated_at,80,,,true
-updater,80,string,0,80,readonly,80,false,0,0,,false,Owner Product,false,field.updater,80,Entity,User,true

@@ -19,7 +19,7 @@ export class SeedTransportVehicle1563449592181 implements MigrationInterface {
         relations: ['domain']
       })
 
-      transportVehicle.domain = await getRepository(Domain).findOne(transportVehicle.bizplace.domain.id)
+      transportVehicle.domain = transportVehicle.bizplace.domain
     }
 
     try {

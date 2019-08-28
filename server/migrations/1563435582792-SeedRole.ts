@@ -1,26 +1,21 @@
 import { Role } from '@things-factory/auth-base'
-import { Domain } from '@things-factory/shell'
+import { csvHeaderCamelizer, Domain } from '@things-factory/shell'
 import path from 'path'
 import { getRepository, MigrationInterface, QueryRunner } from 'typeorm'
-import { csvHeaderCamelizer } from '@things-factory/shell'
 
 const csvFilePath = '../../seeds/role.csv'
 
 export class SeedRole1563435582792 implements MigrationInterface {
   public async up(queryRunner: QueryRunner): Promise<any> {
     const roles = await csvHeaderCamelizer(path.resolve(__dirname, csvFilePath))
-    const repository = getRepository(Role)
-    const domain = await getRepository(Domain).findOne({ name: 'SYSTEM' })
+
+    for (let i = 0; i < roles.length; i++) {
+      const role = roles[i]
+      role.domain = await getRepository(Domain).findOne({ name: role.domainName })
+    }
 
     try {
-      await repository.save(
-        roles.map(role => {
-          return {
-            ...role,
-            domain
-          }
-        })
-      )
+      await getRepository(Role).save(roles)
     } catch (e) {
       console.error(e)
     }

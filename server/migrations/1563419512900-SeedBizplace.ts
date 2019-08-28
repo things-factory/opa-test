@@ -1,8 +1,7 @@
 import { Bizplace, Company } from '@things-factory/biz-base'
-import { csvHeaderCamelizer } from '@things-factory/shell'
+import { csvHeaderCamelizer, Domain } from '@things-factory/shell'
 import path from 'path'
 import { getRepository, MigrationInterface, QueryRunner } from 'typeorm'
-import { Domain } from '@things-factory/shell'
 
 const seedFilePath = '../../seeds/bizplace.csv'
 
@@ -12,14 +11,14 @@ export class SeedBizplace1563419512900 implements MigrationInterface {
 
     for (let i = 0; i < bizplaces.length; i++) {
       const bizplace = bizplaces[i]
-      bizplace.company = await getRepository(Company).findOne({ where: { name: bizplace.companyName } })
-      bizplace.domain = await getRepository(Domain).save({ name: bizplace.name })
+      bizplace.company = await getRepository(Company).findOne({ name: bizplace.companyName })
+      bizplace.domain = await getRepository(Domain).findOne({ name: bizplace.domainName })
+    }
 
-      try {
-        await getRepository(Bizplace).save(bizplace)
-      } catch (e) {
-        console.error(e)
-      }
+    try {
+      await getRepository(Bizplace).save(bizplaces)
+    } catch (e) {
+      console.error(e)
     }
   }
 
@@ -31,7 +30,7 @@ export class SeedBizplace1563419512900 implements MigrationInterface {
         .createQueryBuilder()
         .delete()
         .from(Bizplace)
-        .where('name IN (:...names)', { names: json.map(record => record.name) })
+        .where('name IN (:...names)', { names: json.map((record: any) => record.name) })
         .execute()
     } catch (e) {
       console.error(e)

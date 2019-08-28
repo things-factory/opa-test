@@ -7,20 +7,23 @@ const seedFilePath = '../../seeds/menu-column.csv'
 
 export class SeedMenuColumn1563445511626 implements MigrationInterface {
   public async up(queryRunner: QueryRunner): Promise<any> {
-    const repository = getRepository(MenuColumn)
-    const domainRepository = getRepository(Domain)
-    const menuRepository = getRepository(Menu)
-
     const menuColumns = await csvHeaderCamelizer(path.resolve(__dirname, seedFilePath))
-
-    for (let i = 0; i < menuColumns.length; i++) {
-      const menuColumn = menuColumns[i]
-      menuColumn.domain = await domainRepository.findOne({ where: { name: 'SYSTEM' } })
-      menuColumn.menu = await menuRepository.findOne({ where: { name: menuColumn.menuName } })
-    }
+    const domains = await getRepository(Domain).find()
 
     try {
-      await repository.save(menuColumns)
+      for (let i = 0; i < domains.length; i++) {
+        const domain = domains[i]
+
+        for (let j = 0; j < menuColumns.length; j++) {
+          const menuColumn = menuColumns[j]
+          menuColumn.domain = domain
+          menuColumn.menu = await getRepository(Menu).findOne({ name: menuColumn.menuName })
+
+          await getRepository(MenuColumn).save({
+            ...menuColumn
+          })
+        }
+      }
     } catch (e) {
       console.error(e)
     }

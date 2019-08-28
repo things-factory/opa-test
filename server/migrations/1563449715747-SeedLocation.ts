@@ -19,7 +19,7 @@ export class SeedLocation1563449715747 implements MigrationInterface {
         relations: ['domain']
       })
 
-      location.domain = await getRepository(Domain).findOne(location.warehouse.domain.id)
+      location.domain = location.warehouse.domain
     }
 
     try {

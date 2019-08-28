@@ -1,24 +1,17 @@
-import { MigrationInterface, QueryRunner, getRepository } from 'typeorm'
 import { Domain } from '@things-factory/shell'
+import { getRepository, MigrationInterface, QueryRunner } from 'typeorm'
 
 const SEED_DOMAINS = [
   {
     name: 'KIMEDA',
-    subdomain: 'kimeda',
-    systemFlag: true
+    subdomain: 'kimeda'
   }
 ]
 
-export class SeedDomain1566956187245 implements MigrationInterface {
+export class SeedDomain1100000000000 implements MigrationInterface {
   public async up(queryRunner: QueryRunner): Promise<any> {
-    const repository = getRepository(Domain)
-
     try {
-      SEED_DOMAINS.forEach(async domain => {
-        await repository.save({
-          ...domain
-        })
-      })
+      await getRepository(Domain).save(SEED_DOMAINS)
     } catch (e) {
       console.error(e)
     }

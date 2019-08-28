@@ -1,6 +1,6 @@
 import { Bizplace } from '@things-factory/biz-base'
 import { Product } from '@things-factory/sales-base'
-import { csvHeaderCamelizer, Domain } from '@things-factory/shell'
+import { csvHeaderCamelizer } from '@things-factory/shell'
 import path from 'path'
 import { getRepository, MigrationInterface, QueryRunner } from 'typeorm'
 
@@ -17,7 +17,7 @@ export class SeedProduct1563446367842 implements MigrationInterface {
         relations: ['domain']
       })
 
-      product.domain = await getRepository(Domain).findOne(product.bizplace.domain.id)
+      product.domain = product.bizplace.domain
     }
 
     try {
