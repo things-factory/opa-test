@@ -1,32 +1,54 @@
 import { User } from '@things-factory/auth-base'
+import { Bizplace } from '@things-factory/biz-base'
 import { Domain } from '@things-factory/shell'
-import { getRepository, MigrationInterface, QueryRunner } from 'typeorm'
+import { getRepository, MigrationInterface, QueryRunner, In, Transaction } from 'typeorm'
 
 const SEED_USERS = [
   {
     name: 'ACT Admin',
     email: 'admin@act.com',
     password: '1234',
-    domainName: 'KIMEDA'
+    domainName: 'KIMEDA',
+    bizplaceNames: ['Advance Chemical Trading']
   },
   {
     name: 'KIMEDA Admin',
     email: 'admin@kimeda.com',
     password: '1234',
-    domainName: 'KIMEDA'
+    domainName: 'KIMEDA',
+    bizplaceNames: ['Kimeda Sdn Bhd']
   }
 ]
 
 export class SeedUser1563419532400 implements MigrationInterface {
   public async up(queryRunner: QueryRunner): Promise<any> {
-    for (let i = 0; i < SEED_USERS.length; i++) {
-      const user: User = SEED_USERS[i]
-      ;(user.domain = await getRepository(Domain).findOne({ name: user.domainName })),
-        (user.password = User.encode(user.password))
-    }
-
     try {
-      await getRepository(User).save(SEED_USERS)
+      for (let i = 0; i < SEED_USERS.length; i++) {
+        const user: User = SEED_USERS[i]
+        const domain = await getRepository(Domain).findOne({ name: user.domainName })
+
+        const newUser = await getRepository(User).save({
+          ...user,
+          domain,
+          password: User.encode(user.password)
+        })
+
+        const bizplaces = await getRepository(Bizplace).find({
+          where: {
+            domain,
+            name: In(user.bizplaceNames)
+          },
+          relations: ['users']
+        })
+
+        for (let j = 0; j < bizplaces.length; j++) {
+          const bizplace: Bizplace = bizplaces[j]
+          await getRepository(Bizplace).save({
+            ...bizplace,
+            users: [...bizplace.users, newUser]
+          })
+        }
+      }
     } catch (e) {
       console.error(e)
     }
