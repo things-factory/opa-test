@@ -1,3 +1,53 @@
-﻿name,brn,description,address,postalCode,countryCode,type,status
-Advance Chemical Trading,983967-D,,"21,Jalan Setia Impian U13/6K, Setia Alam, Shah Alam",40170,MY,Chemical,active
-Kimeda Sdn Bhd,120075-T,,"Lot 541 Jalan yati kiri, miles 7, 4, Jalan 3, Taman Seri Dua Belas",42200,MY,Logistic,active
+name,brn,description,address,postalCode,type,countryCode,status
+Advance Chemical Trading,983967-D,,"21,Jalan Setia Impian U13/6K, Setia Alam, Shah Alam",40170,Fragrants,MY,active
+Asa Chemie (M) Sdn Bhd,705178-V,,"No.19A, Jalan Perlaluan Besi 4,Taman Sri Putri, Skudai, Johor.Malaysia.",81300,Chemical,MY,active
+BAO Chemical Sdn Bhd,810672-K,,"N-15-07,First Subang,Jalan SS15/4G,Subang Jaya,Selangor D.E.",47500,Chemical,MY,active
+BHL Chemical Sdn Bhd,807241U,,"Block E3A-3, Neo Damansara, No1,Jalan PJU 8/1,Damansara PerdanaPetaling Jaya",47820,Chemical,MY,active
+Boustead Petroleum Marketing Sdn Bhd,0005783-T,,"Level 15, Surian Tower No:1,Jalan PJU 7/3,Mutiara Damansara,  Petaling Jaya",47810,Parts,MY,active
+Celestial Chemicals Sdn Bhd,1218707-P,,"No.20 Jalan Utama 1/3, Taman Perindustrian Puchong Utama,  Puchong, Selangor D.E",47100,Chemical,MY,active
+Citichem Sdn Bhd,812069A,,"48-1,Jalan Putra Mahkota 7/6B, Putra Heights,47650 Subang Jaya.",47650,Chemical,MY,active
+Clarleo Chemicals Sdn Bhd,943949-U,,"Block E3A-03, Neo Damansara, No1, PJU 8/1, Damansara Perdana,  Petaling Jaya,Selangor Darul Ehsan,",47820,Chemical,MY,active
+CLE Chemicals (Malaysia) Sdn Bhd,683023D,,"No1, Jalan BRP 5/3, Bkt Rahman Putra,Seksyen U20,  Shah Alam,Selangor D.E.",40160,Chemical,MY,active
+Dynapolymer Sdn Bhd,1040571-A,,"No.9-1, Jalan USJ10/1G, USJ Taipan, Subang JayaSelangor Darul Ehsan",47620,Chemical,MY,active
+Finechem Trading,SA0461349-T,,"77, Jalan Bulan USJ 6/2D,  Subang Jaya,Selangor , Malaysia.",47600,Chemical,MY,active
+Formalchem Sdn Bhd,364954-H,,"Lot 23A, Level 3, Eco Sky, Batu 6.1/2, Jalan Sultan Azlan Shah,  Kuala Lumpur.",68100,Chemical,MY,active
+Future Up Sdn Bhd,1278748-T,,"No.55B,Jalan BP 7/12,Bandar Bukit Puchong, Puchong, Selangor Darul Ehsan,",47120,Chemical,MY,active
+Golden Star Corporation Sdn Bhd,800592-X,,"36A, Lorong Sentosa 4,Taman Bayu Tinggi, Klang, Selangor ,Malaysia.",41200,Chemical,MY,active
+Grace Tech Enterprise Sdn Bhd,1323631-X,,"No.44, Jalan 10/39, Petaling Garden,  Kepong, Kuala Lumpur.",52100,Chemical,MY,active
+Gremont Agrochem (Malaysia) Sdn Bhd,198891 X,,"No.7, Jalan Nilam 1/8,Taman Perindustrian Teknologi Tinggi, Shah Alam, Selangor Darul Ehsan.",40000,Chemical,MY,active
+Harrisons Peninsular Sdn Bhd,3321-M,,"9 Jalan PP Narayanan, (Jalan 222) Petaling Jaya, Selangor D.E",46100,Chemical,MY,active
+Honworld Chemicals & Machinery Sdn Bhd,654562-M,,"No.19, Jalan Serendah 26/39,Kawasan Perindustrian Shah Alam Hicom,Seksyen 26, Shah Alam, Selangor D.E.",40400,Chemical,MY,active
+Hugomix Sdn Bhd,1043237-K,,"43B, Jalan BP 7/2,Bandar Bukit Puchong 2, Selangor Darul Ehsan.",47100,Chemical,MY,active
+IEFI (M) Sdn Bhd,449851-U,,"No.28, Jalan SS 22/21,Damansara Jaya, Petaling Jaya,Selangor.",47400,Chemical,MY,active
+Ikatan Kimia Sdn Bhd,614281-U,,"No.17, Jalan Industri Mas 6,Taman Mas Puchong, Selangor,",47100,Chemical,MY,active
+Infini Chemicals (M) Sdn Bhd,1147838-W,,"20-A(1st floor)Jln Anggerik Vanilla W31/W,Kota Kemuning, Shah Alam,Selangor D.E.",40460,Chemical,MY,active
+Integrated Colour System Sdn Bhd,508476-U,,"5F-18,IOI Business Park, 1,Persiaran Puchong Jaya, Selatan,Bandar Puchong Jaya,  Puchong.",47100,Chemical,MY,active
+Intermed Sdn Bhd,174658-U,,"24, Jalan Wan Kadir 1,Taman Tun Dr.Ismail , Kuala Lumpur, Malaysia.",60000,Chemical,MY,active
+LMW Enterprise Sdn Bhd,0953237-D,,"7, Jalan 5/149J,Sri Petaling Kuala Lumpur, Malaysia.",57000,Oil & Gas equipments,MY,active
+Matahari Sdn Bhd,755903-U,,"No. 24, Jalan SS 23/11, Tmn SEA Petaling Jaya",47400,Chemical,MY,active
+Md Chemistry Sdn Bhd,1095713-U,,"12-18, Avenue Crest,Jalan Jubli Perak 22/1 Seksyen 22,Shah Alam, Selangor D.E.",40150,Chemical,MY,active
+Med Allieds Sdn Bhd,964211-P,,"B2-5-11,Solaris Dutamas,No.1 Jalan Dutamas 1, Kuala Lumpur,Malaysia.",50480,Chemical,MY,active
+Misaki (M) Sdn Bhd,203813-H,,"Lot 22, Jalan RP3,Rawang Perdana Industrial Estate, Rawang, Selangor D.E., Malaysia.",48000,Chemical,MY,active
+Moldtite Technologies Sdn Bhd,1083806-V,,"No4, Jalan BK4/3C,Bandar Kinrara, Puchong, Selangor D.E",47100,Chemical,MY,active
+Morning Court Sdn Bhd,718411-T,,"2041, Lorong Nusari Bayu 7/3L,Nusari Bayu 3,Bandar Sri Sendayan, Negeri Sembilan",71950,Chemical,MY,active
+Novas Chemcare Sdn Bhd,818226-D,,"No.11-B, Jalan USJ 1/20,Taman Subang Permai, Subang Jaya, Selangor D.E.",47600,Chemical,MY,active
+Patchem Sdn Bhd,1171146-M,,"No.32 Lot 777, Block B,Jalan Subang 4, Subang Jaya, Selangor D.E.",47610,Chemical,MY,active
+PBE Marketing,800084-P,,"No.30, Jalan Indah 1/2,Taman Industri Rawang Indah, Rawang, Selangor.",48000,Chemical,MY,active
+Petron Malaysia Refining & Marketing Bhd,3927V,,"Level 10, Menara I & P 1, Building KL No.46, Jalan Dungun, Damansara Heights Kuala Lumpur.",50490,Pumps,MY,active
+PolyGreen Chemicals (Malaysia) Sdn Bhd,730832-M,,"No.24 Jalan Wan Kadir 1,Taman Tun Dr.Ismail Kuala Lumpur,Malaysia",60000,Chemical,MY,active
+Prestigious Wines (M) Sdn Bhd,0052712-A,,"Suite 3.03, 2nd Floor,Box No.206, Wisma Central Jln Ampang Kuala Lumpur.",50450,Wines,MY,active
+Procare Chemicals Sdn Bhd,1134714-H,,"Block E,3A-03, Neo Damansara,No 1, Jalan PJU 8/1,Damansara Perdana,  Petaling Jaya.",47820,Chemical,MY,active
+Proconnex Sdn Bhd,117303-D,,"E-2-22, IOI Boulevard, Jalan Kenari 5,Bandar Puchong Jaya, Selangor ,Malaysia.",47170,Chemical,MY,active
+Publichem Sdn Bhd,811511-H,,"48-1,Jalan Putra Mahkota 7/6B,Putra Heights, Subang Jaya.",47650,Chemical,MY,active
+PES Oil & Gas Services Sdn Bhd,1061833-X,,"MI-06-05, Atrium Tower,Jalan Cempaka SD12/5,Bandar Sri Damansara, Kuala Lumpur.",55200,Parts,MY,active
+Rotowell Enterprise Sdn Bhd,252248-M,,"Lot 2, Jalan Kecapi 33/2,Elite Industrial Park,Off Jalan Bkt Kemuning, Shah Alam.",40400,Chemical,MY,active
+Sinosuez Chemical & Engineering Sdn Bhd,542697-M,,"No: 77, Jalan Pendamar 27/90, Section 27, Shah Alam,Selangor D.E.",40000,Chemical,MY,active
+The Valspar (M) Corporation Sdn Bhd,208294-A,,"Lot 756, Jalan Haji Sirat,Off Jalan Kapar , Klang , Selangor D.E.",42100,Chemical,MY,active
+Titan (M) Sdn Bhd ,17252 M,,"5 & 7 Lorong SS 13/6A,Subang Jaya Industrial Estate, Subang Jaya, Selangor,",47500,Consumers,MY,active
+Titan Oil & Gas Sdn Bhd,261366-A,,"No.4,5 &7 Lorong SS 13/6A,Off Jln SS13/ 6,Subang Jaya Industrial Estate, Subang Jaya, Selangor.Malaysia.",47500,Pumps,MY,active
+Trinity Pack (M) Sdn Bhd,1090276-H,,"No: 60, Jalan SP 4/15,Bandar Saujana Putra, Jenjarom,Kuala Langat ",42610,Chemical,MY,active
+Unirise (M) Sdn Bhd,0029070-K,,"No.21, Lorong Kampar, Kawasan 15,Off Jalan Bukit Kuda, Klang, Selangor D.E.",41300,Chemical,MY,active
+Versatile Home Sdn Bhd,0656869-V,,"35-AD,Persiaran MPAJ,Jalan Pandan Utama,Pandan Indah,Kuala Lumpur",55100,Chemical,MY,active
+WJ Chemie Sdn Bhd,619498-A,,"D5-5-2,Block D5,Dana 1 Commercial Centrer,Jalan PJU 1A/46, PJU 1A, Petaling Jaya, Selangor",47301,Chemical,MY,active
+YL Techchem Sdn Bhd,658789-T,,"No.70 Jalan BRP 7/1B,Bukit Rahman Putra, Sungai Buloh,Selangor Darul Ehsan.",47000,Chemical,MY,active
+Yonja Performance Materials Sdn Bhd,1045173-P,,"No.2A, Jalan MJ 13,Taman Industri Meranti Jaya, Puchong, Selangor D.E.",47120,Chemical,MY,active
