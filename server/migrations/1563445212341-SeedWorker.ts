@@ -1,5 +1,5 @@
 import { Bizplace, Worker } from '@things-factory/biz-base'
-import { csvHeaderCamelizer } from '@things-factory/shell'
+import { csvHeaderCamelizer, Domain } from '@things-factory/shell'
 import path from 'path'
 import { getRepository, MigrationInterface, QueryRunner } from 'typeorm'
 
@@ -11,6 +11,7 @@ export class SeedWorker1563445212341 implements MigrationInterface {
 
     for (let i = 0; i < workers.length; i++) {
       const worker = workers[i]
+      worker.domain = await getRepository(Domain).findOne({ name: worker.domainName })
       worker.bizplace = await getRepository(Bizplace).findOne({ name: worker.bizplaceName })
     }
 
