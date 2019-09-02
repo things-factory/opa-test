@@ -6,11 +6,13 @@ VAS Work Order,SCREEN,400,false,STATIC,vas-work-order,,,vas,,,Inbound
 Company,SCREEN,100,false,STATIC,company-list,,,companies,,,Master Data
 Company Profile,SCREEN,200,true,STATIC,company-profile,,,company_profile,id,name,Master Data
 Product,SCREEN,300,false,STATIC,product-list,,,products,,,Master Data
+VAS,SCREEN,400,false,statIC,vas-list,,,VAS,,,Master Data
 Bizplace,SCREEN,500,false,STATIC,bizplace-list,,,bizplaces,,,Master Data
 Warehouse,SCREEN,600,false,STATIC,warehouse-list,,,warehouses,,,Master Data
 Location,SCREEN,700,false,STATIC,location-list,,,locations,,,Master Data
 Transport Vehicle,SCREEN,800,false,STATIC,transport-vehicle,,,transport_vehicle,,,Master Data
-Worker,SCREEN,900,false,STATIC,worker-list,,,workers,,,Master Data
+Transport Driver,SCREEN,900,false,STATIC,transport-drivers,,,transport_driver,,,Master Data
+Worker,SCREEN,1000,false,STATIC,worker-list,,,workers,,,Master Data
 Quotation Estimate,SCREEN,100,true,RESOURCE,,quotations,MENU,quotations,id,name,Order
 Quotation History,SCREEN,200,true,RESOURCE,,quotations,MENU,quotation_histories,id,name,Order
 Create Arrival Notice,SCREEN,300,false,STATIC,create-arrival-notice,,,arrival_notice,,,Order
