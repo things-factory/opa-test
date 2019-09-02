@@ -1,4 +1,5 @@
 name,description,domainName
+Super Admin,full priviledge,KIMEDA
 Business Owner,admin,KIMEDA
 Warehouse Supervisor,control all zones,KIMEDA
 Office Admin,control admin stuff,KIMEDA

@@ -1,0 +1,23 @@
+roleName,priviledgeName,priviledgeCategory,domainName
+Super Admin,query,user,KIMEDA
+Super Admin, mutation,user,KIMEDA
+Super Admin,query,bizplace,KIMEDA
+Super Admin,mutation,bizplace,KIMEDA
+Super Admin,query,company,KIMEDA
+Super Admin,mutation,company,KIMEDA
+Super Admin,query,contact_point,KIMEDA
+Super Admin,mutation,contact_point,KIMEDA
+Super Admin,query,customer,KIMEDA
+Super Admin,mutation,customer,KIMEDA
+Super Admin,query,vendor,KIMEDA
+Super Admin,mutation,vendor,KIMEDA
+Super Admin,query,worker,KIMEDA
+Super Admin,mutation,worker,KIMEDA
+Super Admin,query,order,KIMEDA
+Super Admin,mutation,order,KIMEDA
+Super Admin,query,transport,KIMEDA
+Super Admin,mutation,transport,KIMEDA
+Super Admin,query,vas,KIMEDA
+Super Admin,mutation,vas,KIMEDA
+Super Admin,query,warehouse,KIMEDA
+Super Admin,mutation,warehouse,KIMEDA

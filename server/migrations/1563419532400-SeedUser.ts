@@ -1,4 +1,4 @@
-import { User } from '@things-factory/auth-base'
+import { User, Role } from '@things-factory/auth-base'
 import { Bizplace } from '@things-factory/biz-base'
 import { Domain } from '@things-factory/shell'
 import { getRepository, MigrationInterface, QueryRunner, In, Transaction } from 'typeorm'
@@ -9,14 +9,16 @@ const SEED_USERS = [
     email: 'admin@act.com',
     password: '1234',
     domainName: 'KIMEDA',
-    bizplaceNames: ['Advance Chemical Trading']
+    bizplaceNames: ['Advance Chemical Trading'],
+    roleName: 'Super Admin'
   },
   {
     name: 'KIMEDA Admin',
     email: 'admin@kimeda.com',
     password: '1234',
     domainName: 'KIMEDA',
-    bizplaceNames: ['Kimeda Sdn Bhd']
+    bizplaceNames: ['Kimeda Sdn Bhd'],
+    roleName: 'Super Admin'
   }
 ]
 
