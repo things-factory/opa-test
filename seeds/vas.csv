@@ -1,0 +1,29 @@
+name,description,currency,defaultPrice,domainName,bizplaceName
+DOs & Invoice (Set),Administration Charges for preparation of Delivery Orders and Invoices,RM,1.50,KIMEDA,Kimeda Sdn Bhd
+Label (Unit),Labour charge to relabel ,RM,0.20,KIMEDA,Kimeda Sdn Bhd
+Label (The Valspar) (Unit),Labour charge to relabel ,RM,1.00,KIMEDA,Kimeda Sdn Bhd
+Front Lashing (Unit),Front lashing in container ,RM,15.00,KIMEDA,Kimeda Sdn Bhd
+Front Belt Lashing (Unit),Front belt lasing in container ,RM,40.00,KIMEDA,Kimeda Sdn Bhd
+Pallet (Unit),Used wooden pallet,RM,15.00,KIMEDA,Kimeda Sdn Bhd
+Printing DOs (Pc),Adminstration charges for preparation of Delivery Order ,RM,0.50,KIMEDA,Kimeda Sdn Bhd
+Recap seal (Unit),Labour charge to recap seal ,RM,0.20,KIMEDA,Kimeda Sdn Bhd
+Repack (Jbag),Labour charge to repack ,RM,80.00,KIMEDA,Kimeda Sdn Bhd
+Repack (Drum),Labour charge to repack ,RM,20.00,KIMEDA,Kimeda Sdn Bhd
+Repack (IBC),Labour charge to repack ,RM,80.00,KIMEDA,Kimeda Sdn Bhd
+Repack (Pail/Bag/Ctn),Labour charge to repack ,RM,1.00,KIMEDA,Kimeda Sdn Bhd
+Repainting (Unit),Labour charge to repaint drum,RM,4.00,KIMEDA,Kimeda Sdn Bhd
+Repalletized (Unit),Labour charge to repalletize ,RM,12.50,KIMEDA,Kimeda Sdn Bhd
+Repatch (Bag),Labour charge to repatch damage bags,RM,1.00,KIMEDA,Kimeda Sdn Bhd
+Sandoff label (Unit),Labour charge to sand/grind off label ,RM,1.00,KIMEDA,Kimeda Sdn Bhd
+Sewing (Bag),Labour charge to resew bags  ,RM,0.50,KIMEDA,Kimeda Sdn Bhd
+Full Shrink Wrap (Unit),Stretch Film wrapping(Full),RM,12.00,KIMEDA,Kimeda Sdn Bhd
+Normal Shrink Wrap (Unit),Stretch Film wrapping(Normal),RM,8.00,KIMEDA,Kimeda Sdn Bhd
+Stirring (Drum),Labour charges to stir product ,RM,20.00,KIMEDA,Kimeda Sdn Bhd
+Strapping (Pallet Size),To provide strapping ,RM,8.00,KIMEDA,Kimeda Sdn Bhd
+Touchup plt (Unit),Labour charge to spray paint on pallet incl. materials ,RM,0.15,KIMEDA,Kimeda Sdn Bhd
+Washing (Drum),Labour charge to wash and dry,RM,0.50,KIMEDA,Kimeda Sdn Bhd
+Washing (Unit),Labour charge to clean IBC ,RM,38.00,KIMEDA,Kimeda Sdn Bhd
+Fill Bag Weighting (Unit),Labour charge to weight filled bag ,RM,1.00,KIMEDA,Kimeda Sdn Bhd
+Drums Weighting (Drum),Labour charge to weight drums ,RM,1.00,KIMEDA,Kimeda Sdn Bhd
+IBC Weighting (Unit),Labour charge to weight IBC ,RM,5.00,KIMEDA,Kimeda Sdn Bhd
+Handling (Bottle),Labour charge to conduct sampling,RM,20.00,KIMEDA,Kimeda Sdn Bhd
