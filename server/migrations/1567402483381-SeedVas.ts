@@ -1,6 +1,5 @@
-import { Bizplace } from '@things-factory/biz-base'
 import { Vas } from '@things-factory/sales-base'
-import { csvHeaderCamelizer } from '@things-factory/shell'
+import { csvHeaderCamelizer, Domain } from '@things-factory/shell'
 import path from 'path'
 import { getRepository, MigrationInterface, QueryRunner } from 'typeorm'
 
@@ -12,12 +11,10 @@ export class SeedVas1567402483381 implements MigrationInterface {
 
     for (let i = 0; i < vass.length; i++) {
       const vas = vass[i]
-      vas.bizplace = await getRepository(Bizplace).findOne({
-        where: { name: vas.bizplaceName },
-        relations: ['domain']
-      })
 
-      vas.domain = vas.bizplace.domain
+      vas.domain = await getRepository(Domain).findOne({
+        where: { name: vas.domainName }
+      })
     }
 
     try {
