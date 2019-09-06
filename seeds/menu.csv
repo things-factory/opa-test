@@ -1,37 +1,37 @@
-﻿name,menu_type,rank,hidden_flag,routing_type,template,resource_name,resource_type,resource_url,id_field,title_field,group_name
-Inbound Work Order,SCREEN,100,false,STATIC,inbound-work-order,,,inbound_work_order,,,Inbound
-Receive Goods,SCREEN,200,false,STATIC,receive-goods,,,receiving,,,Inbound
-Putaway Goods,SCREEN,300,false,STATIC,putaway-goods,,,putaway,,,Inbound
-VAS Work Order,SCREEN,400,false,STATIC,vas-work-order,,,vas_work_order,,,Inbound
-Company,SCREEN,100,false,STATIC,company-list,,,companies,,,Master Data
-Company Profile,SCREEN,200,true,STATIC,company-profile,,,company_profile,id,name,Master Data
-Product,SCREEN,300,false,STATIC,product-list,,,products,,,Master Data
-VAS,SCREEN,400,false,statIC,vas-list,,,vas,,,Master Data
-Bizplace,SCREEN,500,false,STATIC,bizplace-list,,,bizplaces,,,Master Data
-Warehouse,SCREEN,600,false,STATIC,warehouse-list,,,warehouses,,,Master Data
-Location,SCREEN,700,false,STATIC,location-list,,,locations,,,Master Data
-Transport Vehicle,SCREEN,800,false,STATIC,transport-vehicle,,,transport_vehicle,,,Master Data
-Transport Driver,SCREEN,900,false,STATIC,transport-driver,,,transport_driver,,,Master Data
-Worker,SCREEN,1000,false,STATIC,worker-list,,,workers,,,Master Data
-Quotation Estimate,SCREEN,100,true,RESOURCE,,quotations,MENU,quotations,id,name,Order
-Quotation History,SCREEN,200,true,RESOURCE,,quotations,MENU,quotation_histories,id,name,Order
-Create Arrival Notice,SCREEN,300,false,STATIC,create-arrival-notice,,,arrival_notice,,,Order
-Confirm Arrival Notice,SCREEN,400,false,STATIC,confirm-arrival-notice,,,confirm_arrival_notice,,,Order
-Receive Arrival Notice,SCREEN,500,false,STATIC,receive-arrival-notice,,,receive_arrival_notice,,,Order
-Create Release of Goods,SCREEN,600,false,STATIC,create-release-goods,,,release_goods,,,Order
-Confirm Release of Goods,SCREEN,700,false,STATIC,confirm-release-goods,,,confirm_release_goods,,,Order
-Receive Release of Goods,SCREEN,800,false,STATIC,receive-release-goods,,,receive_release_goods,,,Order
-Create Transport Order,SCREEN,900,false,STATIC,create-transport-order,,,transport,,,Order
-Confirm Transport Order,SCREEN,1000,false,STATIC,confirm-transport-order,,,confirm_transport,,,Order
-Receive Transport Order,SCREEN,1100,false,STATIC,receive-transport-order,,,receive_transport,,,Order
-Update Claim chit,SCREEN,1200,false,STATIC,update-claim-chit,,,claim_chit,,,Order
-Summary Bill Amount,SCREEN,1300,true,STATIC,summary-bill-amount,,,bill,,,Order
-Outbound Work Order,SCREEN,100,false,STATIC,outbound-work-order,,,outbound,,,Outbound
-Picking,SCREEN,200,false,STATIC,picking-by-product,,,picking_product,,,Outbound
-Picking by UNIT,SCREEN,300,true,STATIC,picking-by-unit,,,picking_unit,,,Outbound
-Onhand Stock,SCREEN,100,false,STATIC,onhand-stock,,,onhand_stock,,,Stock
-Intransit Stock,SCREEN,200,false,STATIC,intransit-stock,,,intransit_stock,,,Stock
-User,SCREEN,100,false,STATIC,system-user,,,users,,,System
-Role,SCREEN,200,false,STATIC,system-role,,,roles,,,System
-Menu,SCREEN,300,false,STATIC,system-menu,,,menus,,,System
-Domain,SCREEN,400,false,STATIC,system-domain,,,domains,,,System
+﻿name,menu_type,rank,hidden_flag,routing_type,template,category,resource_name,resource_type,resource_url,id_field,title_field,group_name
+Inbound Work Order,SCREEN,100,false,static,inbound-work-order,owner,,,inbound_work_order,,,Inbound
+Receive Goods,SCREEN,200,false,static,receive-goods,owner,,,receiving,,,Inbound
+Putaway Goods,SCREEN,300,false,static,putaway-goods,owner,,,putaway,,,Inbound
+VAS Work Order,SCREEN,400,false,static,vas-work-order,owner,,,vas_work_order,,,Inbound
+Company,SCREEN,100,false,static,company-list,,,,companies,,,Master Data
+Company Profile,SCREEN,200,true,static,company-profile,,,,company_profile,,,Master Data
+Product,SCREEN,300,false,static,product-list,customer,,,products,,,Master Data
+VAS,SCREEN,400,false,statIC,vas-list,owner,,,vas,,,Master Data
+Bizplace,SCREEN,500,false,static,bizplace-list,,,,bizplaces,,,Master Data
+Warehouse,SCREEN,600,false,static,warehouse-list,owner,,,warehouses,,,Master Data
+Location,SCREEN,700,false,static,location-list,owner,,,locations,,,Master Data
+Transport Vehicle,SCREEN,800,false,static,transport-vehicle,owner,,,transport_vehicle,,,Master Data
+Transport Driver,SCREEN,900,false,static,transport-driver,owner,,,transport_driver,,,Master Data
+Worker,SCREEN,1000,false,static,worker-list,owner,,,workers,,,Master Data
+Create Quotation,SCREEN,100,false,static,create-quotation,owner,,,create_quotation,,,Billing
+Quotations,SCREEN,200,false,static,quotation-list,owner,,,quotations,,,Billing
+Invoices,SCREEN,300,false,static,invoice-list,owner,,,invoices,,,Billing
+Create Claim Chit,SCREEN,400,false,static,create-claim-chit,owner,,,create_claim_chit,,,Billing
+Summary Bill Amount,SCREEN,500,true,static,summary-bill-amount,owner,,,bill,,,Billing
+Create Arrival Notice,SCREEN,100,false,static,create-arrival-notice,customer,,,create_arrival_notice,,,Order
+Arrival Notices,SCREEN,200,false,static,arrival-notice-list,,,,arrival_notices,,,Order
+Create Release of Goods,SCREEN,300,false,static,create-release-goods,customer,,,create_release_goods,,,Order
+Release of Goods,SCREEN,400,false,static,release-goods-list,,,,release_goods,,,Order
+Create Transport Order,SCREEN,500,false,static,create-transport-order,customer,,,create_transport_order,,,Order
+Transport Orders,SCREEN,600,false,static,transport-order-list,,,,transport_orders,,,Order
+Create VAS Order,SCREEN,700,false,static,create-vas-order,customer,,,create_vas_order,,,Order
+Vas Orders,SCREEN,800,false,static,vas-order-list,,,,vas_orders,,,Order
+Outbound Work Order,SCREEN,100,false,static,outbound-work-order,owner,,,outbound,,,Outbound
+Picking,SCREEN,200,false,static,picking-by-product,owner,,,picking_product,,,Outbound
+Picking by UNIT,SCREEN,300,true,static,picking-by-unit,owner,,,picking_unit,,,Outbound
+Onhand Inventory,SCREEN,100,false,static,onhand-inventory,,,,onhand_inventory,,,Inventory
+Intransit Invetory,SCREEN,200,false,static,intransit_inventory,,,,intransit_inventory,,,Inventory
+User,SCREEN,100,false,static,system-user,,,,users,,,System
+Role,SCREEN,200,false,static,system-role,,,,roles,,,System
+Menu,SCREEN,300,false,static,system-menu,,,,menus,,,System
+Setting,SCREEN,500,false,static,system-setting,owner,,,settings,,,System

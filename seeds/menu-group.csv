@@ -1,7 +1,8 @@
 name,menu_type,rank,hidden_flag
 Master Data,MENU,10,false
 Order,MENU,20,false
-Stock,MENU,30,false
-System,MENU,40,false
+Billing,MENU,30,false
+Inventory,MENU,40,false
+System,MENU,50,false
 Inbound,MENU,60,false
 Outbound,MENU,70,false
