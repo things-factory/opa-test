@@ -21,3 +21,6 @@ Super Admin,query,vas,KIMEDA
 Super Admin,mutation,vas,KIMEDA
 Super Admin,query,warehouse,KIMEDA
 Super Admin,mutation,warehouse,KIMEDA
+Super Admin,query,setting,KIMEDA
+Super Admin,mutation,setting,KIMEDA
+Super Admin,role,owner,KIMEDA
