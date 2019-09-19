@@ -25,12 +25,13 @@ Create Release of Goods,SCREEN,300,false,static,create-release-goods,customer,,,
 Release of Goods,SCREEN,400,false,static,release-goods-list,,,,release_goods,,,Order
 Create Delivery Order,SCREEN,500,false,static,create-delivery-order,customer,,,create_delivery_order,,,Order
 Create Collection Order,SCREEN,600,false,static,create-collection-order,customer,,,create_collection_order,,,Order
-Delivery Orders,SCREEN,700,false,static,delivery-order-list,,,,delivery_orders,,,Order
+Delivery Orders,SCREEN,700,false,static,delivery-order-list,customer,,,delivery_orders,,,Order
 Delivery Order Requests,SCREEN,800,false,static,delivery-order-requests,owner,,,delivery_order_requests,,,Order
-Collection Orders,SCREEN,900,false,static,collection-order-list,,,,collection_orders,,,Order
-Create VAS Order,SCREEN,1000,false,static,create-vas-order,customer,,,create_vas_order,,,Order
-Vas Orders,SCREEN,1100,false,static,vas-order-list,,,,vas_orders,,,Order
-Arrival Notice Requests,SCREEN,1200,false,static,arrival-notice-requests,owner,,,arrival_notice_requests,,,Order
+Collection Orders,SCREEN,900,false,static,collection-order-list,customer,,,collection_orders,,,Order
+Collection Order Requests,SCREEN,1000,false,static,collection-order-requests,owner,,,collection_order_requests,,,Order
+Create VAS Order,SCREEN,1100,false,static,create-vas-order,customer,,,create_vas_order,,,Order
+Vas Orders,SCREEN,1200,false,static,vas-order-list,,,,vas_orders,,,Order
+Arrival Notice Requests,SCREEN,1300,false,static,arrival-notice-requests,owner,,,arrival_notice_requests,,,Order
 Outbound Work Order,SCREEN,100,false,static,outbound-work-order,owner,,,outbound,,,Outbound
 Picking,SCREEN,200,false,static,picking-by-product,owner,,,picking_product,,,Outbound
 Picking by UNIT,SCREEN,300,true,static,picking-by-unit,owner,,,picking_unit,,,Outbound
