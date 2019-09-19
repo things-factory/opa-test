@@ -25,3 +25,4 @@ Super Admin,role,owner,KIMEDA
 Customer,role,customer,KIMEDA
 Customer,query,order,KIMEDA
 Customer,mutation,order,KIMEDA
+Customer,query,vas,KIMEDA
