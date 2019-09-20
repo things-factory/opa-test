@@ -161,19 +161,21 @@ const commonCodes = [
 
 export class SeedCommonCode1568872446334 implements MigrationInterface {
   public async up(queryRunner: QueryRunner): Promise<any> {
+    const domain = await getRepository(Domain).findOne({ where: { name: 'KIMEDA' } })
+
     commonCodes.forEach(async commonCode => {
       const newCommonCode = await getRepository(CommonCode).save({
-        ...commonCodes,
-        domain: await getRepository(Domain).findOne({ where: { name: 'KIMEDA' } })
+        ...commonCode,
+        domain
       })
 
       await getRepository(CommonCodeDetail).insert(
-        commonCode.commonCodeDetails.map(async (commonCodeDetail, index) => {
+        commonCode.commonCodeDetails.map((commonCodeDetail, index) => {
           return {
             ...commonCodeDetail,
             rank: (index + 1) * 10,
             commonCode: newCommonCode,
-            domain: await getRepository(Domain).findOne({ where: { name: 'KIMEDA' } })
+            domain
           }
         })
       )
