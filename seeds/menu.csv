@@ -5,6 +5,7 @@ Putaway Goods,SCREEN,300,false,static,putaway-goods,owner,,,putaway,,,Inbound
 VAS Work Order,SCREEN,400,false,static,vas-work-order,owner,,,vas_work_order,,,Inbound
 Worksheets,SCREEN,500,false,static,worksheet-list,owner,,,worksheets,,,Inbound
 Unloading,SCREEN,600,false,static,unload-product,owner,,,unloading,,,Inbound
+Execute VAS,SCREEN,700,false,static,execute-vas,owner,,,execute_vas,,,Inbound
 Company,SCREEN,100,false,static,company-list,,,,companies,,,Master Data
 Company Profile,SCREEN,200,true,static,company-profile,,,,company_profile,,,Master Data
 Product,SCREEN,300,false,static,product-list,customer,,,products,,,Master Data
