@@ -34,7 +34,7 @@ Delivery Order Requests,SCREEN,1100,false,static,delivery-order-requests,owner,,
 Collection Order Requests,SCREEN,1200,false,static,collection-order-requests,owner,,,collection_order_requests,,,Order
 Create VAS Order,SCREEN,1300,false,static,create-vas-order,customer,,,create_vas_order,,,Order
 Vas Orders,SCREEN,1400,false,static,vas-order-list,,,,vas_orders,,,Order
-Vas Requsts,SCREEN,1500,false,static,vas-order-requests,,,,vas_requests,,,Order
+Vas Requests,SCREEN,1500,false,static,vas-order-requests,owner,,,vas_requests,,,Order
 Outbound Work Order,SCREEN,100,false,static,outbound-work-order,owner,,,outbound,,,Outbound
 Picking,SCREEN,200,false,static,picking-by-product,owner,,,picking_product,,,Outbound
 Picking by UNIT,SCREEN,300,true,static,picking-by-unit,owner,,,picking_unit,,,Outbound
