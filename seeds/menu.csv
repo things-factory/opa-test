@@ -11,7 +11,6 @@ Company Profile,SCREEN,200,true,static,company-profile,,,,company_profile,,,Mast
 Product,SCREEN,300,false,static,product-list,customer,,,products,,,Master Data
 VAS,SCREEN,400,false,static,vas-list,owner,,,vas,,,Master Data
 Warehouse,SCREEN,600,false,static,warehouse-list,owner,,,warehouses,,,Master Data
-Location,SCREEN,700,false,static,location-list,owner,,,locations,,,Master Data
 Transport Vehicle,SCREEN,800,false,static,transport-vehicle,owner,,,transport_vehicle,,,Master Data
 Transport Driver,SCREEN,900,false,static,transport-driver,owner,,,transport_driver,,,Master Data
 Worker,SCREEN,1000,false,static,worker-list,owner,,,workers,,,Master Data
