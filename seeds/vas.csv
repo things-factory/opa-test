@@ -1,7 +1,6 @@
 name,description,currency,defaultPrice,domainName
 DOs & Invoice (Set),Administration Charges for preparation of Delivery Orders and Invoices,RM,1.50,KIMEDA
 Label (Unit),Labour charge to relabel ,RM,0.20,KIMEDA
-Label (The Valspar) (Unit),Labour charge to relabel ,RM,1.00,KIMEDA
 Front Lashing (Unit),Front lashing in container ,RM,15.00,KIMEDA
 Front Belt Lashing (Unit),Front belt lasing in container ,RM,40.00,KIMEDA
 Pallet (Unit),Used wooden pallet,RM,15.00,KIMEDA
