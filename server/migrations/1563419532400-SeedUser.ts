@@ -12,7 +12,7 @@ const SEED_USERS = [
     bizplaces: [
       {
         name: 'Advance Chemical Trading',
-        main: true
+        mainBizplace: true
       }
     ],
     roleName: 'Super Admin'
@@ -25,11 +25,10 @@ const SEED_USERS = [
     bizplaces: [
       {
         name: 'Kimeda Sdn Bhd',
-        main: true
+        mainBizplace: true
       },
       {
-        name: 'Advance Chemical Trading',
-        main: false
+        name: 'Advance Chemical Trading'
       }
     ],
     roleName: 'Super Admin'
@@ -61,7 +60,8 @@ export class SeedUser1563419532400 implements MigrationInterface {
           await getRepository(BizplaceUser).insert({
             bizplace,
             user: newUser,
-            myBizplace: user.bizplaces.filter((userBizplace: any) => userBizplace.name === bizplace.name)[0].main
+            mainBizplace: user.bizplaces.filter((userBizplace: any) => userBizplace.name === bizplace.name)[0]
+              .mainBizplace
           })
         })
       }
