@@ -1,5 +1,5 @@
 import { Bizplace } from '@things-factory/biz-base'
-import { Product } from '@things-factory/sales-base'
+import { Product } from '@things-factory/product-base'
 import { csvHeaderCamelizer } from '@things-factory/shell'
 import path from 'path'
 import { getRepository, MigrationInterface, QueryRunner } from 'typeorm'
