@@ -1,5 +1,5 @@
 import { User, Role } from '@things-factory/auth-base'
-import { Bizplace } from '@things-factory/biz-base'
+import { Bizplace, BizplaceUser } from '@things-factory/biz-base'
 import { Domain } from '@things-factory/shell'
 import { getRepository, MigrationInterface, QueryRunner, In, Transaction } from 'typeorm'
 
@@ -9,7 +9,12 @@ const SEED_USERS = [
     email: 'admin@act.com',
     password: '1234',
     domainName: 'KIMEDA',
-    bizplaceNames: ['Advance Chemical Trading'],
+    bizplaces: [
+      {
+        name: 'Advance Chemical Trading',
+        main: true
+      }
+    ],
     roleName: 'Super Admin'
   },
   {
@@ -17,7 +22,16 @@ const SEED_USERS = [
     email: 'admin@kimeda.com',
     password: '1234',
     domainName: 'KIMEDA',
-    bizplaceNames: ['Kimeda Sdn Bhd'],
+    bizplaces: [
+      {
+        name: 'Kimeda Sdn Bhd',
+        main: true
+      },
+      {
+        name: 'Advance Chemical Trading',
+        main: false
+      }
+    ],
     roleName: 'Super Admin'
   }
 ]
@@ -26,7 +40,7 @@ export class SeedUser1563419532400 implements MigrationInterface {
   public async up(queryRunner: QueryRunner): Promise<any> {
     try {
       for (let i = 0; i < SEED_USERS.length; i++) {
-        const user: User = SEED_USERS[i]
+        const user: any = SEED_USERS[i]
         const domain = await getRepository(Domain).findOne({ name: user.domainName })
 
         const newUser = await getRepository(User).save({
@@ -38,18 +52,18 @@ export class SeedUser1563419532400 implements MigrationInterface {
         const bizplaces = await getRepository(Bizplace).find({
           where: {
             domain,
-            name: In(user.bizplaceNames)
+            name: In(user.bizplaces.map((bizplace: Bizplace) => bizplace.name))
           },
           relations: ['users']
         })
 
-        for (let j = 0; j < bizplaces.length; j++) {
-          const bizplace: Bizplace = bizplaces[j]
-          await getRepository(Bizplace).save({
-            ...bizplace,
-            users: [...bizplace.users, newUser]
+        bizplaces.forEach(async (bizplace: Bizplace) => {
+          await getRepository(BizplaceUser).insert({
+            bizplace,
+            user: newUser,
+            myBizplace: user.bizplaces.filter((userBizplace: any) => userBizplace.name === bizplace.name)[0].main
           })
-        }
+        })
       }
     } catch (e) {
       console.error(e)
