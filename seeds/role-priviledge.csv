@@ -22,7 +22,10 @@ Super Admin,mutation,vas,KIMEDA
 Super Admin,query,warehouse,KIMEDA
 Super Admin,mutation,warehouse,KIMEDA
 Super Admin,role,owner,KIMEDA
+Super Admin,query,inventory,KIMEDA
+Super Admin,mutation,inventory,KIMEDA
 Customer,role,customer,KIMEDA
 Customer,query,order,KIMEDA
 Customer,mutation,order,KIMEDA
 Customer,query,vas,KIMEDA
+Customer,query,inventory,KIMEDA
