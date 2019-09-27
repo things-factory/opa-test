@@ -18,7 +18,8 @@ Create Quotation,SCREEN,100,false,static,create-quotation,owner,,,create_quotati
 Quotations,SCREEN,200,false,static,quotation-list,owner,,,quotations,,,Billing
 Invoices,SCREEN,300,false,static,invoice-list,owner,,,invoices,,,Billing
 Create Claim Chit,SCREEN,400,false,static,create-claim-chit,owner,,,create_claim_chit,,,Billing
-Summary Bill Amount,SCREEN,500,true,static,summary-bill-amount,owner,,,bill,,,Billing
+Claim Chits,SCREEN,500,false,static,claim-chit-list,owner,,,claim_chit_list,,,Billing
+Summary Bill Amount,SCREEN,600,true,static,summary-bill-amount,owner,,,bill,,,Billing
 Create Arrival Notice,SCREEN,100,false,static,create-arrival-notice,customer,,,create_arrival_notice,,,Order
 Arrival Notices,SCREEN,200,false,static,arrival-notice-list,customer,,,arrival_notices,,,Order
 Create Release Order,SCREEN,300,false,static,create-release-order,customer,,,create_release_order,,,Order
