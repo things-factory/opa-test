@@ -40,8 +40,9 @@ Picking,SCREEN,200,false,static,picking-by-product,owner,,,picking_product,,,Out
 Picking by UNIT,SCREEN,300,true,static,picking-by-unit,owner,,,picking_unit,,,Outbound
 Onhand Inventory,SCREEN,100,false,static,onhand-inventory,,,,onhand_inventory,,,Inventory
 Intransit Invetory,SCREEN,200,false,static,intransit_inventory,,,,intransit_inventory,,,Inventory
-User,SCREEN,100,false,static,system-user,,,,users,,,System
-Role,SCREEN,200,false,static,system-role,,,,roles,,,System
-Menu,SCREEN,300,false,static,system-menu,,,,menus,,,System
+User,SCREEN,100,false,static,system-user,owner,,,users,,,System
+Role,SCREEN,200,false,static,system-role,owner,,,roles,,,System
+Menu,SCREEN,300,false,static,system-menu,owner,,,menus,,,System
+Code,SCREEN,400,false,static,system-code,owner,,codes,,,System
 Setting,SCREEN,500,false,static,system-setting,owner,,,settings,,,System
 User Bizplaces,SCREEN,600,false,static,syste-user-bizplaces,owner,,,user_bizplaces,,,System
