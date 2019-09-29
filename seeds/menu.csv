@@ -22,7 +22,7 @@ Summary Bill Amount,SCREEN,500,true,static,summary-bill-amount,owner,,,bill,,,Bi
 Create Arrival Notice,SCREEN,100,false,static,create-arrival-notice,customer,,,create_arrival_notice,,,Order
 Arrival Notices,SCREEN,200,false,static,arrival-notice-list,customer,,,arrival_notices,,,Order
 Create Release Order,SCREEN,300,false,static,create-release-order,customer,,,create_release_order,,,Order
-Release Orders,SCREEN,400,false,static,release-order-list,,,,release_orders,,,Order
+Release Orders,SCREEN,400,false,static,release-order-list,customer,,,release_orders,,,Order
 Create Delivery Order,SCREEN,500,false,static,create-delivery-order,customer,,,create_delivery_order,,,Order
 Delivery Orders,SCREEN,600,false,static,delivery-order-list,customer,,,delivery_orders,,,Order
 Create Collection Order,SCREEN,700,false,static,create-collection-order,customer,,,create_collection_order,,,Order
