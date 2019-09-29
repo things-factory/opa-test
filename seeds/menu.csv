@@ -2,7 +2,7 @@
 Inbound Work Order,SCREEN,100,false,static,inbound-work-order,owner,,,inbound_work_order,,,Inbound
 Receive Goods,SCREEN,200,false,static,receive-goods,owner,,,receiving,,,Inbound
 VAS Work Order,SCREEN,400,false,static,vas-work-order,owner,,,vas_work_order,,,Inbound
-Unloading Worksheets,SCREEN,500,false,static,unloading-worksheet,owner,,,unloading_worksheets,,,Inbound
+Worksheets,SCREEN,500,false,static,worksheet-list,owner,,,worksheets,,,Inbound
 Unloading,SCREEN,600,false,static,unload-product,owner,,,unloading,,,Inbound
 Putaway,SCREEN,700,false,static,putaway-product,owner,,,putaway,,,Inbound
 Execute VAS,SCREEN,800,false,static,execute-vas,owner,,,execute_vas,,,Inbound
@@ -18,7 +18,8 @@ Create Quotation,SCREEN,100,false,static,create-quotation,owner,,,create_quotati
 Quotations,SCREEN,200,false,static,quotation-list,owner,,,quotations,,,Billing
 Invoices,SCREEN,300,false,static,invoice-list,owner,,,invoices,,,Billing
 Create Claim Chit,SCREEN,400,false,static,create-claim-chit,owner,,,create_claim_chit,,,Billing
-Summary Bill Amount,SCREEN,500,true,static,summary-bill-amount,owner,,,bill,,,Billing
+Claim Chits,SCREEN,500,false,static,claim-chit-list,owner,,,claim_chit_list,,,Billing
+Summary Bill Amount,SCREEN,600,true,static,summary-bill-amount,owner,,,bill,,,Billing
 Create Arrival Notice,SCREEN,100,false,static,create-arrival-notice,customer,,,create_arrival_notice,,,Order
 Arrival Notices,SCREEN,200,false,static,arrival-notice-list,customer,,,arrival_notices,,,Order
 Create Release Order,SCREEN,300,false,static,create-release-order,customer,,,create_release_order,,,Order
@@ -38,9 +39,10 @@ Outbound Work Order,SCREEN,100,false,static,outbound-work-order,owner,,,outbound
 Picking,SCREEN,200,false,static,picking-by-product,owner,,,picking_product,,,Outbound
 Picking by UNIT,SCREEN,300,true,static,picking-by-unit,owner,,,picking_unit,,,Outbound
 Onhand Inventory,SCREEN,100,false,static,onhand-inventory,,,,onhand_inventory,,,Inventory
-Intransit Invetory,SCREEN,200,false,static,intransit_inventory,,,,intransit_inventory,,,Inventory
-User,SCREEN,100,false,static,system-user,,,,users,,,System
-Role,SCREEN,200,false,static,system-role,,,,roles,,,System
-Menu,SCREEN,300,false,static,system-menu,,,,menus,,,System
+Intransit Invetory,SCREEN,200,false,static,intransit-inventory,,,,intransit_inventory,,,Inventory
+User,SCREEN,100,false,static,system-user,owner,,,users,,,System
+Role,SCREEN,200,false,static,system-role,owner,,,roles,,,System
+Menu,SCREEN,300,false,static,system-menu,owner,,,menus,,,System
+Code,SCREEN,400,false,static,system-code,owner,,codes,,,System
 Setting,SCREEN,500,false,static,system-setting,owner,,,settings,,,System
 User Bizplaces,SCREEN,600,false,static,syste-user-bizplaces,owner,,,user_bizplaces,,,System
