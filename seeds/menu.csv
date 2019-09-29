@@ -39,7 +39,7 @@ Outbound Work Order,SCREEN,100,false,static,outbound-work-order,owner,,,outbound
 Picking,SCREEN,200,false,static,picking-by-product,owner,,,picking_product,,,Outbound
 Picking by UNIT,SCREEN,300,true,static,picking-by-unit,owner,,,picking_unit,,,Outbound
 Onhand Inventory,SCREEN,100,false,static,onhand-inventory,,,,onhand_inventory,,,Inventory
-Intransit Invetory,SCREEN,200,false,static,intransit_inventory,,,,intransit_inventory,,,Inventory
+Intransit Invetory,SCREEN,200,false,static,intransit-inventory,,,,intransit_inventory,,,Inventory
 User,SCREEN,100,false,static,system-user,owner,,,users,,,System
 Role,SCREEN,200,false,static,system-role,owner,,,roles,,,System
 Menu,SCREEN,300,false,static,system-menu,owner,,,menus,,,System
