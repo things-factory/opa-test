@@ -37,6 +37,6 @@ Intransit Invetory,SCREEN,200,false,static,intransit-inventory,,,,intransit_inve
 User,SCREEN,100,false,static,system-user,owner,,,users,,,System
 Role,SCREEN,200,false,static,system-role,owner,,,roles,,,System
 Menu,SCREEN,300,false,static,system-menu,owner,,,menus,,,System
-Code,SCREEN,400,false,static,system-code,owner,,codes,,,System
+Code,SCREEN,400,false,static,system-code,owner,,,codes,,,System
 Setting,SCREEN,500,false,static,system-setting,owner,,,settings,,,System
 User Bizplaces,SCREEN,600,false,static,system-user-bizplaces,owner,,,user_bizplaces,,,System
