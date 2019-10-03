@@ -47,7 +47,8 @@ const commonCodes = [
     description: 'Load types',
     commonCodeDetails: [
       { name: 'FCL', description: 'full_container_load' },
-      { name: 'LCL', description: 'low_container_load' }
+      { name: 'LCL', description: 'low_container_load' },
+      { name: 'TAG_ALONG', description: 'tag_along_load' }
     ]
   },
   {
@@ -83,9 +84,18 @@ const commonCodes = [
       { name: 'CARTON', description: 'Carton packing' },
       { name: 'DRUM', description: 'Drum packing' },
       { name: 'BOTTLE', description: 'Bottle packing' },
+      { name: 'BAG', description: 'Bag packing' },
       { name: 'SACK', description: 'Sack packing' },
       { name: 'BOXBOARD', description: 'Boxboard packing' },
       { name: 'CAN', description: 'Can packing' }
+    ]
+  },
+  {
+    name: 'TRANSPORT_TYPES',
+    description: 'Types of transport',
+    commonCodeDetails: [
+      { name: 'DELIVERY', description: 'Provide delivery service' },
+      { name: 'COLLECTION', description: 'Provide collection service' }
     ]
   }
 ]
