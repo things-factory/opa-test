@@ -29,8 +29,8 @@ Release Order Requests,SCREEN,1000,false,static,release-order-requests,owner,,,r
 Delivery Order Requests,SCREEN,1100,false,static,delivery-order-requests,owner,,,delivery_order_requests,,,Order
 Collection Order Requests,SCREEN,1200,false,static,collection-order-requests,owner,,,collection_order_requests,,,Order
 Create VAS Order,SCREEN,1300,false,static,create-vas-order,customer,,,create_vas_order,,,Order
-Vas Orders,SCREEN,1400,false,static,vas-order-list,,,,vas_orders,,,Order
-Vas Requests,SCREEN,1500,false,static,vas-order-requests,owner,,,vas_requests,,,Order
+Vas Orders,SCREEN,1400,false,static,vas-order-list,customer,,,vas_orders,,,Order
+Vas Order Requests,SCREEN,1500,false,static,vas-order-requests,owner,,,vas_requests,,,Order
 Picking,SCREEN,200,false,static,picking-by-product,owner,,,picking_product,,,Outbound
 Onhand Inventory,SCREEN,100,false,static,onhand-inventory,,,,onhand_inventory,,,Inventory
 Intransit Invetory,SCREEN,200,false,static,intransit-inventory,,,,intransit_inventory,,,Inventory
