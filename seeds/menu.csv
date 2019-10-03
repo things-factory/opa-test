@@ -4,7 +4,7 @@ Worksheets,SCREEN,500,false,static,worksheet-list,owner,,,worksheets,,,Inbound
 Unloading,SCREEN,600,false,static,unload-product,owner,,,unloading,,,Inbound
 Putaway,SCREEN,700,false,static,putaway-product,owner,,,putaway,,,Inbound
 Execute VAS,SCREEN,800,false,static,execute-vas,owner,,,execute_vas,,,Inbound
-Company,SCREEN,100,false,static,company-list,,,,companies,,,Master Data
+Company,SCREEN,100,false,static,company-list,owner,,,companies,,,Master Data
 Product,SCREEN,300,false,static,product-list,customer,,,products,,,Master Data
 VAS,SCREEN,400,false,static,vas-list,owner,,,vas,,,Master Data
 Warehouse,SCREEN,600,false,static,warehouse-list,owner,,,warehouses,,,Master Data
@@ -33,7 +33,7 @@ Vas Order Requests,SCREEN,1500,false,static,vas-order-requests,owner,,,vas_reque
 Picking,SCREEN,200,false,static,picking-by-product,owner,,,picking_product,,,Outbound
 Onhand Inventory,SCREEN,100,false,static,onhand-inventory,,,,onhand_inventory,,,Inventory
 Intransit Invetory,SCREEN,200,false,static,intransit-inventory,,,,intransit_inventory,,,Inventory
-Inventory Histories,SCREEN,300,false,static,inventory-history,,,inventory_histories,,,Inventory
+Inventory Histories,SCREEN,300,false,static,inventory-history,owner,,,inventory_histories,,,Inventory
 User,SCREEN,100,false,static,system-user,owner,,,users,,,System
 Role,SCREEN,200,false,static,system-role,owner,,,roles,,,System
 Menu,SCREEN,300,false,static,system-menu,owner,,,menus,,,System
