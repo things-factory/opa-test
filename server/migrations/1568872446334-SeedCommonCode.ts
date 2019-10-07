@@ -52,6 +52,19 @@ const commonCodes = [
     ]
   },
   {
+    name: 'CARGO_TYPES',
+    description: 'Cargo types',
+    commonCodeDetails: [
+      { name: 'BAG', description: 'bag_cargo' },
+      { name: 'CARTON', description: 'carton_cargo' },
+      { name: 'IBC', description: 'ibc_cargo' },
+      { name: 'DRUMS', description: 'drums_cargo' },
+      { name: 'PAIL', description: 'pail_cargo' },
+      { name: 'CRATES', description: 'crates_cargo' },
+      { name: 'OTHERS', description: 'others_cargo' }
+    ]
+  },
+  {
     name: 'WORKSHEET_TYPES',
     description: 'worksheet types',
     commonCodeDetails: [
