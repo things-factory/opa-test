@@ -1,6 +1,6 @@
 ﻿name,menu_type,rank,hidden_flag,routing_type,template,category,resource_name,resource_type,resource_url,id_field,title_field,group_name
 Receive Goods,SCREEN,200,false,static,receive-goods,owner,,,receiving,,,Inbound
-Worksheets,SCREEN,500,false,static,worksheet-list,owner,,,worksheets,,,Inbound
+Inbound Worksheets,SCREEN,500,false,static,inbound-worksheet,owner,,,inbound_worksheets,,,Inbound
 Unloading,SCREEN,600,false,static,unload-product,owner,,,unloading,,,Inbound
 Putaway,SCREEN,700,false,static,putaway-product,owner,,,putaway,,,Inbound
 Execute VAS,SCREEN,800,false,static,execute-vas,owner,,,execute_vas,,,Inbound
@@ -30,7 +30,8 @@ Collection Order Requests,SCREEN,1200,false,static,collection-order-requests,own
 Create VAS Order,SCREEN,1300,false,static,create-vas-order,customer,,,create_vas_order,,,Order
 Vas Orders,SCREEN,1400,false,static,vas-order-list,customer,,,vas_orders,,,Order
 Vas Order Requests,SCREEN,1500,false,static,vas-order-requests,owner,,,vas_requests,,,Order
-Picking,SCREEN,200,false,static,picking-by-product,owner,,,picking_product,,,Outbound
+Outbound Worksheets,SCREEN,100,false,static,outbound-worksheet,owner,,,outbound_worksheets,,,Outbound
+Picking,SCREEN,200,false,static,picking-product,owner,,,picking_product,,,Outbound
 Onhand Inventory,SCREEN,100,false,static,onhand-inventory,,,,onhand_inventory,,,Inventory
 Intransit Invetory,SCREEN,200,false,static,intransit-inventory,,,,intransit_inventory,,,Inventory
 Inventory Histories,SCREEN,300,false,static,inventory-history,owner,,,inventory_histories,,,Inventory
