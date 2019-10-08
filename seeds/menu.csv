@@ -31,7 +31,7 @@ Create VAS Order,SCREEN,1300,false,static,create-vas-order,customer,,,create_vas
 Vas Orders,SCREEN,1400,false,static,vas-order-list,customer,,,vas_orders,,,Order
 Vas Order Requests,SCREEN,1500,false,static,vas-order-requests,owner,,,vas_requests,,,Order
 Outbound Worksheets,SCREEN,100,false,static,outbound-worksheet,owner,,,outbound_worksheets,,,Outbound
-Picking,SCREEN,200,false,static,picking-product,owner,,,picking_product,,,Outbound
+Picking,SCREEN,200,false,static,picking-product,owner,,,picking,,,Outbound
 Onhand Inventory,SCREEN,100,false,static,onhand-inventory,,,,onhand_inventory,,,Inventory
 Intransit Invetory,SCREEN,200,false,static,intransit-inventory,,,,intransit_inventory,,,Inventory
 Inventory Histories,SCREEN,300,false,static,inventory-history,owner,,,inventory_histories,,,Inventory
