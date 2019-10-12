@@ -71,7 +71,7 @@ const commonCodes = [
       { name: 'UNLOADING', description: 'unloading' },
       { name: 'PUTAWAY', description: 'putaway' },
       { name: 'VAS', description: 'VAS' },
-      { name: 'LOADING', description: 'laoding' },
+      { name: 'LOADING', description: 'loading' },
       { name: 'PICKING', description: 'picking' }
     ]
   },
