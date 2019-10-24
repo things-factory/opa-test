@@ -1,15 +1,13 @@
 ﻿name,menu_type,rank,hidden_flag,routing_type,template,category,resource_name,resource_type,resource_url,id_field,title_field,group_name
-Receive Goods,SCREEN,200,false,static,receive-goods,owner,,,receiving,,,Inbound
-Inbound Worksheets,SCREEN,500,false,static,inbound-worksheet,owner,,,inbound_worksheets,,,Inbound
-Unloading,SCREEN,600,false,static,unload-product,owner,,,unloading,,,Inbound
-Putaway,SCREEN,700,false,static,putaway-product,owner,,,putaway,,,Inbound
+Inbound Worksheets,SCREEN,100,false,static,inbound-worksheet,owner,,,inbound_worksheets,,,Inbound
+Unloading,SCREEN,200,false,static,unload-product,owner,,,unloading,,,Inbound
+Putaway,SCREEN,300,false,static,putaway-product,owner,,,putaway,,,Inbound
 Execute VAS,SCREEN,800,false,static,execute-vas,owner,,,execute_vas,,,Inbound
-Company,SCREEN,100,false,static,company-list,owner,,,companies,,,Master Data
-Product,SCREEN,300,false,static,product-list,customer,,,products,,,Master Data
-VAS,SCREEN,400,false,static,vas-list,owner,,,vas,,,Master Data
-Warehouse,SCREEN,600,false,static,warehouse-list,owner,,,warehouses,,,Master Data
-Transport Vehicle,SCREEN,800,false,static,transport-vehicle,owner,,,transport_vehicle,,,Master Data
-Transport Driver,SCREEN,900,false,static,transport-driver,owner,,,transport_driver,,,Master Data
+Product,SCREEN,100,false,static,product-list,customer,,,products,,,Master Data
+VAS,SCREEN,200,false,static,vas-list,owner,,,vas,,,Master Data
+Warehouse,SCREEN,300,false,static,warehouse-list,owner,,,warehouses,,,Master Data
+Transport Vehicle,SCREEN,400,false,static,transport-vehicle,owner,,,transport_vehicle,,,Master Data
+Transport Driver,SCREEN,500,false,static,transport-driver,owner,,,transport_driver,,,Master Data
 Create Quotation,SCREEN,100,false,static,create-quotation,owner,,,create_quotation,,,Billing
 Quotations,SCREEN,200,false,static,quotation-list,owner,,,quotations,,,Billing
 Invoices,SCREEN,300,false,static,invoice-list,owner,,,invoices,,,Billing
