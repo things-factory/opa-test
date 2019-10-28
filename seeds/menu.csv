@@ -30,9 +30,12 @@ Vas Orders,SCREEN,1400,false,static,vas-order-list,customer,,,vas_orders,,,Order
 Vas Order Requests,SCREEN,1500,false,static,vas-order-requests,owner,,,vas_requests,,,Order
 Outbound Worksheets,SCREEN,100,false,static,outbound-worksheet,owner,,,outbound_worksheets,,,Outbound
 Picking,SCREEN,200,false,static,picking-product,owner,,,picking,,,Outbound
-Onhand Inventory,SCREEN,100,false,static,onhand-inventory,,,,onhand_inventory,,,Inventory
-Intransit Invetory,SCREEN,200,false,static,intransit-inventory,,,,intransit_inventory,,,Inventory
-Inventory Histories,SCREEN,300,false,static,inventory-history,owner,,,inventory_histories,,,Inventory
+Onhand Inventory,SCREEN,100,false,static,onhand-inventory,owner,,,onhand_inventory,,,Inventory
+Intransit Invetory,SCREEN,200,false,static,intransit-inventory,owner,,,intransit_inventory,,,Inventory
+Customer Onhand Inventory,SCREEN,300,false,static,customer-onhand-inventory,customer,,,customer_onhand_inventory,,,Inventory
+Customer Intransit Inventory,SCREEN,400,false,static,customer-intransit-inventory,customer,,,customer_intransit_inventory,,,Inventory
+Inventory by Product,SCREEN,500,false,static,inventory-by-product,customer,,,inventory_by_product,,,Inventory
+Inventory Histories,SCREEN,600,false,static,inventory-history,owner,,,inventory_histories,,,Inventory
 User,SCREEN,100,false,static,system-user,owner,,,users,,,System
 Role,SCREEN,200,false,static,system-role,owner,,,roles,,,System
 Menu,SCREEN,300,false,static,system-menu,owner,,,menus,,,System
