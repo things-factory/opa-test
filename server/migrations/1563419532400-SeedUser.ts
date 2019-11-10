@@ -41,10 +41,12 @@ export class SeedUser1563419532400 implements MigrationInterface {
       for (let i = 0; i < SEED_USERS.length; i++) {
         const user: any = SEED_USERS[i]
         const domain = await getRepository(Domain).findOne({ name: user.domainName })
+        const domains = [domain]
 
         const newUser = await getRepository(User).save({
           ...user,
           domain,
+          domains,
           password: User.encode(user.password)
         })
 
