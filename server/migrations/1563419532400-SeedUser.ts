@@ -8,7 +8,7 @@ const SEED_USERS = [
     name: 'ACT Admin',
     email: 'admin@act.com',
     password: '1234',
-    domainName: 'KIMEDA',
+    domainName: 'ELCC',
     bizplaces: [
       {
         name: 'Advance Chemical Trading',
@@ -18,13 +18,13 @@ const SEED_USERS = [
     roleName: 'Super Admin'
   },
   {
-    name: 'KIMEDA Admin',
-    email: 'admin@kimeda.com',
+    name: 'ELCC Admin',
+    email: 'admin@elcc.com',
     password: '1234',
-    domainName: 'KIMEDA',
+    domainName: 'ELCC',
     bizplaces: [
       {
-        name: 'Kimeda Sdn Bhd',
+        name: 'ELCC Sdn Bhd',
         mainBizplace: true
       },
       {
@@ -47,6 +47,7 @@ export class SeedUser1563419532400 implements MigrationInterface {
           ...user,
           domain,
           domains,
+          activated: true,
           password: User.encode(user.password)
         })
 

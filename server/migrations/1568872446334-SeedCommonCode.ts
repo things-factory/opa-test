@@ -6,7 +6,10 @@ const commonCodes = [
   {
     name: 'LOCATION_TYPE',
     description: 'Location type',
-    commonCodeDetails: [{ name: 'BUFFER', description: 'buffer_location' }, { name: 'SHELF', description: 'shelf' }]
+    commonCodeDetails: [
+      { name: 'BUFFER', description: 'buffer_location' },
+      { name: 'SHELF', description: 'shelf' }
+    ]
   },
   {
     name: 'ORDER_STATUS',
@@ -87,7 +90,10 @@ const commonCodes = [
   {
     name: 'WEIGHT_UNITS',
     description: 'Unit for weight',
-    commonCodeDetails: [{ name: 'kg', description: 'kilogram' }, { name: 't', description: 'ton' }]
+    commonCodeDetails: [
+      { name: 'kg', description: 'kilogram' },
+      { name: 't', description: 'ton' }
+    ]
   },
   {
     name: 'PACKING_TYPES',
@@ -115,7 +121,7 @@ const commonCodes = [
 
 export class SeedCommonCode1568872446334 implements MigrationInterface {
   public async up(queryRunner: QueryRunner): Promise<any> {
-    const domain = await getRepository(Domain).findOne({ where: { name: 'KIMEDA' } })
+    const domain = await getRepository(Domain).findOne({ where: { name: 'ELCC' } })
 
     commonCodes.forEach(async commonCode => {
       const newCommonCode = await getRepository(CommonCode).save({
