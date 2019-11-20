@@ -1,4 +1,121 @@
 ﻿name,description,address,postalCode,latlng,status,companyName,domainName
-Advance Chemical Trading,,"21,Jalan Setia Impian U13/6K, Setia Alam, Shah Alam",40170,"3.08507,101.53281",active,Advance Chemical Trading,KIMEDA
-Kimeda Sdn Bhd,,"Lot 541 Jalan yati kiri, miles 7, 4, Jalan 3, Taman Seri Dua Belas",42200,"3.1331,101.4207",active,Kimeda Sdn Bhd,KIMEDA
-Asa Chemie (M) Sdn Bhd,,"No.19A, Jalan Perlaluan Besi 4,Taman Sri Putri, Skudai, Johor.Malaysia.",81300,,active,Asa Chemie (M) Sdn Bhd,KIMEDA
+Eco Dua@Taman Sentosa Klang Branch,,"No.2 (Grd, 1st & 2nd Floor), Jalan Bendahara 8/KS07, Off Jalan Sungai Sejati, Taman Sejati, Kota Raja, 41200 Klang, Selangor.",41200,,ACTIVE,Eco Dua@Taman Sentosa Klang Branch,ECO DUA
+Eco Dua@Tanjung Minyak Branch,,"No. 10, 12, 14, 20, 22, 24, 26 (Ground Floor), 16, 18 (Ground & 1st Floor), Jalan Cheng indah, 75260 Melaka.",75260,,ACTIVE,Eco Dua@Tanjung Minyak Branch,ECO DUA
+Eco Dua@Segamat Branch,,"A008, U Sentral Segamat, Jalan Utama 3/2, Taman Utama, 85000 Segamat, Johor.",85000,,ACTIVE,Eco Dua@Segamat Branch,ECO DUA
+Eco Dua@Paka Branch,,"Lot 10526, 10527, 10528, 10529, Wisma Yura, Jalan Besar,23100 Paka, Dungun, Terengganu.",23100,,ACTIVE,Eco Dua@Paka Branch,ECO DUA
+Eco Dua@Subang Baru Branch,,"Lot F2, PT 17920, Seksyen U9, 40150 Shah Alam, Selangor Darul Ehsan",40150,,ACTIVE,Eco Dua@Subang Baru Branch,ECO DUA
+Eco Dua@Port Dickson 1 Branch,,"49, 51 Jalan Raja Aman Shah, 71000 Port Dickson, N Sembilan.",71000,,ACTIVE,Eco Dua@Port Dickson 1 Branch,ECO DUA
+Eco Dua@Kempas Branch,,"No 17, 19, 21, 23, 25 (Ground Floor), No 19-01, 21-01(1St Floor), Jalan Cengkerik 5, Pusat Perdagangan Kempas, 81200, Johor Bahru.",81200,,ACTIVE,Eco Dua@Kempas Branch,ECO DUA
+Eco Dua@Kuala Besut Branch,,"Pt 7009 & 7010 (Grd ,1St Floor), Jalan Utama Tok Bali, Kuala Besut, 16800 Pasir Puteh, Kelantan.",16800,,ACTIVE,Eco Dua@Kuala Besut Branch,ECO DUA
+Eco Dua@Tasek Gelugor Penang Branch,,"No.51,53,55,57 (Ground Floor & 1st Floor), Jalan Komersial 2, Pusat Komersial Tasek Gelugor, 13300 Tasek Gelugor, Pulau Pinang.",13300,,ACTIVE,Eco Dua@Tasek Gelugor Penang Branch,ECO DUA
+Eco Dua@Parit Buntar Branch,,"No. 49, Jalan Wawasan 1, Taman Wawasan Jaya, 34200 Parit Buntar, Perak.",34200,,ACTIVE,Eco Dua@Parit Buntar Branch,ECO DUA
+Eco Dua@Teluk Ayer Tawar Branch,,"No.11, 11A, 15, 17, 19,(Ground Floor), 21 (Ground, 1st & 2nd Floor), Lorong Bayu Aman 1, Taman Bayu Aman, 13050 Butterworth, Pulau Pinang.",13050,,ACTIVE,Eco Dua@Teluk Ayer Tawar Branch,ECO DUA
+Eco Dua@Jitra Branch,,"No. 1, 2, 3, 4, 5, 6, 7, 8 (Grd Flr), Lot PT3513, Kawasan Kilang Bandar, Darul Aman, Daerah Kubang Pasu, 06000 Jitra, Kedah Darul Aman.",06000,,ACTIVE,Eco Dua@Jitra Branch,ECO DUA
+Eco Dua@Parit Sulong Branch,,"PSU38 Lot 539, Jalan Simpang 3, Parit Sulong, 83500 Batu Pahat, Johor.",83500,,ACTIVE,Eco Dua@Parit Sulong Branch,ECO DUA
+Eco Dua@Kluang Branch,,"Lot LG-16 – LG-24, Kluang Junction, PTB 11285, Jalan Haji Manan, 86000 Kluang, Johor Darul Ta’zim",86000,,ACTIVE,Eco Dua@Kluang Branch,ECO DUA
+Eco Dua@Balok Branch,,"Balok- B-4  & B-6(Grd & 1st Flr), Lorong Balok Darat 14, Pusat Perkhidmatan Balok, 26100 Kuantan, Pahang.",26100,,ACTIVE,Eco Dua@Balok Branch,ECO DUA
+Eco Dua@Taman Tas Branch,,"No A5, A7 & A9, Lorong Pandan Damai, Jalan Kuantan Gambang, 26070 Kuantan, Pahang.",26070,,ACTIVE,Eco Dua@Taman Tas Branch,ECO DUA
+Eco Dua@Muadzam Shah Branch,,"PT 447 (Grd, 1st, 2nd Flr), Medan Mewah, 26700 Muadzam Shah, Pahang Darul Makmur.",26700,,ACTIVE,Eco Dua@Muadzam Shah Branch,ECO DUA
+Eco Dua@Triang Branch,,"No.7 & 9, Jalan Komersil 2, Pusat Komersil Triang, 28300 Triang, Pahang",28300,,ACTIVE,Eco Dua@Triang Branch,ECO DUA
+Eco Dua@Alor Setar 2 Branch,,"Lot No. 535-A,  Jalan Teluk Wanjah, 05200 Alor Setar, Kedah Darul Aman.",05200,,ACTIVE,Eco Dua@Alor Setar 2 Branch,ECO DUA
+Eco Dua@Bangi Branch,,"PT 72529 (Grd & 1st Flr)- HS(D) 144405, Bandar Baru Bangi, 43650 Bandar Baru Bangi, Selangor Darul Ehsan.",43650,,ACTIVE,Eco Dua@Bangi Branch,ECO DUA
+Eco Dua@Sungai Petani 3 Branch,,"No. 208, 209, 210, 211, 212, 213, 213A, 233, 233A, 235, 236, 237, 238, 239, 240 (Ground Floor), Jalan Mawar 3/2, Taman Pekan Baru, 08000 Sungai Petani, Kedah.",08000,,ACTIVE,Eco Dua@Sungai Petani 3 Branch,ECO DUA
+Eco Dua@Cheras Balakong Branch,,"No. 90, 92, 93 (Grd Flr & 1st Flr), Cheras Traders Square, 43200 Cheras 9 Miles, Selangor",43200,,ACTIVE,Eco Dua@Cheras Balakong Branch,ECO DUA
+Eco Dua@Kota Tinggi Branch,,"44 & 46, Tkt Bawah, Jalan Jaafar, 81900 Kota Tinggi, Johor.",81900,,ACTIVE,Eco Dua@Kota Tinggi Branch,ECO DUA
+Eco Dua@Ulu Tiram Branch,,"No. 4, 5 & 6 (Ground & 1St Floor) Jalan Duku, Taman Tiram Baru,81800 Ulu Tiram, Johor.",81800,,ACTIVE,Eco Dua@Ulu Tiram Branch,ECO DUA
+Eco Dua@Bukit Payung Branch,,"Lot 52137 (PT 16762), Alur Bemban, Kampung Mak Kemas, Bukit Payong, 21400 Marang, Terengganu.",21400,,ACTIVE,Eco Dua@Bukit Payung Branch,ECO DUA
+Eco Dua@Kulim Branch,,"Plot 2, Lot No. 1811, Taman Semarak, Mukim Keladi, 09000 Kulim, Kedah.",09000,,ACTIVE,Eco Dua@Kulim Branch,ECO DUA
+Eco Dua@Mentakab Branch,,"2, Jln Bunga Tanjung, 28400 Mentakab, Pahang.",28400,,ACTIVE,Eco Dua@Mentakab Branch,ECO DUA
+Eco Dua@Sungai Petani Branch,,"Lot 1512, Kg Haji Wahab, Jalan Ria Jaya, 08000 Sungai Petani, Kedah.",08000,,ACTIVE,Eco Dua@Sungai Petani Branch,ECO DUA
+Eco Dua@Teluk Intan Branch,,"No.27 & 28, Persiaran Melor 1, Taman Melor 3, Jalan Sungai Manik, 36000 Teluk Intan, Perak.",36000,,ACTIVE,Eco Dua@Teluk Intan Branch,ECO DUA
+Eco Dua@Raub Branch,,"47 & 48, Tkt Bawah, Jalan Perdagangan Raub, Pahang.",27600,,ACTIVE,Eco Dua@Raub Branch,ECO DUA
+Eco Dua@Kepala Batas Branch,,"No.11A,15,17,19 (Grd & 1St Floor), Lorong Bertam Ria 2, Taman Bertam Ria, 13200 Kepala Batas, Pulau Pinang.",13200,,ACTIVE,Eco Dua@Kepala Batas Branch,ECO DUA
+Eco Dua@Rawang Branch,,"Lot No 6, 7, 8, 9, 10, Lot (13152), Jalan BJ2, Taman Perindustrian Belmas Johan, 48000 Rawang, Selangor.",48000,,ACTIVE,Eco Dua@Rawang Branch,ECO DUA
+Eco Dua@Taman Universiti Johor Branch,,"No. 2 & 4, Jalan Pendidikan 8, Taman Universiti, 81300 Skudai, Johor.",81300,,ACTIVE,Eco Dua@Taman Universiti Johor Branch,ECO DUA
+Eco Dua@Ampangan Branch,,"No.201, 202 & 205(Grd Floor), No.203 & 204 (Grd & 1ST Floor), Jalan Persiaran Bukit Coral 1, Taman Bukit Coral, Sikamat, 70400 Seremban, Negeri Sembilan.",70400,,ACTIVE,Eco Dua@Ampangan Branch,ECO DUA
+Eco Dua@Semenyih Branch,,"No. 2 (Ground , 1st & 2nd Floor), 2A, 6, 8, 10, 12 (Ground Floor), Jalan Vista Valley 3, Semenyih Vista Valley, 43500 Semenyih, Selangor.",43500,,ACTIVE,Eco Dua@Semenyih Branch,ECO DUA
+Eco Dua@Taiping Branch,,"Lot 5820 & 5821 Jalan Simpang, 34700 Taiping, Perak.",34700,,ACTIVE,Eco Dua@Taiping Branch,ECO DUA
+Eco Dua@Kuala Lipis Branch,,"K13, K15, K16, K17, K18, Lorong Bbkl 2/1/12, Bandar Baru Seberang Jelai, 27200 Kuala Lipis, Pahang.",27200,,ACTIVE,Eco Dua@Kuala Lipis Branch,ECO DUA
+Eco Dua@Sri Petaling Branch,,"80 (1st Floor), 82 (Grd & 1st Floor), 84 (Grd & 1st Floor),86 (Grd & 1st & 2nd Floor), Jalan Radin Anum 1, 57000 Bandar Baru Seri Petaling, Kuala Lumpur",57000,,ACTIVE,Eco Dua@Sri Petaling Branch,ECO DUA
+Eco Dua@Gombak Branch,,"Unit 3A-g, 3a-1, Unit 5-G, G-1, Unit 6-G, Unit 6-1, Unit 7-1, KLTS, No.99, Jalan Gombak, Setapak, 53300 Kuala Lumpur",53300,,ACTIVE,Eco Dua@Gombak Branch,ECO DUA
+Eco Dua@Tuan Muda Branch,,"Lot 8323, Kg Banggul Tuan Muda, 21200 Kuala Terengganu, Terengganu.",21200,,ACTIVE,Eco Dua@Tuan Muda Branch,ECO DUA
+Eco Dua@Kuala Perlis Branch,,"No.3, 5, 7, 9 (Ground Floor), Jalan Dua, Kompleks Perniagaan Kuala Perlis, 02000 Kuala Perlis, Perlis.",02000,,ACTIVE,Eco Dua@Kuala Perlis Branch,ECO DUA
+Eco Dua@Permaisuri Branch,,"Lot 71216-A, Mukim Hulu Setiu, Kg.Balik Bukit, 22100 Bandar Permaisuri, Setiu, Terengganu.",22100,,ACTIVE,Eco Dua@Permaisuri Branch,ECO DUA
+Eco Dua@Kuala Krai Branch,,"Lot 14455 - 14458, (Ground Floor), Bandar Kuala Krai,15150 Jajahan Kuala Krai, Kelantan.",15150,,ACTIVE,Eco Dua@Kuala Krai Branch,ECO DUA
+Eco Dua@Slim River Branch,,"No. 26-A & B & 27-A & B & 28-A & B, Jalan Perdana 6, Pusat Perniagaan Slim Perdana, 32500 Slim River, Perak.",32500,,ACTIVE,Eco Dua@Slim River Branch,ECO DUA
+Eco Dua@Baling Branch,,"No. 11-17, Jalan Syed Sheh, Pekan Baling, 09100 Kedah.",09100,,ACTIVE,Eco Dua@Baling Branch,ECO DUA
+Eco Dua@Terengganu 2 Branch,,"Lot 2205 (GM 1761), Kampung Dusun Melintang, Cabang Tiga, 21000 Kuala Terengganu, Terengganu.",21000,,ACTIVE,Eco Dua@Terengganu 2 Branch,ECO DUA
+Eco Dua@Petaling PJS6 Branch,,"No. 15 & 16 (Ground Floor), Jalan PJS 6/6, Desa Mentari, 46000 Petaling Jaya, Selangor.",46000,,ACTIVE,Eco Dua@Petaling PJS6 Branch,ECO DUA
+Eco Dua@Temerloh Branch,,"No. 4, 10 (Ground & 1st Floor), No 8, 10 (Ground, 1st & 2nd Floor), Jalan Pak Sako, 28000 Temerloh, Pahang.",28000,,ACTIVE,Eco Dua@Temerloh Branch,ECO DUA
+Eco Dua@Batu Gajah Branch,,"20 -21 Jln Bandar Baru 2, Bandar Baru Batu Gajah, 31000 Batu Gajah Perak.",31000,,ACTIVE,Eco Dua@Batu Gajah Branch,ECO DUA
+Eco Dua@Gurun Kedah Branch,,"88b,c,d,e,f,g,h Jalan Raya Gurun, 08300 Gurun, Kedah",08300,,ACTIVE,Eco Dua@Gurun Kedah Branch,ECO DUA
+Eco Dua@Pendang Branch,,"No 31-36 (Grd & First Floor), Jalan Sukamari, Taman Sukamari, 06700 Pendang, Kedah.",06700,,ACTIVE,Eco Dua@Pendang Branch,ECO DUA
+Eco Dua@Senawang 2 Branch,,"No 59-63, Jalan BPS 4, Bandar Prima Senawang, 70450 Seremban, Negeri Sembilan.",70450,,ACTIVE,Eco Dua@Senawang 2 Branch,ECO DUA
+Eco Dua@Mersing Branch,,"84-G, 85-G & 86-G, Jalan Sulaiman, Taman Tepian Sungai 2, 86800 Mersing, Johor.",86800,,ACTIVE,Eco Dua@Mersing Branch,ECO DUA
+Eco Dua@Tambun Branch,,"No. 3, 5, 7, 9, Lengkok Perpaduan 1, Taman Perpaduan, 31150 Ulu Kinta, Perak.",31150,,ACTIVE,Eco Dua@Tambun Branch,ECO DUA
+Eco Dua@Pasir Mas Branch,,"PT 650, PT 651, Daerah Pasir Mas, Mukim Kuala Lemal, Kampung Lemal, 17170 Pasir Mas, Kelantan.",17170,,ACTIVE,Eco Dua@Pasir Mas Branch,ECO DUA
+Eco Dua@Tanah Merah Branch,,"Pt-4924,4925,4926 (Tkt Bwh) & 4927 (Tkt Bwh & Atas), Taman Kota Harmoni, 17500 Tanah Merah, Kelantan.",17500,,ACTIVE,Eco Dua@Tanah Merah Branch,ECO DUA
+Eco Dua@Bukit Mahkota Branch,,"No. 58 & 60, Jalan BM 2/1,  Bandar Bukit Mahkota,  43000 Kajang, Selangor.",43000,,ACTIVE,Eco Dua@Bukit Mahkota Branch,ECO DUA
+Eco Dua@Megalong Branch,,"1F-U First Floor, Megalong Commercial Complex, 89500 Penampang Sabah",89500,,ACTIVE,Eco Dua@Megalong Branch,ECO DUA
+Eco Dua@Pokok Sena Branch,,"No. 5, 6, 7, 8, 9, 10(Grd Floor), No.11, 12, 13(Grd & 1st Floor), 06400 Pokok Sena, Kedah.",06400,,ACTIVE,Eco Dua@Pokok Sena Branch,ECO DUA
+Eco Dua@Gong Datuk Branch,,"Pt-22783, Pt-22784 (Tkt Bwh) & Pt-22785 (Tkt Bwh & Atas), Kg. Gong Datok, Mengabang Telipot, 21030 K.Terengganu, Terengganu.",21030,,ACTIVE,Eco Dua@Gong Datuk Branch,ECO DUA
+Eco Dua@Kajang Branch,,"No 32, 32A, 36, 38, 40 & 42, Jalan Ttdi Grove 1/1, Taman Ttdi Grove, 43000 Kajang, Selangor.",43000,,ACTIVE,Eco Dua@Kajang Branch,ECO DUA
+Eco Dua@Bukit Beruntung Branch,,"No. 2A, 12, 12A (Grd Floor), No. 8, 10 (Grd & 1st Floor), Jalan Orkid 1G, Seksyen BS 1, 48300 Bandar Bukit Sentosa, Selangor.",48300,,ACTIVE,Eco Dua@Bukit Beruntung Branch,ECO DUA
+Eco Dua@Medan Bayan Branch,,"No.8, Jalan Medan Bayan, Sungai Ara, 11900 Bayan Lepas, Pulau Pinang",11900,,ACTIVE,Eco Dua@Medan Bayan Branch,ECO DUA
+Eco Dua@Batu Berendam Branch,,"No.1, 3, 5, 7, 9, 11, 13, Jalan MP18, Taman Merdeka Permai, 75350 Batu Berendam, Melaka.",75350,,ACTIVE,Eco Dua@Batu Berendam Branch,ECO DUA
+Eco Dua@Senai Branch,,"264(Grd), 265 (Grd), 266 (Grd), 267 (Grd, 1st, 2nd), 268 (Grd, 1st, 2nd), Jalan Bintang Utama 1, Taman Bintang Utama, 81400 Senai, Johor.",81400,,ACTIVE,Eco Dua@Senai Branch,ECO DUA
+Eco Dua@Bagan Luar Branch,,"No 4157, Jalan Bagan Luar, 12000 Butterworth, Penang.",12000,,ACTIVE,Eco Dua@Bagan Luar Branch,ECO DUA
+Eco Dua@Kubang Kerian Branch,,"Lot 3229 & 400, Mukim Kenali, Daerah Kubang Kerian, 15300 Kota Bharu, Kelantan.",15300,,ACTIVE,Eco Dua@Kubang Kerian Branch,ECO DUA
+Eco Dua@Bahau Branch,,"No. 2 (Ground & First Floor), Jalan Casuarina 2, Pusat Perniagaan Casuarina, 72100 Bahau, Negeri Sembilan.",72100,,ACTIVE,Eco Dua@Bahau Branch,ECO DUA
+Eco Dua@Desaru Branch,,"83,85,87 (Ground & 1St Floor), Jalan Jelutong 1, Taman Desaru Utama, 81930 Bandar Penawar, Johor.",81930,,ACTIVE,Eco Dua@Desaru Branch,ECO DUA
+Eco Dua@Sungai Petani 2 Branch,,"No. 17, 18, 19 (Grd, 1st & 2nd Flr), Jalan Jati 1/1, Pusat Perniagaan Amanjaya, 08000 Sungai Petani, Kedah Darul Aman.",08000,,ACTIVE,Eco Dua@Sungai Petani 2 Branch,ECO DUA
+Eco Dua@Jementah Branch,,"61A & 61B, Jalan Muar, 85200 Jementah, Segamat, Johor.",85200,,ACTIVE,Eco Dua@Jementah Branch,ECO DUA
+Eco Dua@Tumpat Kelantan Branch,,"Lot 17,18 (Ground and First Floor, Jalan Setia Utama, Bandar Bentara, 16200, Kelantan",16200,,ACTIVE,Eco Dua@Tumpat Kelantan Branch,ECO DUA
+Eco Dua@Bukit Mertajam Branch,,"No. 39, 41, (Ground and Mezzanine Floor), Persiaran Seri Impian, Pusat Perniagaan Mahkota Impian, 14000 Bukit Mertajam, Pulau Pinang.",14000,,ACTIVE,Eco Dua@Bukit Mertajam Branch,ECO DUA
+Eco Dua@Wakaf Che Yeh Branch,,"Lot 3006, Batu 3, Wakaf Che Yeh, Jalan Kuala Krai,15150 Kota Bharu,Kelantan.",15150,,ACTIVE,Eco Dua@Wakaf Che Yeh Branch,ECO DUA
+Eco Dua@Jerantut Branch,,"20 (Ground Floor), Lorong Saujana Idaman 1, Taman Saujana Idaman, 27000 Jerantut, Pahang.",27000,,ACTIVE,Eco Dua@Jerantut Branch,ECO DUA
+Eco Dua@Aeon Maruli Branch,,"Lot T01 & T02 (3rd), Aeon Taman Maluri Shopping Centre, Jalan Jejaka, Taman Maluri, Cheras, 55100 Kuala Lumpur.",55100,,ACTIVE,Eco Dua@Aeon Maruli Branch,ECO DUA
+Eco Dua@Jerteh Branch,,"Lot 4116, 4117 Dan 4118 (Tingkat Bwh Dan Atas) Jalan Tangki Air, 22000 Jerteh, Terengganu.",22000,,ACTIVE,Eco Dua@Jerteh Branch,ECO DUA
+Eco Dua@Gua Musang Branch,,"18181, 18182 (Ground & First Floor), Jalan Sri Cindai, Taman Sri Cindai, 18300 Gua Musang, Kelantan",18300,,ACTIVE,Eco Dua@Gua Musang Branch,ECO DUA
+Eco Dua@Alor Setar Branch,,"No 1, 2, 3, 5 & 6 Kompleks Perniagaan Wantas, Lebuhraya Sultan Abdul Halim, 05400 Alor Setar, Kedah.",05400,,ACTIVE,Eco Dua@Alor Setar Branch,ECO DUA
+Eco Dua@Gemas Branch,,"No. G11, 1-11, 2-11, Jalan Harmoni Gemas 1, Pusat Perniagaan Harmoni Gemas, Gemas, Negeri Sembilan.",73400,,ACTIVE,Eco Dua@Gemas Branch,ECO DUA
+Eco Dua@Putrajaya Branch,,"No. 1, 2, 3, 4 (Grd & 1st Flr), Block A, Jalan Seluang P8/7, Bazaar 8, 62250 Wilayah Persekuatuan, Putrajaya.",62250,,ACTIVE,Eco Dua@Putrajaya Branch,ECO DUA
+"Eco Dua@""Gombak",," M3 Mall Branch""",53100,,ACTIVE,"Eco Dua@""Gombak",ECO DUA
+Eco Dua@Bukit Anggerik Branch,,"Lot 6710, LG, Plaza Anggerik, Jalan 3/154, Taman Bukit Anggerik, 56000 Cheras, Kuala Lumpur.",56000,,ACTIVE,Eco Dua@Bukit Anggerik Branch,ECO DUA
+Eco Dua@Tanah Merah 2 Branch,,"PT 678 (NO.4) ,PT 677 (No.6), PT 676 (NO.8),PT 675 (No.10), Ground, 1st & 2nd Floor, Kompleks Perniagaan Humaira, Jalan Humaira 1, 17500 Tanah Merah, Kelantan.",17500,,ACTIVE,Eco Dua@Tanah Merah 2 Branch,ECO DUA
+Eco Dua@Jelawat Branch,,"Lot 593, Jalan UMK Cawangan Bachok, Mukim Repek,  16310 Bachok,Kelantan",16310,,ACTIVE,Eco Dua@Jelawat Branch,ECO DUA
+Eco Dua@Simpang Pulai Branch,,"No.1 Jln Pulai Business Centre 1 (Pbc 1), Pulai Business Centre, 31300 Simpang Pulai, Ipoh, Perak.",31300,,ACTIVE,Eco Dua@Simpang Pulai Branch,ECO DUA
+Eco Dua@Silibin Branch,,"No. 351, 351A, 351B, Jalan Silibin, 30100 Ipoh, Perak.",30100,,ACTIVE,Eco Dua@Silibin Branch,ECO DUA
+Eco Dua@Kepong Jinjang Branch,,"No. 1-A, Lot 67729, West Road 2, Jinjang Utara, 52000 Wilayah persekutuan Kuala Lumpur.",52000,,ACTIVE,Eco Dua@Kepong Jinjang Branch,ECO DUA
+Eco Dua@Balakong Branch,,"Ka 19-G, Ka 20-G, Ka 21-G, Ka 22-G Jalan Balakong 2/1, Taman Setia Balakong, 43000 Selangor Darul Ehsan.",43000,,ACTIVE,Eco Dua@Balakong Branch,ECO DUA
+Eco Dua@Tapah Branch,,"H.S.(D) 17794, Pt 5054, Plot 46, 47 & 48(Ground & 1St Floor), Off Jalan Baldwin, Bandar Tapah, 35000 Tapah, Perak.",35000,,ACTIVE,Eco Dua@Tapah Branch,ECO DUA
+Eco Dua@Pekan Branch,,"44 & 45, Jalan Sultan Abdullah, 26600 Pekan, Pahang.",26600,,ACTIVE,Eco Dua@Pekan Branch,ECO DUA
+Eco Dua@Subang Jaya Branch,,"Lot 525A, Persiaran Subang Permai, 47500 Subang Jaya, Selangor.",47500,,ACTIVE,Eco Dua@Subang Jaya Branch,ECO DUA
+Eco Dua@Pontian Branch,,"Lot PTB 12933-12940, Pusat Perdagangan Pontian, 82000 Pontian, Johor",82000,,ACTIVE,Eco Dua@Pontian Branch,ECO DUA
+Eco Dua@Banting Branch,,"2 (Grd&1st&2nd), 6 (1st Flr), 8 (1st Flr), Jalan Toman 1, Taman Seri Putra, 42700 Banting, Selangor.",42700,,ACTIVE,Eco Dua@Banting Branch,ECO DUA
+Eco Dua@Muar Branch,,"No.10, 12, 14, 16, 18, 20 (Ground Floor), No.14 (1St Floor & 2Nd Floor), Jalan Perniagaan Jaya, Pusat Perniagaan Mas Jaya, Jalan Salleh, 84000 Muar, Johor.",84000,,ACTIVE,Eco Dua@Muar Branch,ECO DUA
+Eco Dua@Terengganu Branch,,"1081 G (Ground, 1st, 2nd & 3rd Floor), Jln Sultan Sulaiman, Kuala Terengganu, 20000 Terengganu.",20000,,ACTIVE,Eco Dua@Terengganu Branch,ECO DUA
+Eco Dua@Dungun Branch,,"Lot 10015-10017 (Grd. & 1St Floor) Pusat Perniagaan Sura Gate, 23000 Dungun, Terengganu.",23000,,ACTIVE,Eco Dua@Dungun Branch,ECO DUA
+Eco Dua@Teluk Pulai Branch,,"No 43, 45, 47 & 49, Jalan Teluk Pulai, 41100 Klang Selangor.",41100,,ACTIVE,Eco Dua@Teluk Pulai Branch,ECO DUA
+Eco Dua@Nusa Damai Branch,,"No. 44, 44A, 44B, 45, 45A, 45B, 46, 46A 46B, 47,47A, 47B, 48, 48A, 48B, 49, 49A, 49B, 50A, 50B & A Portion Of The Shoplot No. 50 Jalan Perdagangan Damai, Nusa Damai, 81700 Pasir Gudang, Johor.",81700,,ACTIVE,Eco Dua@Nusa Damai Branch,ECO DUA
+Eco Dua@Seri Iskandar Branch,,"No 403 (Corner Lot), 404-408 (Ground Floor) & 412 (1st Floor & 2nd Floor), Persiaran Sibc 16, 32610 Bandar Seri Iskandar, Perak.",32610,,ACTIVE,Eco Dua@Seri Iskandar Branch,ECO DUA
+Eco Dua@Bandar Ipoh Branch,,"270, Jalan Sultan Idris Shah, 30000 Ipoh, Perak.",30000,,ACTIVE,Eco Dua@Bandar Ipoh Branch,ECO DUA
+Eco Dua@Wangsa Maju Branch,,"Lot F1-01, 6, Jalan 8/27A, Seksyen 5 Wangsa Maju, 53300 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur, Malaysia.",53300,,ACTIVE,Eco Dua@Wangsa Maju Branch,ECO DUA
+Eco Dua@Selayang Branch,,"No. 1, Ideal Convention Centre, Jalan PS 10, Taman Prima Selayang, 68100 Batu Caves, Selangor.",68100,,ACTIVE,Eco Dua@Selayang Branch,ECO DUA
+Eco Dua@Seremban Branch,,"15, Jalan Tunku Hassan, 70000 Seremban, Negeri Sembilan.",70000,,ACTIVE,Eco Dua@Seremban Branch,ECO DUA
+Eco Dua@Masai Branch,,"LS 1B, U Sentral Masai PTD163160, Jalan Serangkai 1, Taman Bukit Dahlia, 81700 Pasir Gudang, Johor.",81700,,ACTIVE,Eco Dua@Masai Branch,ECO DUA
+Eco Dua@Port Dickson 2 Branch,,"Lot 12A & 13A, Tkt Bawah, Sunggala Gateway, Teluk Kemang, 71050 Port Dickson.",71050,,ACTIVE,Eco Dua@Port Dickson 2 Branch,ECO DUA
+Eco Dua@Batu Pahat Branch,,"No. 159 & 160, (Ground Floor), Jalan Bukit Pasir, 83050 Batu Pahat, Johor Darul Takzim.",83050,,ACTIVE,Eco Dua@Batu Pahat Branch,ECO DUA
+Eco Dua@Kota Marudu Branch,,"No. 9 - No. 13 A(Ground Floor & 1st floor), Cosmo Point, Jalan Langkon, 89100 Kota Marudu, Sabah",89100,,ACTIVE,Eco Dua@Kota Marudu Branch,ECO DUA
+Eco Dua@Pasir Pekan Branch,,"PT 3493, PT 3494, Lot 760, Lot 762, Lot 2235, Dewan Badminton Pasir Pekan, 16250 Wakaf Bharu, Kelantan.",16250,,ACTIVE,Eco Dua@Pasir Pekan Branch,ECO DUA
+Eco Dua@Kuala Berang Branch,,"Lot 9560 - 9563, Kampung Batu 24, Jalan Sekayu,21700 Kuala Berang, Terengganu.",21700,,ACTIVE,Eco Dua@Kuala Berang Branch,ECO DUA
+Eco Dua@Shah Alam Branch,,"26, 28 & 30 (Grd & 1st Flr), Jalan 25/65, Taman Sri Muda, Seksyen 25, 40400 Shah Alam, Selangor Darul Ehsan.",40400,,ACTIVE,Eco Dua@Shah Alam Branch,ECO DUA
+Eco Dua@Chukai Branch,,"K-564 & K-565, Tkt Bawah Dan Tkt 1, Jalan Jakar, 24000 Kemaman, Terengganu.",24000,,ACTIVE,Eco Dua@Chukai Branch,ECO DUA
+Eco Dua@Pasir Puteh Branch,,"Lot 2994 & 2995, Bandar Baru Pasir Puteh Sentral, Mukim Pengkalan, 16800 Pasir Puteh, Kelantan.",16800,,ACTIVE,Eco Dua@Pasir Puteh Branch,ECO DUA
+Eco Dua@Kamunting Branch,,"No.16, 18, 20, 22, Tkt Bwh, Jln Perwira 2, Medan Perwira, 34600 Kamunting, Perak.",34600,,ACTIVE,Eco Dua@Kamunting Branch,ECO DUA
+Eco Dua@One Borneo Branch,,"Lot No. F-600, F-607 & F-608, 1 Borneo Hypermall, 88400 Kota Kinabalu, Sabah.",88400,,ACTIVE,Eco Dua@One Borneo Branch,ECO DUA
+Eco Dua@Gambang Branch,,"No B2, B4, B6, B8 Grd, 1st & 2nd Floor, Jln Kurnia Jaya 3, 25150 Kuantan, Pahang Darul Makmur.",25150,,ACTIVE,Eco Dua@Gambang Branch,ECO DUA
+Eco Dua@Sitiawan Branch,,"No.3, (Ground And First Floor), Jalan Sentral 1, Sitiawan Sentral, 32000, Sitiawan, Perak.",32000,,ACTIVE,Eco Dua@Sitiawan Branch,ECO DUA
+Eco Dua@Kangar Branch,,"No.1 & 91, B14 & B15, Jalan Arau, Kangar, 02600 Jejawi, Perlis.",02600,,ACTIVE,Eco Dua@Kangar Branch,ECO DUA
+Eco Dua@Jengka Branch,,"No 71 & 72, Ground Floor Dan 1St Floor, Lorong Baiduri 7, Nadi Kota, 26400 Bandar Pusat Jengka, Pahang.",26400,,ACTIVE,Eco Dua@Jengka Branch,ECO DUA
+Eco Dua@Bentong Branch,,"P6G-P7G, Jln Mg1, Pusat Perniagaan Mutiara Gemilang, 28700 Bentong, Pahang.",28700,,ACTIVE,Eco Dua@Bentong Branch,ECO DUA
