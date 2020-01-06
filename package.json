@@ -1,6 +1,6 @@
 {
   "name": "@things-factory/opa-test",
-  "version": "1.0.0-alpha.3",
+  "version": "2.0.0",
   "main": "dist-server/index.js",
   "browser": "client/index.js",
   "things-factory": true,
@@ -23,8 +23,8 @@
     "migration:revert": "node ./node_modules/typeorm/cli.js migration:revert"
   },
   "dependencies": {
-    "@things-factory/board-service": "^1.0.0-alpha.1",
-    "@things-factory/opa-app": "^1.0.0-alpha.1"
+    "@things-factory/board-service": "^2.0.0",
+    "@things-factory/opa-app": "^2.0.0"
   },
   "devDependencies": {}
 }
