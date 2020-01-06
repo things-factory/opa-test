@@ -1,28 +1,28 @@
 name,description,currency,defaultPrice,domainName
-DOs & Invoice (Set),Administration Charges for preparation of Delivery Orders and Invoices,RM,1.50,KIMEDA
-Label (Unit),Labour charge to relabel ,RM,0.20,KIMEDA
-Front Lashing (Unit),Front lashing in container ,RM,15.00,KIMEDA
-Front Belt Lashing (Unit),Front belt lasing in container ,RM,40.00,KIMEDA
-Pallet (Unit),Used wooden pallet,RM,15.00,KIMEDA
-Printing DOs (Pc),Adminstration charges for preparation of Delivery Order ,RM,0.50,KIMEDA
-Recap seal (Unit),Labour charge to recap seal ,RM,0.20,KIMEDA
-Repack (Jbag),Labour charge to repack ,RM,80.00,KIMEDA
-Repack (Drum),Labour charge to repack ,RM,20.00,KIMEDA
-Repack (IBC),Labour charge to repack ,RM,80.00,KIMEDA
-Repack (Pail/Bag/Ctn),Labour charge to repack ,RM,1.00,KIMEDA
-Repainting (Unit),Labour charge to repaint drum,RM,4.00,KIMEDA
-Repalletized (Unit),Labour charge to repalletize ,RM,12.50,KIMEDA
-Repatch (Bag),Labour charge to repatch damage bags,RM,1.00,KIMEDA
-Sandoff label (Unit),Labour charge to sand/grind off label ,RM,1.00,KIMEDA
-Sewing (Bag),Labour charge to resew bags  ,RM,0.50,KIMEDA
-Full Shrink Wrap (Unit),Stretch Film wrapping(Full),RM,12.00,KIMEDA
-Normal Shrink Wrap (Unit),Stretch Film wrapping(Normal),RM,8.00,KIMEDA
-Stirring (Drum),Labour charges to stir product ,RM,20.00,KIMEDA
-Strapping (Pallet Size),To provide strapping ,RM,8.00,KIMEDA
-Touchup plt (Unit),Labour charge to spray paint on pallet incl. materials ,RM,0.15,KIMEDA
-Washing (Drum),Labour charge to wash and dry,RM,0.50,KIMEDA
-Washing (Unit),Labour charge to clean IBC ,RM,38.00,KIMEDA
-Fill Bag Weighting (Unit),Labour charge to weight filled bag ,RM,1.00,KIMEDA
-Drums Weighting (Drum),Labour charge to weight drums ,RM,1.00,KIMEDA
-IBC Weighting (Unit),Labour charge to weight IBC ,RM,5.00,KIMEDA
-Handling (Bottle),Labour charge to conduct sampling,RM,20.00,KIMEDA
+DOs & Invoice (Set),Administration Charges for preparation of Delivery Orders and Invoices,RM,1.50,ELCC
+Label (Unit),Labour charge to relabel ,RM,0.20,ELCC
+Front Lashing (Unit),Front lashing in container ,RM,15.00,ELCC
+Front Belt Lashing (Unit),Front belt lasing in container ,RM,40.00,ELCC
+Pallet (Unit),Used wooden pallet,RM,15.00,ELCC
+Printing DOs (Pc),Adminstration charges for preparation of Delivery Order ,RM,0.50,ELCC
+Recap seal (Unit),Labour charge to recap seal ,RM,0.20,ELCC
+Repack (Jbag),Labour charge to repack ,RM,80.00,ELCC
+Repack (Drum),Labour charge to repack ,RM,20.00,ELCC
+Repack (IBC),Labour charge to repack ,RM,80.00,ELCC
+Repack (Pail/Bag/Ctn),Labour charge to repack ,RM,1.00,ELCC
+Repainting (Unit),Labour charge to repaint drum,RM,4.00,ELCC
+Repalletized (Unit),Labour charge to repalletize ,RM,12.50,ELCC
+Repatch (Bag),Labour charge to repatch damage bags,RM,1.00,ELCC
+Sandoff label (Unit),Labour charge to sand/grind off label ,RM,1.00,ELCC
+Sewing (Bag),Labour charge to resew bags  ,RM,0.50,ELCC
+Full Shrink Wrap (Unit),Stretch Film wrapping(Full),RM,12.00,ELCC
+Normal Shrink Wrap (Unit),Stretch Film wrapping(Normal),RM,8.00,ELCC
+Stirring (Drum),Labour charges to stir product ,RM,20.00,ELCC
+Strapping (Pallet Size),To provide strapping ,RM,8.00,ELCC
+Touchup plt (Unit),Labour charge to spray paint on pallet incl. materials ,RM,0.15,ELCC
+Washing (Drum),Labour charge to wash and dry,RM,0.50,ELCC
+Washing (Unit),Labour charge to clean IBC ,RM,38.00,ELCC
+Fill Bag Weighting (Unit),Labour charge to weight filled bag ,RM,1.00,ELCC
+Drums Weighting (Drum),Labour charge to weight drums ,RM,1.00,ELCC
+IBC Weighting (Unit),Labour charge to weight IBC ,RM,5.00,ELCC
+Handling (Bottle),Labour charge to conduct sampling,RM,20.00,ELCC

@@ -1,8 +1,8 @@
 name,description,domainName
-Super Admin,full priviledge,KIMEDA
-Business Owner,admin,KIMEDA
-Warehouse Supervisor,control all zones,KIMEDA
-Office Admin,control admin stuff,KIMEDA
-Warehouse Manager,leader in each zones,KIMEDA
-Warehouse Staff,staff in warehouse,KIMEDA
-Customer,Role for customers,KIMEDA
+Super Admin,full priviledge,ELCC
+Business Owner,admin,ELCC
+Warehouse Supervisor,control all zones,ELCC
+Office Admin,control admin stuff,ELCC
+Warehouse Manager,leader in each zones,ELCC
+Warehouse Staff,staff in warehouse,ELCC
+Customer,Role for customers,ELCC

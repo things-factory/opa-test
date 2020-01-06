@@ -39,7 +39,7 @@ export class SeedBoardModel1569212995746 implements MigrationInterface {
     const groupRepository = getRepository(Group)
     const boardRepository = getRepository(Board)
     const domainRepository = getRepository(Domain)
-    const domain = await domainRepository.findOne({ name: 'KIMEDA' })
+    const domain = await domainRepository.findOne({ name: 'ELCC' })
 
     try {
       SEED_GROUP.forEach(async group => {
@@ -64,7 +64,7 @@ export class SeedBoardModel1569212995746 implements MigrationInterface {
   public async down(queryRunner: QueryRunner): Promise<any> {
     const repository = getRepository(Group)
     const domainRepository = getRepository(Domain)
-    const domain = await domainRepository.findOne({ name: 'KIMEDA' })
+    const domain = await domainRepository.findOne({ name: 'ELCC' })
 
     SEED_GROUP.reverse().forEach(async group => {
       let record = await repository.findOne({ name: group.name, domain })

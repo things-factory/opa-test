@@ -3,8 +3,8 @@ import { getRepository, MigrationInterface, QueryRunner } from 'typeorm'
 
 const SEED_DOMAINS = [
   {
-    name: 'KIMEDA',
-    subdomain: 'kimeda'
+    name: 'ELCC',
+    subdomain: 'elcc'
   }
 ]
 

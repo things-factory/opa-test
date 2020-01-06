@@ -1,33 +1,33 @@
 roleName,priviledgeName,priviledgeCategory,domainName
-Super Admin,query,user,KIMEDA
-Super Admin, mutation,user,KIMEDA
-Super Admin,query,bizplace,KIMEDA
-Super Admin,mutation,bizplace,KIMEDA
-Super Admin,query,company,KIMEDA
-Super Admin,mutation,company,KIMEDA
-Super Admin,query,contact_point,KIMEDA
-Super Admin,mutation,contact_point,KIMEDA
-Super Admin,query,customer,KIMEDA
-Super Admin,mutation,customer,KIMEDA
-Super Admin,query,vendor,KIMEDA
-Super Admin,mutation,vendor,KIMEDA
-Super Admin,query,worker,KIMEDA
-Super Admin,mutation,worker,KIMEDA
-Super Admin,query,order,KIMEDA
-Super Admin,mutation,order,KIMEDA
-Super Admin,query,transport,KIMEDA
-Super Admin,mutation,transport,KIMEDA
-Super Admin,query,vas,KIMEDA
-Super Admin,mutation,vas,KIMEDA
-Super Admin,query,warehouse,KIMEDA
-Super Admin,mutation,warehouse,KIMEDA
-Super Admin,role,owner,KIMEDA
-Super Admin,query,inventory,KIMEDA
-Super Admin,mutation,inventory,KIMEDA
-Super Admin,query,claim,KIMEDA
-Super Admin,mutation,claim,KIMEDA
-Customer,role,customer,KIMEDA
-Customer,query,order,KIMEDA
-Customer,mutation,order,KIMEDA
-Customer,query,vas,KIMEDA
-Customer,query,inventory,KIMEDA
+Super Admin,query,user,ELCC
+Super Admin, mutation,user,ELCC
+Super Admin,query,bizplace,ELCC
+Super Admin,mutation,bizplace,ELCC
+Super Admin,query,company,ELCC
+Super Admin,mutation,company,ELCC
+Super Admin,query,contact_point,ELCC
+Super Admin,mutation,contact_point,ELCC
+Super Admin,query,customer,ELCC
+Super Admin,mutation,customer,ELCC
+Super Admin,query,vendor,ELCC
+Super Admin,mutation,vendor,ELCC
+Super Admin,query,worker,ELCC
+Super Admin,mutation,worker,ELCC
+Super Admin,query,order,ELCC
+Super Admin,mutation,order,ELCC
+Super Admin,query,transport,ELCC
+Super Admin,mutation,transport,ELCC
+Super Admin,query,vas,ELCC
+Super Admin,mutation,vas,ELCC
+Super Admin,query,warehouse,ELCC
+Super Admin,mutation,warehouse,ELCC
+Super Admin,role,owner,ELCC
+Super Admin,query,inventory,ELCC
+Super Admin,mutation,inventory,ELCC
+Super Admin,query,claim,ELCC
+Super Admin,mutation,claim,ELCC
+Customer,role,customer,ELCC
+Customer,query,order,ELCC
+Customer,mutation,order,ELCC
+Customer,query,vas,ELCC
+Customer,query,inventory,ELCC
